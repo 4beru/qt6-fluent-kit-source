@@ -1,0 +1,114 @@
+name: Deploy Vercel
+
+on:
+  workflow_call:
+    secrets:
+      VERCEL_TOKEN:
+        required: true
+      VERCEL_ORG_ID:
+        required: true
+      VERCEL_PROJECT_ID:
+        required: true
+
+permissions:
+  actions: read
+  contents: read
+
+concurrency:
+  group: vercel-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Deploy prebuilt site to Vercel
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+
+      - name: Validate generated site outputs
+        run: |
+          python3 tools/site/generate_localized_site.py --check
+          python3 tools/site/generate_api_reference.py --check
+          node --test tools/site/test_hero_particles.mjs
+
+      - name: Download validated WebAssembly Gallery
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: fluentqt-wasm-pages
+          path: build/wasm-pages
+          github-token: ${{ github.token }}
+          run-id: ${{ github.run_id }}
+
+      - name: Verify WebAssembly artifact provenance
+        env:
+          EXPECTED_COMMIT: ${{ github.sha }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          metadata="build/wasm-pages/build-info.json"
+          actual_commit="$(jq -er '.commit' "$metadata")"
+          validation_mode="$(jq -er '.validation_mode' "$metadata")"
+          if [[ "$actual_commit" != "$EXPECTED_COMMIT" ]]; then
+            echo "::error::WASM artifact commit $actual_commit does not match $EXPECTED_COMMIT."
+            exit 1
+          fi
+          if [[ "$validation_mode" != "full" ]]; then
+            echo "::error::Vercel production requires a full WASM validation artifact."
+            exit 1
+          fi
+
+      - name: Assemble Vercel static output
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .vercel/output/static/gallery
+          cp -R site/. .vercel/output/static/
+          cp -R build/wasm-pages/. .vercel/output/static/gallery/
+          test -f .vercel/output/static/index.html
+          test -f .vercel/output/static/zh-CN/index.html
+          test -f .vercel/output/static/api/index.html
+          test -f .vercel/output/static/api/catalog.json
+          test -f .vercel/output/static/sitemap.xml
+          test -f .vercel/output/static/gallery/index.html
+          test -f .vercel/output/static/gallery/fluent_qt_gallery.wasm
+          test -f .vercel/output/static/gallery/hello-world/fluentqt_hello_world.wasm
+          cat > .vercel/output/config.json <<'EOF'
+          {
+            "version": 3,
+            "overrides": {
+              "gallery/fluent_qt_gallery.wasm": {
+                "contentType": "application/wasm"
+              },
+              "gallery/hello-world/fluentqt_hello_world.wasm": {
+                "contentType": "application/wasm"
+              }
+            }
+          }
+          EOF
+
+      - name: Install Vercel CLI
+        run: npm install --global vercel@54.17.2
+
+      - name: Configure Vercel project link
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        shell: bash
+        run: |
+          mkdir -p .vercel
+          cat > .vercel/project.json <<EOF
+          {
+            "orgId": "$VERCEL_ORG_ID",
+            "projectId": "$VERCEL_PROJECT_ID"
+          }
+          EOF
+
+      - name: Deploy prebuilt output to Vercel
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: vercel deploy --prebuilt --prod --token "$VERCEL_TOKEN"
