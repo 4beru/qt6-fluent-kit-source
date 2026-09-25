@@ -108,7 +108,7 @@
         "installed_declaration_header": "<FluentQt/components/charts/ChartView.h>",
         "qualified_type": "fluent::charts::ChartView",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/charts/ChartView.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/charts/ChartView.h"
       },
       "python": {
         "package": "FluentQt",
@@ -118,14 +118,14 @@
       },
       "gallery": {
         "route_id": "chart-view",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=chart-view",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/ChartsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=chart-view",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/ChartsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_chart_view",
           "ctest_label": "test_chart_view",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/charts/TestChartView.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/charts/TestChartView.cpp"
         }
       ],
       "sample_count": 3
@@ -143,7 +143,7 @@
         "installed_declaration_header": "<FluentQt/components/charts/LineChart.h>",
         "qualified_type": "fluent::charts::LineChart",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/charts/LineChart.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/charts/LineChart.h"
       },
       "python": {
         "package": "FluentQt",
@@ -153,14 +153,14 @@
       },
       "gallery": {
         "route_id": "line-chart",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=line-chart",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/ChartsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=line-chart",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/ChartsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_chart_view",
           "ctest_label": "test_chart_view",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/charts/TestChartView.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/charts/TestChartView.cpp"
         }
       ],
       "sample_count": 1
@@ -178,7 +178,7 @@
         "installed_declaration_header": "<FluentQt/components/charts/AreaChart.h>",
         "qualified_type": "fluent::charts::AreaChart",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/charts/AreaChart.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/charts/AreaChart.h"
       },
       "python": {
         "package": "FluentQt",
@@ -188,14 +188,14 @@
       },
       "gallery": {
         "route_id": "area-chart",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=area-chart",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/ChartsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=area-chart",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/ChartsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_chart_view",
           "ctest_label": "test_chart_view",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/charts/TestChartView.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/charts/TestChartView.cpp"
         }
       ],
       "sample_count": 1
@@ -213,7 +213,7 @@
         "installed_declaration_header": "<FluentQt/components/charts/BarChart.h>",
         "qualified_type": "fluent::charts::BarChart",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/charts/BarChart.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/charts/BarChart.h"
       },
       "python": {
         "package": "FluentQt",
@@ -223,14 +223,14 @@
       },
       "gallery": {
         "route_id": "bar-chart",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=bar-chart",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/ChartsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=bar-chart",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/ChartsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_chart_view",
           "ctest_label": "test_chart_view",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/charts/TestChartView.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/charts/TestChartView.cpp"
         }
       ],
       "sample_count": 1
@@ -248,7 +248,7 @@
         "installed_declaration_header": "<FluentQt/components/charts/HorizontalBarChart.h>",
         "qualified_type": "fluent::charts::HorizontalBarChart",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/charts/HorizontalBarChart.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/charts/HorizontalBarChart.h"
       },
       "python": {
         "package": "FluentQt",
@@ -258,14 +258,14 @@
       },
       "gallery": {
         "route_id": "horizontal-bar-chart",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=horizontal-bar-chart",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/ChartsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=horizontal-bar-chart",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/ChartsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_chart_view",
           "ctest_label": "test_chart_view",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/charts/TestChartView.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/charts/TestChartView.cpp"
         }
       ],
       "sample_count": 1
@@ -283,7 +283,7 @@
         "installed_declaration_header": "<FluentQt/components/charts/PieChart.h>",
         "qualified_type": "fluent::charts::PieChart",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/charts/PieChart.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/charts/PieChart.h"
       },
       "python": {
         "package": "FluentQt",
@@ -293,14 +293,14 @@
       },
       "gallery": {
         "route_id": "pie-chart",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=pie-chart",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/ChartsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=pie-chart",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/ChartsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_chart_view",
           "ctest_label": "test_chart_view",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/charts/TestChartView.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/charts/TestChartView.cpp"
         }
       ],
       "sample_count": 1
@@ -318,7 +318,7 @@
         "installed_declaration_header": "<FluentQt/components/charts/DonutChart.h>",
         "qualified_type": "fluent::charts::DonutChart",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/charts/DonutChart.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/charts/DonutChart.h"
       },
       "python": {
         "package": "FluentQt",
@@ -328,14 +328,14 @@
       },
       "gallery": {
         "route_id": "donut-chart",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=donut-chart",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/ChartsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=donut-chart",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/ChartsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_chart_view",
           "ctest_label": "test_chart_view",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/charts/TestChartView.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/charts/TestChartView.cpp"
         }
       ],
       "sample_count": 1
@@ -353,7 +353,7 @@
         "installed_declaration_header": "<FluentQt/components/charts/ScatterChart.h>",
         "qualified_type": "fluent::charts::ScatterChart",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/charts/ScatterChart.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/charts/ScatterChart.h"
       },
       "python": {
         "package": "FluentQt",
@@ -363,14 +363,14 @@
       },
       "gallery": {
         "route_id": "scatter-chart",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=scatter-chart",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/ChartsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=scatter-chart",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/ChartsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_chart_view",
           "ctest_label": "test_chart_view",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/charts/TestChartView.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/charts/TestChartView.cpp"
         }
       ],
       "sample_count": 1
@@ -388,7 +388,7 @@
         "installed_declaration_header": "<FluentQt/components/charts/Sparkline.h>",
         "qualified_type": "fluent::charts::Sparkline",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/charts/Sparkline.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/charts/Sparkline.h"
       },
       "python": {
         "package": "FluentQt",
@@ -398,14 +398,14 @@
       },
       "gallery": {
         "route_id": "sparkline",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=sparkline",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/ChartsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=sparkline",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/ChartsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_chart_view",
           "ctest_label": "test_chart_view",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/charts/TestChartView.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/charts/TestChartView.cpp"
         }
       ],
       "sample_count": 1
@@ -423,7 +423,7 @@
         "installed_declaration_header": "<FluentQt/components/basicinput/FileDropZone.h>",
         "qualified_type": "fluent::basicinput::FileDropZone",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/FileDropZone.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/FileDropZone.h"
       },
       "python": {
         "package": "FluentQt",
@@ -433,14 +433,14 @@
       },
       "gallery": {
         "route_id": "file-drop-zone",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=file-drop-zone",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=file-drop-zone",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
       },
       "tests": [
         {
           "target": "test_file_drop_zone",
           "ctest_label": "test_file_drop_zone",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/basicinput/TestFileDropZone.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/basicinput/TestFileDropZone.cpp"
         }
       ],
       "sample_count": 2
@@ -458,7 +458,7 @@
         "installed_declaration_header": "<FluentQt/components/basicinput/Button.h>",
         "qualified_type": "fluent::basicinput::Button",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/Button.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/Button.h"
       },
       "python": {
         "package": "FluentQt",
@@ -468,14 +468,14 @@
       },
       "gallery": {
         "route_id": "button",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=button",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=button",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
       },
       "tests": [
         {
           "target": "test_button",
           "ctest_label": "test_button",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/basicinput/TestButton.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/basicinput/TestButton.cpp"
         }
       ],
       "sample_count": 5
@@ -493,7 +493,7 @@
         "installed_declaration_header": "<FluentQt/components/basicinput/CompoundButton.h>",
         "qualified_type": "fluent::basicinput::CompoundButton",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/CompoundButton.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/CompoundButton.h"
       },
       "python": {
         "package": "FluentQt",
@@ -503,14 +503,14 @@
       },
       "gallery": {
         "route_id": "compound-button",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=compound-button",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=compound-button",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
       },
       "tests": [
         {
           "target": "test_compound_button",
           "ctest_label": "test_compound_button",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/basicinput/TestCompoundButton.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/basicinput/TestCompoundButton.cpp"
         }
       ],
       "sample_count": 2
@@ -528,7 +528,7 @@
         "installed_declaration_header": "<FluentQt/components/basicinput/CheckBox.h>",
         "qualified_type": "fluent::basicinput::CheckBox",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/CheckBox.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/CheckBox.h"
       },
       "python": {
         "package": "FluentQt",
@@ -538,14 +538,14 @@
       },
       "gallery": {
         "route_id": "checkbox",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=checkbox",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=checkbox",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
       },
       "tests": [
         {
           "target": "test_checkbox",
           "ctest_label": "test_checkbox",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/basicinput/TestCheckBox.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/basicinput/TestCheckBox.cpp"
         }
       ],
       "sample_count": 4
@@ -563,7 +563,7 @@
         "installed_declaration_header": "<FluentQt/components/basicinput/ColorPicker.h>",
         "qualified_type": "fluent::basicinput::ColorPicker",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/ColorPicker.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/ColorPicker.h"
       },
       "python": {
         "package": "FluentQt",
@@ -573,14 +573,14 @@
       },
       "gallery": {
         "route_id": "color-picker",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=color-picker",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=color-picker",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
       },
       "tests": [
         {
           "target": "test_color_picker",
           "ctest_label": "test_color_picker",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/basicinput/TestColorPicker.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/basicinput/TestColorPicker.cpp"
         }
       ],
       "sample_count": 2
@@ -598,7 +598,7 @@
         "installed_declaration_header": "<FluentQt/components/basicinput/ComboBox.h>",
         "qualified_type": "fluent::basicinput::ComboBox",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/ComboBox.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/ComboBox.h"
       },
       "python": {
         "package": "FluentQt",
@@ -608,14 +608,14 @@
       },
       "gallery": {
         "route_id": "combobox",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=combobox",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=combobox",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
       },
       "tests": [
         {
           "target": "test_combo_box",
           "ctest_label": "test_combo_box",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/basicinput/TestComboBox.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/basicinput/TestComboBox.cpp"
         }
       ],
       "sample_count": 4
@@ -633,7 +633,7 @@
         "installed_declaration_header": "<FluentQt/components/basicinput/DropDownButton.h>",
         "qualified_type": "fluent::basicinput::DropDownButton",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/DropDownButton.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/DropDownButton.h"
       },
       "python": {
         "package": "FluentQt",
@@ -643,14 +643,14 @@
       },
       "gallery": {
         "route_id": "dropdown-button",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=dropdown-button",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=dropdown-button",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
       },
       "tests": [
         {
           "target": "test_dropdown_button",
           "ctest_label": "test_dropdown_button",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/basicinput/TestDropDownButton.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/basicinput/TestDropDownButton.cpp"
         }
       ],
       "sample_count": 4
@@ -668,7 +668,7 @@
         "installed_declaration_header": "<FluentQt/components/basicinput/HyperlinkButton.h>",
         "qualified_type": "fluent::basicinput::HyperlinkButton",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/HyperlinkButton.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/HyperlinkButton.h"
       },
       "python": {
         "package": "FluentQt",
@@ -678,14 +678,14 @@
       },
       "gallery": {
         "route_id": "hyperlink-button",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=hyperlink-button",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=hyperlink-button",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
       },
       "tests": [
         {
           "target": "test_hyperlink_button",
           "ctest_label": "test_hyperlink_button",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/basicinput/TestHyperlinkButton.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/basicinput/TestHyperlinkButton.cpp"
         }
       ],
       "sample_count": 2
@@ -703,7 +703,7 @@
         "installed_declaration_header": "<FluentQt/components/basicinput/MultiSelectComboBox.h>",
         "qualified_type": "fluent::basicinput::MultiSelectComboBox",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/MultiSelectComboBox.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/MultiSelectComboBox.h"
       },
       "python": {
         "package": "FluentQt",
@@ -713,14 +713,14 @@
       },
       "gallery": {
         "route_id": "multi-select-combobox",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=multi-select-combobox",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=multi-select-combobox",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
       },
       "tests": [
         {
           "target": "test_multi_select_combo_box",
           "ctest_label": "test_multi_select_combo_box",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/basicinput/TestMultiSelectComboBox.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/basicinput/TestMultiSelectComboBox.cpp"
         }
       ],
       "sample_count": 3
@@ -738,7 +738,7 @@
         "installed_declaration_header": "<FluentQt/components/basicinput/RadioButton.h>",
         "qualified_type": "fluent::basicinput::RadioButton",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/RadioButton.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/RadioButton.h"
       },
       "python": {
         "package": "FluentQt",
@@ -748,14 +748,14 @@
       },
       "gallery": {
         "route_id": "radio-button",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=radio-button",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=radio-button",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
       },
       "tests": [
         {
           "target": "test_radio_button",
           "ctest_label": "test_radio_button",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/basicinput/TestRadioButton.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/basicinput/TestRadioButton.cpp"
         }
       ],
       "sample_count": 3
@@ -773,7 +773,7 @@
         "installed_declaration_header": "<FluentQt/components/basicinput/RatingControl.h>",
         "qualified_type": "fluent::basicinput::RatingControl",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/RatingControl.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/RatingControl.h"
       },
       "python": {
         "package": "FluentQt",
@@ -783,14 +783,14 @@
       },
       "gallery": {
         "route_id": "rating-control",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=rating-control",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=rating-control",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
       },
       "tests": [
         {
           "target": "test_rating_control",
           "ctest_label": "test_rating_control",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/basicinput/TestRatingControl.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/basicinput/TestRatingControl.cpp"
         }
       ],
       "sample_count": 4
@@ -808,7 +808,7 @@
         "installed_declaration_header": "<FluentQt/components/basicinput/RepeatButton.h>",
         "qualified_type": "fluent::basicinput::RepeatButton",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/RepeatButton.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/RepeatButton.h"
       },
       "python": {
         "package": "FluentQt",
@@ -818,14 +818,14 @@
       },
       "gallery": {
         "route_id": "repeat-button",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=repeat-button",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=repeat-button",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
       },
       "tests": [
         {
           "target": "test_repeat_button",
           "ctest_label": "test_repeat_button",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/basicinput/TestRepeatButton.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/basicinput/TestRepeatButton.cpp"
         }
       ],
       "sample_count": 2
@@ -843,7 +843,7 @@
         "installed_declaration_header": "<FluentQt/components/basicinput/Slider.h>",
         "qualified_type": "fluent::basicinput::Slider",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/Slider.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/Slider.h"
       },
       "python": {
         "package": "FluentQt",
@@ -853,14 +853,14 @@
       },
       "gallery": {
         "route_id": "slider",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=slider",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=slider",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
       },
       "tests": [
         {
           "target": "test_slider",
           "ctest_label": "test_slider",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/basicinput/TestSlider.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/basicinput/TestSlider.cpp"
         }
       ],
       "sample_count": 4
@@ -878,7 +878,7 @@
         "installed_declaration_header": "<FluentQt/components/basicinput/SplitButton.h>",
         "qualified_type": "fluent::basicinput::SplitButton",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/SplitButton.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/SplitButton.h"
       },
       "python": {
         "package": "FluentQt",
@@ -888,14 +888,14 @@
       },
       "gallery": {
         "route_id": "split-button",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=split-button",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=split-button",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
       },
       "tests": [
         {
           "target": "test_split_button",
           "ctest_label": "test_split_button",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/basicinput/TestSplitButton.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/basicinput/TestSplitButton.cpp"
         }
       ],
       "sample_count": 3
@@ -913,7 +913,7 @@
         "installed_declaration_header": "<FluentQt/components/basicinput/ToggleButton.h>",
         "qualified_type": "fluent::basicinput::ToggleButton",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/ToggleButton.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/ToggleButton.h"
       },
       "python": {
         "package": "FluentQt",
@@ -923,14 +923,14 @@
       },
       "gallery": {
         "route_id": "toggle-button",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=toggle-button",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=toggle-button",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
       },
       "tests": [
         {
           "target": "test_toggle_button",
           "ctest_label": "test_toggle_button",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/basicinput/TestToggleButton.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/basicinput/TestToggleButton.cpp"
         }
       ],
       "sample_count": 3
@@ -948,7 +948,7 @@
         "installed_declaration_header": "<FluentQt/components/basicinput/ToggleSplitButton.h>",
         "qualified_type": "fluent::basicinput::ToggleSplitButton",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/ToggleSplitButton.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/ToggleSplitButton.h"
       },
       "python": {
         "package": "FluentQt",
@@ -958,14 +958,14 @@
       },
       "gallery": {
         "route_id": "toggle-split-button",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=toggle-split-button",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=toggle-split-button",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
       },
       "tests": [
         {
           "target": "test_toggle_split_button",
           "ctest_label": "test_toggle_split_button",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/basicinput/TestToggleSplitButton.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/basicinput/TestToggleSplitButton.cpp"
         }
       ],
       "sample_count": 2
@@ -983,7 +983,7 @@
         "installed_declaration_header": "<FluentQt/components/basicinput/ToggleSwitch.h>",
         "qualified_type": "fluent::basicinput::ToggleSwitch",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/ToggleSwitch.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/ToggleSwitch.h"
       },
       "python": {
         "package": "FluentQt",
@@ -993,14 +993,14 @@
       },
       "gallery": {
         "route_id": "toggle-switch",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=toggle-switch",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=toggle-switch",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/BasicInputSamples.cpp"
       },
       "tests": [
         {
           "target": "test_toggle_switch",
           "ctest_label": "test_toggle_switch",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/basicinput/TestToggleSwitch.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/basicinput/TestToggleSwitch.cpp"
         }
       ],
       "sample_count": 4
@@ -1018,7 +1018,7 @@
         "installed_declaration_header": "<FluentQt/components/collections/FileListView.h>",
         "qualified_type": "fluent::collections::FileListView",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/collections/FileListView.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/collections/FileListView.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1028,14 +1028,14 @@
       },
       "gallery": {
         "route_id": "file-list-view",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=file-list-view",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/CollectionsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=file-list-view",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/CollectionsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_file_list_view",
           "ctest_label": "test_file_list_view",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/collections/TestFileListView.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/collections/TestFileListView.cpp"
         }
       ],
       "sample_count": 1
@@ -1053,7 +1053,7 @@
         "installed_declaration_header": "<FluentQt/components/collections/DrawerView.h>",
         "qualified_type": "fluent::collections::DrawerView",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/collections/DrawerView.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/collections/DrawerView.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1063,14 +1063,14 @@
       },
       "gallery": {
         "route_id": "drawer-view",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=drawer-view",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/CollectionsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=drawer-view",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/CollectionsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_drawer_view",
           "ctest_label": "test_drawer_view",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/collections/TestDrawerView.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/collections/TestDrawerView.cpp"
         }
       ],
       "sample_count": 4
@@ -1088,7 +1088,7 @@
         "installed_declaration_header": "<FluentQt/components/collections/DataGrid.h>",
         "qualified_type": "fluent::collections::DataGrid",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/collections/DataGrid.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/collections/DataGrid.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1098,14 +1098,14 @@
       },
       "gallery": {
         "route_id": "data-grid",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=data-grid",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/CollectionsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=data-grid",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/CollectionsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_data_grid",
           "ctest_label": "test_data_grid",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/collections/TestDataGrid.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/collections/TestDataGrid.cpp"
         }
       ],
       "sample_count": 3
@@ -1123,7 +1123,7 @@
         "installed_declaration_header": "<FluentQt/components/collections/FlipView.h>",
         "qualified_type": "fluent::collections::FlipView",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/collections/FlipView.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/collections/FlipView.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1133,14 +1133,14 @@
       },
       "gallery": {
         "route_id": "flip-view",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=flip-view",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/CollectionsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=flip-view",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/CollectionsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_flip_view",
           "ctest_label": "test_flip_view",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/collections/TestFlipView.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/collections/TestFlipView.cpp"
         }
       ],
       "sample_count": 3
@@ -1158,7 +1158,7 @@
         "installed_declaration_header": "<FluentQt/components/collections/FlowView.h>",
         "qualified_type": "fluent::collections::FlowView",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/collections/FlowView.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/collections/FlowView.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1168,14 +1168,14 @@
       },
       "gallery": {
         "route_id": "flow-view",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=flow-view",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/CollectionsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=flow-view",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/CollectionsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_flow_view",
           "ctest_label": "test_flow_view",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/collections/TestFlowView.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/collections/TestFlowView.cpp"
         }
       ],
       "sample_count": 4
@@ -1193,7 +1193,7 @@
         "installed_declaration_header": "<FluentQt/components/collections/GridView.h>",
         "qualified_type": "fluent::collections::GridView",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/collections/GridView.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/collections/GridView.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1203,14 +1203,14 @@
       },
       "gallery": {
         "route_id": "grid-view",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=grid-view",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/CollectionsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=grid-view",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/CollectionsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_grid_view",
           "ctest_label": "test_grid_view",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/collections/TestGridView.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/collections/TestGridView.cpp"
         }
       ],
       "sample_count": 5
@@ -1228,7 +1228,7 @@
         "installed_declaration_header": "<FluentQt/components/collections/ListView.h>",
         "qualified_type": "fluent::collections::ListView",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/collections/ListView.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/collections/ListView.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1238,14 +1238,14 @@
       },
       "gallery": {
         "route_id": "list-view",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=list-view",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/CollectionsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=list-view",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/CollectionsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_list_view",
           "ctest_label": "test_list_view",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/collections/TestListView.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/collections/TestListView.cpp"
         }
       ],
       "sample_count": 7
@@ -1263,7 +1263,7 @@
         "installed_declaration_header": "<FluentQt/components/collections/SplitView.h>",
         "qualified_type": "fluent::collections::SplitView",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/collections/SplitView.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/collections/SplitView.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1273,14 +1273,14 @@
       },
       "gallery": {
         "route_id": "split-view",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=split-view",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/CollectionsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=split-view",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/CollectionsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_split_view",
           "ctest_label": "test_split_view",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/collections/TestSplitView.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/collections/TestSplitView.cpp"
         }
       ],
       "sample_count": 3
@@ -1298,7 +1298,7 @@
         "installed_declaration_header": "<FluentQt/components/collections/StackView.h>",
         "qualified_type": "fluent::collections::StackView",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/collections/StackView.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/collections/StackView.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1308,14 +1308,14 @@
       },
       "gallery": {
         "route_id": "stack-view",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=stack-view",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/CollectionsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=stack-view",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/CollectionsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_stack_view",
           "ctest_label": "test_stack_view",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/collections/TestStackView.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/collections/TestStackView.cpp"
         }
       ],
       "sample_count": 3
@@ -1333,7 +1333,7 @@
         "installed_declaration_header": "<FluentQt/components/collections/TreeView.h>",
         "qualified_type": "fluent::collections::TreeView",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/collections/TreeView.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/collections/TreeView.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1343,14 +1343,14 @@
       },
       "gallery": {
         "route_id": "tree-view",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=tree-view",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/CollectionsTreeSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=tree-view",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/CollectionsTreeSamples.cpp"
       },
       "tests": [
         {
           "target": "test_tree_view",
           "ctest_label": "test_tree_view",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/collections/TestTreeView.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/collections/TestTreeView.cpp"
         }
       ],
       "sample_count": 5
@@ -1368,7 +1368,7 @@
         "installed_declaration_header": "<FluentQt/components/date_time/CalendarDatePicker.h>",
         "qualified_type": "fluent::date_time::CalendarDatePicker",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/date_time/CalendarDatePicker.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/date_time/CalendarDatePicker.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1378,14 +1378,14 @@
       },
       "gallery": {
         "route_id": "calendar-date-picker",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=calendar-date-picker",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/DateTimeSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=calendar-date-picker",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/DateTimeSamples.cpp"
       },
       "tests": [
         {
           "target": "test_calendar_date_picker",
           "ctest_label": "test_calendar_date_picker",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/date_time/TestCalendarDatePicker.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/date_time/TestCalendarDatePicker.cpp"
         }
       ],
       "sample_count": 1
@@ -1403,7 +1403,7 @@
         "installed_declaration_header": "<FluentQt/components/date_time/CalendarView.h>",
         "qualified_type": "fluent::date_time::CalendarView",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/date_time/CalendarView.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/date_time/CalendarView.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1413,14 +1413,14 @@
       },
       "gallery": {
         "route_id": "calendar-view",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=calendar-view",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/DateTimeSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=calendar-view",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/DateTimeSamples.cpp"
       },
       "tests": [
         {
           "target": "test_calendar_view",
           "ctest_label": "test_calendar_view",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/date_time/TestCalendarView.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/date_time/TestCalendarView.cpp"
         }
       ],
       "sample_count": 1
@@ -1438,7 +1438,7 @@
         "installed_declaration_header": "<FluentQt/components/date_time/DatePicker.h>",
         "qualified_type": "fluent::date_time::DatePicker",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/date_time/DatePicker.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/date_time/DatePicker.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1448,14 +1448,14 @@
       },
       "gallery": {
         "route_id": "date-picker",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=date-picker",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/DateTimeSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=date-picker",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/DateTimeSamples.cpp"
       },
       "tests": [
         {
           "target": "test_date_picker",
           "ctest_label": "test_date_picker",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/date_time/TestDatePicker.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/date_time/TestDatePicker.cpp"
         }
       ],
       "sample_count": 1
@@ -1473,7 +1473,7 @@
         "installed_declaration_header": "<FluentQt/components/date_time/TimePicker.h>",
         "qualified_type": "fluent::date_time::TimePicker",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/date_time/TimePicker.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/date_time/TimePicker.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1483,14 +1483,14 @@
       },
       "gallery": {
         "route_id": "time-picker",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=time-picker",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/DateTimeSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=time-picker",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/DateTimeSamples.cpp"
       },
       "tests": [
         {
           "target": "test_time_picker",
           "ctest_label": "test_time_picker",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/date_time/TestTimePicker.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/date_time/TestTimePicker.cpp"
         }
       ],
       "sample_count": 1
@@ -1508,7 +1508,7 @@
         "installed_declaration_header": "<FluentQt/components/dialogs_flyouts/ContentDialog.h>",
         "qualified_type": "fluent::dialogs_flyouts::ContentDialog",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/dialogs_flyouts/ContentDialog.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/dialogs_flyouts/ContentDialog.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1518,14 +1518,14 @@
       },
       "gallery": {
         "route_id": "content-dialog",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=content-dialog",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/DialogsFlyoutsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=content-dialog",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/DialogsFlyoutsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_content_dialog",
           "ctest_label": "test_content_dialog",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/dialogs_flyouts/TestContentDialog.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/dialogs_flyouts/TestContentDialog.cpp"
         }
       ],
       "sample_count": 2
@@ -1543,7 +1543,7 @@
         "installed_declaration_header": "<FluentQt/components/dialogs_flyouts/Dialog.h>",
         "qualified_type": "fluent::dialogs_flyouts::Dialog",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/dialogs_flyouts/Dialog.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/dialogs_flyouts/Dialog.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1553,14 +1553,14 @@
       },
       "gallery": {
         "route_id": "dialog",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=dialog",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/DialogsFlyoutsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=dialog",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/DialogsFlyoutsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_dialog",
           "ctest_label": "test_dialog",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/dialogs_flyouts/TestDialog.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/dialogs_flyouts/TestDialog.cpp"
         }
       ],
       "sample_count": 2
@@ -1578,7 +1578,7 @@
         "installed_declaration_header": "<FluentQt/components/dialogs_flyouts/Flyout.h>",
         "qualified_type": "fluent::dialogs_flyouts::Flyout",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/dialogs_flyouts/Flyout.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/dialogs_flyouts/Flyout.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1588,14 +1588,14 @@
       },
       "gallery": {
         "route_id": "flyout",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=flyout",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/DialogsFlyoutsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=flyout",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/DialogsFlyoutsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_flyout",
           "ctest_label": "test_flyout",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/dialogs_flyouts/TestFlyout.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/dialogs_flyouts/TestFlyout.cpp"
         }
       ],
       "sample_count": 2
@@ -1613,7 +1613,7 @@
         "installed_declaration_header": "<FluentQt/components/dialogs_flyouts/Popup.h>",
         "qualified_type": "fluent::dialogs_flyouts::Popup",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/dialogs_flyouts/Popup.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/dialogs_flyouts/Popup.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1623,14 +1623,14 @@
       },
       "gallery": {
         "route_id": "popup",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=popup",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/DialogsFlyoutsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=popup",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/DialogsFlyoutsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_popup",
           "ctest_label": "test_popup",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/dialogs_flyouts/TestPopup.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/dialogs_flyouts/TestPopup.cpp"
         }
       ],
       "sample_count": 2
@@ -1648,7 +1648,7 @@
         "installed_declaration_header": "<FluentQt/components/dialogs_flyouts/TeachingTip.h>",
         "qualified_type": "fluent::dialogs_flyouts::TeachingTip",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/dialogs_flyouts/TeachingTip.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/dialogs_flyouts/TeachingTip.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1658,14 +1658,14 @@
       },
       "gallery": {
         "route_id": "teaching-tip",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=teaching-tip",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/DialogsFlyoutsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=teaching-tip",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/DialogsFlyoutsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_teaching_tip",
           "ctest_label": "test_teaching_tip",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/dialogs_flyouts/TestTeachingTip.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/dialogs_flyouts/TestTeachingTip.cpp"
         }
       ],
       "sample_count": 2
@@ -1683,7 +1683,7 @@
         "installed_declaration_header": "<FluentQt/components/dialogs_flyouts/CoachMark.h>",
         "qualified_type": "fluent::dialogs_flyouts::CoachMark",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/dialogs_flyouts/CoachMark.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/dialogs_flyouts/CoachMark.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1693,14 +1693,14 @@
       },
       "gallery": {
         "route_id": "coach-mark",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=coach-mark",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/DialogsFlyoutsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=coach-mark",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/DialogsFlyoutsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_coach_mark",
           "ctest_label": "test_coach_mark",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/dialogs_flyouts/TestCoachMark.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/dialogs_flyouts/TestCoachMark.cpp"
         }
       ],
       "sample_count": 1
@@ -1718,7 +1718,7 @@
         "installed_declaration_header": "<FluentQt/components/layout/Accordion.h>",
         "qualified_type": "fluent::layout::Accordion",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/layout/Accordion.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/layout/Accordion.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1728,14 +1728,14 @@
       },
       "gallery": {
         "route_id": "accordion",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=accordion",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/LayoutSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=accordion",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/LayoutSamples.cpp"
       },
       "tests": [
         {
           "target": "test_accordion",
           "ctest_label": "test_accordion",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/layout/TestAccordion.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/layout/TestAccordion.cpp"
         }
       ],
       "sample_count": 2
@@ -1753,7 +1753,7 @@
         "installed_declaration_header": "<FluentQt/components/layout/Card.h>",
         "qualified_type": "fluent::layout::Card",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/layout/Card.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/layout/Card.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1763,14 +1763,14 @@
       },
       "gallery": {
         "route_id": "card",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=card",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/LayoutSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=card",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/LayoutSamples.cpp"
       },
       "tests": [
         {
           "target": "test_card",
           "ctest_label": "test_card",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/layout/TestCard.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/layout/TestCard.cpp"
         }
       ],
       "sample_count": 2
@@ -1788,7 +1788,7 @@
         "installed_declaration_header": "<FluentQt/components/layout/Divider.h>",
         "qualified_type": "fluent::layout::Divider",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/layout/Divider.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/layout/Divider.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1798,14 +1798,14 @@
       },
       "gallery": {
         "route_id": "divider",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=divider",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/LayoutSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=divider",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/LayoutSamples.cpp"
       },
       "tests": [
         {
           "target": "test_divider",
           "ctest_label": "test_divider",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/layout/TestDivider.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/layout/TestDivider.cpp"
         }
       ],
       "sample_count": 2
@@ -1823,7 +1823,7 @@
         "installed_declaration_header": "<FluentQt/components/layout/Expander.h>",
         "qualified_type": "fluent::layout::Expander",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/layout/Expander.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/layout/Expander.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1833,14 +1833,14 @@
       },
       "gallery": {
         "route_id": "expander",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=expander",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/LayoutSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=expander",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/LayoutSamples.cpp"
       },
       "tests": [
         {
           "target": "test_expander",
           "ctest_label": "test_expander",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/layout/TestExpander.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/layout/TestExpander.cpp"
         }
       ],
       "sample_count": 2
@@ -1858,7 +1858,7 @@
         "installed_declaration_header": "<FluentQt/components/layout/ParticleBackdrop.h>",
         "qualified_type": "fluent::layout::ParticleBackdrop",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/layout/ParticleBackdrop.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/layout/ParticleBackdrop.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1868,14 +1868,14 @@
       },
       "gallery": {
         "route_id": "particle-backdrop",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=particle-backdrop",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/LayoutSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=particle-backdrop",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/LayoutSamples.cpp"
       },
       "tests": [
         {
           "target": "test_particle_backdrop",
           "ctest_label": "test_particle_backdrop",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/layout/TestParticleBackdrop.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/layout/TestParticleBackdrop.cpp"
         }
       ],
       "sample_count": 3
@@ -1893,7 +1893,7 @@
         "installed_declaration_header": "<FluentQt/components/layout/Field.h>",
         "qualified_type": "fluent::layout::Field",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/layout/Field.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/layout/Field.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1903,14 +1903,14 @@
       },
       "gallery": {
         "route_id": "field",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=field",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/LayoutSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=field",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/LayoutSamples.cpp"
       },
       "tests": [
         {
           "target": "test_field",
           "ctest_label": "test_field",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/layout/TestField.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/layout/TestField.cpp"
         }
       ],
       "sample_count": 3
@@ -1928,7 +1928,7 @@
         "installed_declaration_header": "<FluentQt/components/menus_toolbars/Menu.h>",
         "qualified_type": "fluent::menus_toolbars::FluentMenu",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/menus_toolbars/Menu.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/menus_toolbars/Menu.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1938,14 +1938,14 @@
       },
       "gallery": {
         "route_id": "menu",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=menu",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/MenusToolbarsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=menu",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/MenusToolbarsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_menu",
           "ctest_label": "test_menu",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/menus_toolbars/TestMenu.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/menus_toolbars/TestMenu.cpp"
         }
       ],
       "sample_count": 2
@@ -1963,7 +1963,7 @@
         "installed_declaration_header": "<FluentQt/components/menus_toolbars/MenuBar.h>",
         "qualified_type": "fluent::menus_toolbars::FluentMenuBar",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/menus_toolbars/MenuBar.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/menus_toolbars/MenuBar.h"
       },
       "python": {
         "package": "FluentQt",
@@ -1973,14 +1973,14 @@
       },
       "gallery": {
         "route_id": "menu-bar",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=menu-bar",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/MenusToolbarsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=menu-bar",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/MenusToolbarsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_menu_bar",
           "ctest_label": "test_menu_bar",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/menus_toolbars/TestMenuBar.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/menus_toolbars/TestMenuBar.cpp"
         }
       ],
       "sample_count": 2
@@ -1998,7 +1998,7 @@
         "installed_declaration_header": "<FluentQt/components/menus_toolbars/CommandBar.h>",
         "qualified_type": "fluent::menus_toolbars::CommandBar",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/menus_toolbars/CommandBar.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/menus_toolbars/CommandBar.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2008,14 +2008,14 @@
       },
       "gallery": {
         "route_id": "command-bar",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=command-bar",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/MenusToolbarsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=command-bar",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/MenusToolbarsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_command_bar",
           "ctest_label": "test_command_bar",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/menus_toolbars/TestCommandBar.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/menus_toolbars/TestCommandBar.cpp"
         }
       ],
       "sample_count": 2
@@ -2033,7 +2033,7 @@
         "installed_declaration_header": "<FluentQt/components/menus_toolbars/CommandBarFlyout.h>",
         "qualified_type": "fluent::menus_toolbars::CommandBarFlyout",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/menus_toolbars/CommandBarFlyout.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/menus_toolbars/CommandBarFlyout.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2043,14 +2043,14 @@
       },
       "gallery": {
         "route_id": "command-bar-flyout",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=command-bar-flyout",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/MenusToolbarsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=command-bar-flyout",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/MenusToolbarsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_command_bar_flyout",
           "ctest_label": "test_command_bar_flyout",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/menus_toolbars/TestCommandBarFlyout.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/menus_toolbars/TestCommandBarFlyout.cpp"
         }
       ],
       "sample_count": 2
@@ -2068,7 +2068,7 @@
         "installed_declaration_header": "<FluentQt/components/navigation/Breadcrumb.h>",
         "qualified_type": "fluent::navigation::Breadcrumb",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/navigation/Breadcrumb.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/navigation/Breadcrumb.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2078,14 +2078,14 @@
       },
       "gallery": {
         "route_id": "breadcrumb",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=breadcrumb",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/NavigationSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=breadcrumb",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/NavigationSamples.cpp"
       },
       "tests": [
         {
           "target": "test_breadcrumb",
           "ctest_label": "test_breadcrumb",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/navigation/TestBreadcrumb.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/navigation/TestBreadcrumb.cpp"
         }
       ],
       "sample_count": 5
@@ -2103,7 +2103,7 @@
         "installed_declaration_header": "<FluentQt/components/navigation/NavigationView.h>",
         "qualified_type": "fluent::navigation::NavigationView",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/navigation/NavigationView.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/navigation/NavigationView.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2113,14 +2113,14 @@
       },
       "gallery": {
         "route_id": "navigation-view",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=navigation-view",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/NavigationSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=navigation-view",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/NavigationSamples.cpp"
       },
       "tests": [
         {
           "target": "test_navigation_view",
           "ctest_label": "test_navigation_view",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/navigation/TestNavigationView.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/navigation/TestNavigationView.cpp"
         }
       ],
       "sample_count": 3
@@ -2138,7 +2138,7 @@
         "installed_declaration_header": "<FluentQt/components/navigation/Pivot.h>",
         "qualified_type": "fluent::navigation::Pivot",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/navigation/Pivot.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/navigation/Pivot.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2148,14 +2148,14 @@
       },
       "gallery": {
         "route_id": "pivot",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=pivot",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/NavigationSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=pivot",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/NavigationSamples.cpp"
       },
       "tests": [
         {
           "target": "test_pivot",
           "ctest_label": "test_pivot",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/navigation/TestPivot.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/navigation/TestPivot.cpp"
         }
       ],
       "sample_count": 3
@@ -2173,7 +2173,7 @@
         "installed_declaration_header": "<FluentQt/components/navigation/SelectorBar.h>",
         "qualified_type": "fluent::navigation::SelectorBar",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/navigation/SelectorBar.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/navigation/SelectorBar.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2183,14 +2183,14 @@
       },
       "gallery": {
         "route_id": "selector-bar",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=selector-bar",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/NavigationSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=selector-bar",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/NavigationSamples.cpp"
       },
       "tests": [
         {
           "target": "test_selector_bar",
           "ctest_label": "test_selector_bar",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/navigation/TestSelectorBar.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/navigation/TestSelectorBar.cpp"
         }
       ],
       "sample_count": 3
@@ -2208,7 +2208,7 @@
         "installed_declaration_header": "<FluentQt/components/navigation/TabView.h>",
         "qualified_type": "fluent::navigation::TabView",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/navigation/TabView.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/navigation/TabView.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2218,14 +2218,14 @@
       },
       "gallery": {
         "route_id": "tab-view",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=tab-view",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/NavigationSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=tab-view",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/NavigationSamples.cpp"
       },
       "tests": [
         {
           "target": "test_tab_view",
           "ctest_label": "test_tab_view",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/navigation/TestTabView.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/navigation/TestTabView.cpp"
         }
       ],
       "sample_count": 6
@@ -2243,7 +2243,7 @@
         "installed_declaration_header": "<FluentQt/components/scrolling/AnnotatedScrollBar.h>",
         "qualified_type": "fluent::scrolling::AnnotatedScrollBar",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/scrolling/AnnotatedScrollBar.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/scrolling/AnnotatedScrollBar.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2253,14 +2253,14 @@
       },
       "gallery": {
         "route_id": "annotated-scrollbar",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=annotated-scrollbar",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/ScrollingSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=annotated-scrollbar",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/ScrollingSamples.cpp"
       },
       "tests": [
         {
           "target": "test_annotated_scrollbar",
           "ctest_label": "test_annotated_scrollbar",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/scrolling/TestAnnotatedScrollBar.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/scrolling/TestAnnotatedScrollBar.cpp"
         }
       ],
       "sample_count": 3
@@ -2278,7 +2278,7 @@
         "installed_declaration_header": "<FluentQt/components/scrolling/PipsPager.h>",
         "qualified_type": "fluent::scrolling::PipsPager",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/scrolling/PipsPager.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/scrolling/PipsPager.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2288,14 +2288,14 @@
       },
       "gallery": {
         "route_id": "pips-pager",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=pips-pager",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/ScrollingSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=pips-pager",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/ScrollingSamples.cpp"
       },
       "tests": [
         {
           "target": "test_pips_pager",
           "ctest_label": "test_pips_pager",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/scrolling/TestPipsPager.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/scrolling/TestPipsPager.cpp"
         }
       ],
       "sample_count": 6
@@ -2313,7 +2313,7 @@
         "installed_declaration_header": "<FluentQt/components/scrolling/ScrollBar.h>",
         "qualified_type": "fluent::scrolling::ScrollBar",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/scrolling/ScrollBar.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/scrolling/ScrollBar.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2323,14 +2323,14 @@
       },
       "gallery": {
         "route_id": "scrollbar",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=scrollbar",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/ScrollingSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=scrollbar",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/ScrollingSamples.cpp"
       },
       "tests": [
         {
           "target": "test_scrollbar",
           "ctest_label": "test_scrollbar",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/scrolling/TestScrollBar.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/scrolling/TestScrollBar.cpp"
         }
       ],
       "sample_count": 3
@@ -2348,7 +2348,7 @@
         "installed_declaration_header": "<FluentQt/components/scrolling/ScrollView.h>",
         "qualified_type": "fluent::scrolling::ScrollView",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/scrolling/ScrollView.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/scrolling/ScrollView.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2358,14 +2358,14 @@
       },
       "gallery": {
         "route_id": "scroll-view",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=scroll-view",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/ScrollingSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=scroll-view",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/ScrollingSamples.cpp"
       },
       "tests": [
         {
           "target": "test_scroll_view",
           "ctest_label": "test_scroll_view",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/scrolling/TestScrollView.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/scrolling/TestScrollView.cpp"
         }
       ],
       "sample_count": 6
@@ -2383,7 +2383,7 @@
         "installed_declaration_header": "<FluentQt/components/status_info/Avatar.h>",
         "qualified_type": "fluent::status_info::Avatar",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/status_info/Avatar.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/status_info/Avatar.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2393,14 +2393,14 @@
       },
       "gallery": {
         "route_id": "avatar",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=avatar",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/StatusInfoSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=avatar",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/StatusInfoSamples.cpp"
       },
       "tests": [
         {
           "target": "test_avatar",
           "ctest_label": "test_avatar",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/status_info/TestAvatar.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/status_info/TestAvatar.cpp"
         }
       ],
       "sample_count": 2
@@ -2418,7 +2418,7 @@
         "installed_declaration_header": "<FluentQt/components/status_info/InfoBadge.h>",
         "qualified_type": "fluent::status_info::InfoBadge",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/status_info/InfoBadge.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/status_info/InfoBadge.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2428,14 +2428,14 @@
       },
       "gallery": {
         "route_id": "info-badge",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=info-badge",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/StatusInfoSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=info-badge",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/StatusInfoSamples.cpp"
       },
       "tests": [
         {
           "target": "test_info_badge",
           "ctest_label": "test_info_badge",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/status_info/TestInfoBadge.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/status_info/TestInfoBadge.cpp"
         }
       ],
       "sample_count": 4
@@ -2453,7 +2453,7 @@
         "installed_declaration_header": "<FluentQt/components/status_info/InfoBar.h>",
         "qualified_type": "fluent::status_info::InfoBar",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/status_info/InfoBar.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/status_info/InfoBar.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2463,14 +2463,14 @@
       },
       "gallery": {
         "route_id": "info-bar",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=info-bar",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/StatusInfoSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=info-bar",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/StatusInfoSamples.cpp"
       },
       "tests": [
         {
           "target": "test_info_bar",
           "ctest_label": "test_info_bar",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/status_info/TestInfoBar.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/status_info/TestInfoBar.cpp"
         }
       ],
       "sample_count": 3
@@ -2488,7 +2488,7 @@
         "installed_declaration_header": "<FluentQt/components/status_info/ProgressBar.h>",
         "qualified_type": "fluent::status_info::ProgressBar",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/status_info/ProgressBar.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/status_info/ProgressBar.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2498,14 +2498,14 @@
       },
       "gallery": {
         "route_id": "progress-bar",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=progress-bar",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/StatusInfoSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=progress-bar",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/StatusInfoSamples.cpp"
       },
       "tests": [
         {
           "target": "test_progress_bar",
           "ctest_label": "test_progress_bar",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/status_info/TestProgressBar.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/status_info/TestProgressBar.cpp"
         }
       ],
       "sample_count": 3
@@ -2523,7 +2523,7 @@
         "installed_declaration_header": "<FluentQt/components/status_info/ProgressRing.h>",
         "qualified_type": "fluent::status_info::ProgressRing",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/status_info/ProgressRing.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/status_info/ProgressRing.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2533,14 +2533,14 @@
       },
       "gallery": {
         "route_id": "progress-ring",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=progress-ring",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/StatusInfoSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=progress-ring",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/StatusInfoSamples.cpp"
       },
       "tests": [
         {
           "target": "test_progress_ring",
           "ctest_label": "test_progress_ring",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/status_info/TestProgressRing.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/status_info/TestProgressRing.cpp"
         }
       ],
       "sample_count": 3
@@ -2558,7 +2558,7 @@
         "installed_declaration_header": "<FluentQt/components/status_info/SplashScreen.h>",
         "qualified_type": "fluent::status_info::SplashScreen",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/status_info/SplashScreen.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/status_info/SplashScreen.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2568,14 +2568,14 @@
       },
       "gallery": {
         "route_id": "splash-screen",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=splash-screen",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/StatusInfoSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=splash-screen",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/StatusInfoSamples.cpp"
       },
       "tests": [
         {
           "target": "test_splash_screen",
           "ctest_label": "test_splash_screen",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/status_info/TestSplashScreen.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/status_info/TestSplashScreen.cpp"
         }
       ],
       "sample_count": 1
@@ -2593,7 +2593,7 @@
         "installed_declaration_header": "<FluentQt/components/status_info/Shimmer.h>",
         "qualified_type": "fluent::status_info::Shimmer",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/status_info/Shimmer.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/status_info/Shimmer.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2603,14 +2603,14 @@
       },
       "gallery": {
         "route_id": "shimmer",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=shimmer",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/StatusInfoSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=shimmer",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/StatusInfoSamples.cpp"
       },
       "tests": [
         {
           "target": "test_shimmer",
           "ctest_label": "test_shimmer",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/status_info/TestShimmer.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/status_info/TestShimmer.cpp"
         }
       ],
       "sample_count": 3
@@ -2628,7 +2628,7 @@
         "installed_declaration_header": "<FluentQt/components/status_info/Toast.h>",
         "qualified_type": "fluent::status_info::Toast",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/status_info/Toast.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/status_info/Toast.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2638,14 +2638,14 @@
       },
       "gallery": {
         "route_id": "toast",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=toast",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/StatusInfoSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=toast",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/StatusInfoSamples.cpp"
       },
       "tests": [
         {
           "target": "test_toast",
           "ctest_label": "test_toast",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/status_info/TestToast.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/status_info/TestToast.cpp"
         }
       ],
       "sample_count": 6
@@ -2663,7 +2663,7 @@
         "installed_declaration_header": "<FluentQt/components/status_info/ToolTip.h>",
         "qualified_type": "fluent::status_info::ToolTip",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/status_info/ToolTip.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/status_info/ToolTip.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2673,14 +2673,14 @@
       },
       "gallery": {
         "route_id": "tooltip",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=tooltip",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/StatusInfoSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=tooltip",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/StatusInfoSamples.cpp"
       },
       "tests": [
         {
           "target": "test_tooltip",
           "ctest_label": "test_tooltip",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/status_info/TestToolTip.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/status_info/TestToolTip.cpp"
         }
       ],
       "sample_count": 3
@@ -2698,7 +2698,7 @@
         "installed_declaration_header": "<FluentQt/components/textfields/AutoSuggestBox.h>",
         "qualified_type": "fluent::textfields::AutoSuggestBox",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/textfields/AutoSuggestBox.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/textfields/AutoSuggestBox.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2708,14 +2708,14 @@
       },
       "gallery": {
         "route_id": "auto-suggest-box",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=auto-suggest-box",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/TextFieldsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=auto-suggest-box",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/TextFieldsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_auto_suggest_box",
           "ctest_label": "test_auto_suggest_box",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/textfields/TestAutoSuggestBox.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/textfields/TestAutoSuggestBox.cpp"
         }
       ],
       "sample_count": 2
@@ -2733,7 +2733,7 @@
         "installed_declaration_header": "<FluentQt/components/textfields/Label.h>",
         "qualified_type": "fluent::textfields::Label",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/textfields/Label.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/textfields/Label.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2743,14 +2743,14 @@
       },
       "gallery": {
         "route_id": "label",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=label",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/TextFieldsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=label",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/TextFieldsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_label",
           "ctest_label": "test_label",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/textfields/TestLabel.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/textfields/TestLabel.cpp"
         }
       ],
       "sample_count": 2
@@ -2768,7 +2768,7 @@
         "installed_declaration_header": "<FluentQt/components/textfields/LineEdit.h>",
         "qualified_type": "fluent::textfields::LineEdit",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/textfields/LineEdit.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/textfields/LineEdit.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2778,14 +2778,14 @@
       },
       "gallery": {
         "route_id": "line-edit",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=line-edit",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/TextFieldsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=line-edit",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/TextFieldsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_line_edit",
           "ctest_label": "test_line_edit",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/textfields/TestLineEdit.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/textfields/TestLineEdit.cpp"
         }
       ],
       "sample_count": 4
@@ -2803,7 +2803,7 @@
         "installed_declaration_header": "<FluentQt/components/textfields/NumberBox.h>",
         "qualified_type": "fluent::textfields::NumberBox",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/textfields/NumberBox.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/textfields/NumberBox.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2813,14 +2813,14 @@
       },
       "gallery": {
         "route_id": "number-box",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=number-box",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/TextFieldsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=number-box",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/TextFieldsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_number_box",
           "ctest_label": "test_number_box",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/textfields/TestNumberBox.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/textfields/TestNumberBox.cpp"
         }
       ],
       "sample_count": 3
@@ -2838,7 +2838,7 @@
         "installed_declaration_header": "<FluentQt/components/textfields/PasswordBox.h>",
         "qualified_type": "fluent::textfields::PasswordBox",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/textfields/PasswordBox.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/textfields/PasswordBox.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2848,14 +2848,14 @@
       },
       "gallery": {
         "route_id": "password-box",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=password-box",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/TextFieldsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=password-box",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/TextFieldsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_password_box",
           "ctest_label": "test_password_box",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/textfields/TestPasswordBox.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/textfields/TestPasswordBox.cpp"
         }
       ],
       "sample_count": 3
@@ -2873,7 +2873,7 @@
         "installed_declaration_header": "<FluentQt/components/textfields/TextEdit.h>",
         "qualified_type": "fluent::textfields::TextEdit",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/textfields/TextEdit.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/textfields/TextEdit.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2883,14 +2883,14 @@
       },
       "gallery": {
         "route_id": "text-edit",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=text-edit",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/TextFieldsSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=text-edit",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/TextFieldsSamples.cpp"
       },
       "tests": [
         {
           "target": "test_text_edit",
           "ctest_label": "test_text_edit",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/textfields/TestTextEdit.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/textfields/TestTextEdit.cpp"
         }
       ],
       "sample_count": 3
@@ -2908,7 +2908,7 @@
         "installed_declaration_header": "<FluentQt/components/windowing/TitleBar.h>",
         "qualified_type": "fluent::windowing::TitleBar",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/windowing/TitleBar.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/windowing/TitleBar.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2918,14 +2918,14 @@
       },
       "gallery": {
         "route_id": "title-bar",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=title-bar",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/WindowingSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=title-bar",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/WindowingSamples.cpp"
       },
       "tests": [
         {
           "target": "test_window",
           "ctest_label": "test_window",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/windowing/TestWindow.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/windowing/TestWindow.cpp"
         }
       ],
       "sample_count": 2
@@ -2943,7 +2943,7 @@
         "installed_declaration_header": "<FluentQt/components/windowing/Window.h>",
         "qualified_type": "fluent::windowing::Window",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/windowing/Window.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/windowing/Window.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2953,14 +2953,14 @@
       },
       "gallery": {
         "route_id": "window",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=window",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/WindowingSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=window",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/WindowingSamples.cpp"
       },
       "tests": [
         {
           "target": "test_window",
           "ctest_label": "test_window",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/windowing/TestWindow.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/windowing/TestWindow.cpp"
         }
       ],
       "sample_count": 2
@@ -2978,7 +2978,7 @@
         "installed_declaration_header": "<FluentQt/components/foundation/FontIcon.h>",
         "qualified_type": "fluent::FontIcon",
         "target": "FluentQt::FluentQt",
-        "declaration_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/foundation/FontIcon.h"
+        "declaration_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/foundation/FontIcon.h"
       },
       "python": {
         "package": "FluentQt",
@@ -2988,14 +2988,14 @@
       },
       "gallery": {
         "route_id": "font-icon",
-        "url": "https://calvinhxx.github.io/Fluent-Qt/gallery/?route=font-icon",
-        "sample_source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/app/view/widgets/samples/FoundationSamples.cpp"
+        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=font-icon",
+        "sample_source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/app/view/widgets/samples/FoundationSamples.cpp"
       },
       "tests": [
         {
           "target": "test_font_icon",
           "ctest_label": "test_font_icon",
-          "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/tests/components/TestFontIcon.cpp"
+          "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/tests/components/TestFontIcon.cpp"
         }
       ],
       "sample_count": 2
@@ -3007,112 +3007,112 @@
       "source": "include/FluentQt/BasicInput.h",
       "summary": "Public declarations provided by BasicInput.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/include/FluentQt/BasicInput.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/include/FluentQt/BasicInput.h"
     },
     {
       "include": "<FluentQt/Charts.h>",
       "source": "include/FluentQt/Charts.h",
       "summary": "Public declarations provided by Charts.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/include/FluentQt/Charts.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/include/FluentQt/Charts.h"
     },
     {
       "include": "<FluentQt/Collections.h>",
       "source": "include/FluentQt/Collections.h",
       "summary": "Public declarations provided by Collections.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/include/FluentQt/Collections.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/include/FluentQt/Collections.h"
     },
     {
       "include": "<FluentQt/DateTime.h>",
       "source": "include/FluentQt/DateTime.h",
       "summary": "Public declarations provided by DateTime.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/include/FluentQt/DateTime.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/include/FluentQt/DateTime.h"
     },
     {
       "include": "<FluentQt/Design.h>",
       "source": "include/FluentQt/Design.h",
       "summary": "Public declarations provided by Design.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/include/FluentQt/Design.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/include/FluentQt/Design.h"
     },
     {
       "include": "<FluentQt/Diagnostics.h>",
       "source": "include/FluentQt/Diagnostics.h",
       "summary": "Public declarations provided by Diagnostics.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/include/FluentQt/Diagnostics.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/include/FluentQt/Diagnostics.h"
     },
     {
       "include": "<FluentQt/DialogsFlyouts.h>",
       "source": "include/FluentQt/DialogsFlyouts.h",
       "summary": "Public declarations provided by DialogsFlyouts.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/include/FluentQt/DialogsFlyouts.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/include/FluentQt/DialogsFlyouts.h"
     },
     {
       "include": "<FluentQt/FluentQt.h>",
       "source": "include/FluentQt/FluentQt.h",
       "summary": "Configures process-wide High-DPI behavior before QApplication exists.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/include/FluentQt/FluentQt.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/include/FluentQt/FluentQt.h"
     },
     {
       "include": "<FluentQt/Foundation.h>",
       "source": "include/FluentQt/Foundation.h",
       "summary": "Public declarations provided by Foundation.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/include/FluentQt/Foundation.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/include/FluentQt/Foundation.h"
     },
     {
       "include": "<FluentQt/Layout.h>",
       "source": "include/FluentQt/Layout.h",
       "summary": "Public declarations provided by Layout.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/include/FluentQt/Layout.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/include/FluentQt/Layout.h"
     },
     {
       "include": "<FluentQt/MenusToolbars.h>",
       "source": "include/FluentQt/MenusToolbars.h",
       "summary": "Public declarations provided by MenusToolbars.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/include/FluentQt/MenusToolbars.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/include/FluentQt/MenusToolbars.h"
     },
     {
       "include": "<FluentQt/Navigation.h>",
       "source": "include/FluentQt/Navigation.h",
       "summary": "Public declarations provided by Navigation.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/include/FluentQt/Navigation.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/include/FluentQt/Navigation.h"
     },
     {
       "include": "<FluentQt/Scrolling.h>",
       "source": "include/FluentQt/Scrolling.h",
       "summary": "Public declarations provided by Scrolling.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/include/FluentQt/Scrolling.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/include/FluentQt/Scrolling.h"
     },
     {
       "include": "<FluentQt/StatusInfo.h>",
       "source": "include/FluentQt/StatusInfo.h",
       "summary": "Public declarations provided by StatusInfo.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/include/FluentQt/StatusInfo.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/include/FluentQt/StatusInfo.h"
     },
     {
       "include": "<FluentQt/TextFields.h>",
       "source": "include/FluentQt/TextFields.h",
       "summary": "Public declarations provided by TextFields.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/include/FluentQt/TextFields.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/include/FluentQt/TextFields.h"
     },
     {
       "include": "<FluentQt/Windowing.h>",
       "source": "include/FluentQt/Windowing.h",
       "summary": "Public declarations provided by Windowing.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/include/FluentQt/Windowing.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/include/FluentQt/Windowing.h"
     },
     {
       "include": "<FluentQt/WebAssembly.h>",
@@ -3121,14 +3121,14 @@
       "declarations": [
         "WindowPresentation"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/include/FluentQt/WebAssembly.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/include/FluentQt/WebAssembly.h"
     },
     {
       "include": "<FluentQt/compatibility/FontCompat.h>",
       "source": "src/compatibility/FontCompat.h",
       "summary": "Public declarations provided by FontCompat.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/compatibility/FontCompat.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/compatibility/FontCompat.h"
     },
     {
       "include": "<FluentQt/compatibility/QtCompat.h>",
@@ -3139,14 +3139,14 @@
         "FluentWheelInputKind",
         "FluentAccessibleAnnouncementPoliteness"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/compatibility/QtCompat.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/compatibility/QtCompat.h"
     },
     {
       "include": "<FluentQt/compatibility/TextPaintCompat.h>",
       "source": "src/compatibility/TextPaintCompat.h",
       "summary": "Returns the vertical translation that centers visible glyph ink in a target rectangle.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/compatibility/TextPaintCompat.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/compatibility/TextPaintCompat.h"
     },
     {
       "include": "<FluentQt/compatibility/WindowBackdropTypes.h>",
@@ -3161,7 +3161,7 @@
         "BackdropFidelity",
         "BackdropSurfaceMode"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/compatibility/WindowBackdropTypes.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/compatibility/WindowBackdropTypes.h"
     },
     {
       "include": "<FluentQt/compatibility/WindowChromeCompat.h>",
@@ -3173,7 +3173,7 @@
         "Platform",
         "HitTest"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/compatibility/WindowChromeCompat.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/compatibility/WindowChromeCompat.h"
     },
     {
       "include": "<FluentQt/components/basicinput/Button.h>",
@@ -3186,7 +3186,7 @@
         "ButtonLayout",
         "InteractionState"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/Button.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/Button.h"
     },
     {
       "include": "<FluentQt/components/basicinput/CheckBox.h>",
@@ -3195,7 +3195,7 @@
       "declarations": [
         "CheckBox"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/CheckBox.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/CheckBox.h"
     },
     {
       "include": "<FluentQt/components/basicinput/ColorPicker.h>",
@@ -3204,7 +3204,7 @@
       "declarations": [
         "ColorPicker"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/ColorPicker.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/ColorPicker.h"
     },
     {
       "include": "<FluentQt/components/basicinput/ComboBox.h>",
@@ -3214,7 +3214,7 @@
         "ComboBoxItemDelegate",
         "ComboBox"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/ComboBox.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/ComboBox.h"
     },
     {
       "include": "<FluentQt/components/basicinput/CompoundButton.h>",
@@ -3223,7 +3223,7 @@
       "declarations": [
         "CompoundButton"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/CompoundButton.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/CompoundButton.h"
     },
     {
       "include": "<FluentQt/components/basicinput/DropDownButton.h>",
@@ -3232,7 +3232,7 @@
       "declarations": [
         "DropDownButton"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/DropDownButton.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/DropDownButton.h"
     },
     {
       "include": "<FluentQt/components/basicinput/FileDropZone.h>",
@@ -3241,7 +3241,7 @@
       "declarations": [
         "FileDropZone"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/FileDropZone.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/FileDropZone.h"
     },
     {
       "include": "<FluentQt/components/basicinput/HyperlinkButton.h>",
@@ -3250,7 +3250,7 @@
       "declarations": [
         "HyperlinkButton"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/HyperlinkButton.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/HyperlinkButton.h"
     },
     {
       "include": "<FluentQt/components/basicinput/MultiSelectComboBox.h>",
@@ -3259,7 +3259,7 @@
       "declarations": [
         "MultiSelectComboBox"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/MultiSelectComboBox.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/MultiSelectComboBox.h"
     },
     {
       "include": "<FluentQt/components/basicinput/RadioButton.h>",
@@ -3268,7 +3268,7 @@
       "declarations": [
         "RadioButton"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/RadioButton.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/RadioButton.h"
     },
     {
       "include": "<FluentQt/components/basicinput/RatingControl.h>",
@@ -3277,7 +3277,7 @@
       "declarations": [
         "RatingControl"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/RatingControl.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/RatingControl.h"
     },
     {
       "include": "<FluentQt/components/basicinput/RepeatButton.h>",
@@ -3286,7 +3286,7 @@
       "declarations": [
         "RepeatButton"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/RepeatButton.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/RepeatButton.h"
     },
     {
       "include": "<FluentQt/components/basicinput/Slider.h>",
@@ -3295,7 +3295,7 @@
       "declarations": [
         "Slider"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/Slider.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/Slider.h"
     },
     {
       "include": "<FluentQt/components/basicinput/SplitButton.h>",
@@ -3305,7 +3305,7 @@
         "SplitButton",
         "SplitPart"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/SplitButton.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/SplitButton.h"
     },
     {
       "include": "<FluentQt/components/basicinput/ToggleButton.h>",
@@ -3314,7 +3314,7 @@
       "declarations": [
         "ToggleButton"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/ToggleButton.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/ToggleButton.h"
     },
     {
       "include": "<FluentQt/components/basicinput/ToggleSplitButton.h>",
@@ -3323,7 +3323,7 @@
       "declarations": [
         "ToggleSplitButton"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/ToggleSplitButton.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/ToggleSplitButton.h"
     },
     {
       "include": "<FluentQt/components/basicinput/ToggleSwitch.h>",
@@ -3332,7 +3332,7 @@
       "declarations": [
         "ToggleSwitch"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/basicinput/ToggleSwitch.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/basicinput/ToggleSwitch.h"
     },
     {
       "include": "<FluentQt/components/charts/ChartModel.h>",
@@ -3342,7 +3342,7 @@
         "ChartData",
         "ChartModel"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/charts/ChartModel.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/charts/ChartModel.h"
     },
     {
       "include": "<FluentQt/components/charts/ChartView.h>",
@@ -3352,7 +3352,7 @@
         "ChartView",
         "ChartType"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/charts/ChartView.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/charts/ChartView.h"
     },
     {
       "include": "<FluentQt/components/charts/LineChart.h>",
@@ -3361,7 +3361,7 @@
       "declarations": [
         "LineChart"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/charts/LineChart.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/charts/LineChart.h"
     },
     {
       "include": "<FluentQt/components/charts/AreaChart.h>",
@@ -3370,7 +3370,7 @@
       "declarations": [
         "AreaChart"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/charts/AreaChart.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/charts/AreaChart.h"
     },
     {
       "include": "<FluentQt/components/charts/BarChart.h>",
@@ -3379,7 +3379,7 @@
       "declarations": [
         "BarChart"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/charts/BarChart.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/charts/BarChart.h"
     },
     {
       "include": "<FluentQt/components/charts/HorizontalBarChart.h>",
@@ -3388,7 +3388,7 @@
       "declarations": [
         "HorizontalBarChart"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/charts/HorizontalBarChart.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/charts/HorizontalBarChart.h"
     },
     {
       "include": "<FluentQt/components/charts/PieChart.h>",
@@ -3397,7 +3397,7 @@
       "declarations": [
         "PieChart"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/charts/PieChart.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/charts/PieChart.h"
     },
     {
       "include": "<FluentQt/components/charts/DonutChart.h>",
@@ -3406,7 +3406,7 @@
       "declarations": [
         "DonutChart"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/charts/DonutChart.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/charts/DonutChart.h"
     },
     {
       "include": "<FluentQt/components/charts/ScatterChart.h>",
@@ -3415,7 +3415,7 @@
       "declarations": [
         "ScatterChart"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/charts/ScatterChart.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/charts/ScatterChart.h"
     },
     {
       "include": "<FluentQt/components/charts/Sparkline.h>",
@@ -3424,7 +3424,7 @@
       "declarations": [
         "Sparkline"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/charts/Sparkline.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/charts/Sparkline.h"
     },
     {
       "include": "<FluentQt/components/collections/DataGrid.h>",
@@ -3433,7 +3433,7 @@
       "declarations": [
         "DataGrid"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/collections/DataGrid.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/collections/DataGrid.h"
     },
     {
       "include": "<FluentQt/components/collections/DrawerView.h>",
@@ -3446,7 +3446,7 @@
         "CloseFlag",
         "TransitionTarget"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/collections/DrawerView.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/collections/DrawerView.h"
     },
     {
       "include": "<FluentQt/components/collections/FileListView.h>",
@@ -3457,7 +3457,7 @@
         "Status",
         "DataRole"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/collections/FileListView.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/collections/FileListView.h"
     },
     {
       "include": "<FluentQt/components/collections/FlipView.h>",
@@ -3467,7 +3467,7 @@
         "FlipView",
         "PageRecord"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/collections/FlipView.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/collections/FlipView.h"
     },
     {
       "include": "<FluentQt/components/collections/FlowView.h>",
@@ -3477,7 +3477,7 @@
         "FlowView",
         "LayoutBand"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/collections/FlowView.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/collections/FlowView.h"
     },
     {
       "include": "<FluentQt/components/collections/GridView.h>",
@@ -3486,7 +3486,7 @@
       "declarations": [
         "GridView"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/collections/GridView.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/collections/GridView.h"
     },
     {
       "include": "<FluentQt/components/collections/ListView.h>",
@@ -3496,7 +3496,7 @@
         "ListView",
         "IndicatorMotionDirection"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/collections/ListView.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/collections/ListView.h"
     },
     {
       "include": "<FluentQt/components/collections/SelectionMode.h>",
@@ -3505,7 +3505,7 @@
       "declarations": [
         "SelectionMode"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/collections/SelectionMode.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/collections/SelectionMode.h"
     },
     {
       "include": "<FluentQt/components/collections/SplitView.h>",
@@ -3518,7 +3518,7 @@
         "HandlePair",
         "DragState"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/collections/SplitView.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/collections/SplitView.h"
     },
     {
       "include": "<FluentQt/components/collections/StackView.h>",
@@ -3533,7 +3533,7 @@
         "StackViewTransitionOperation",
         "StackViewTransitionType"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/collections/StackView.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/collections/StackView.h"
     },
     {
       "include": "<FluentQt/components/collections/TreeView.h>",
@@ -3546,7 +3546,7 @@
         "IndicatorHierarchyTransition",
         "DropMode"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/collections/TreeView.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/collections/TreeView.h"
     },
     {
       "include": "<FluentQt/components/date_time/CalendarDatePicker.h>",
@@ -3555,7 +3555,7 @@
       "declarations": [
         "CalendarDatePicker"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/date_time/CalendarDatePicker.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/date_time/CalendarDatePicker.h"
     },
     {
       "include": "<FluentQt/components/date_time/CalendarView.h>",
@@ -3569,7 +3569,7 @@
         "CalendarContentLevel",
         "WheelGestureKind"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/date_time/CalendarView.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/date_time/CalendarView.h"
     },
     {
       "include": "<FluentQt/components/date_time/DatePicker.h>",
@@ -3583,7 +3583,7 @@
         "DayFormat",
         "YearFormat"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/date_time/DatePicker.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/date_time/DatePicker.h"
     },
     {
       "include": "<FluentQt/components/date_time/TimePicker.h>",
@@ -3595,7 +3595,7 @@
         "TimeField",
         "ClockIdentifier"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/date_time/TimePicker.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/date_time/TimePicker.h"
     },
     {
       "include": "<FluentQt/components/dialogs_flyouts/CoachMark.h>",
@@ -3606,7 +3606,7 @@
         "SurfaceMode",
         "Placement"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/dialogs_flyouts/CoachMark.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/dialogs_flyouts/CoachMark.h"
     },
     {
       "include": "<FluentQt/components/dialogs_flyouts/ContentDialog.h>",
@@ -3616,7 +3616,7 @@
         "ContentDialog",
         "ContentDialogButton"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/dialogs_flyouts/ContentDialog.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/dialogs_flyouts/ContentDialog.h"
     },
     {
       "include": "<FluentQt/components/dialogs_flyouts/Dialog.h>",
@@ -3626,7 +3626,7 @@
         "Dialog",
         "CloseFlag"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/dialogs_flyouts/Dialog.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/dialogs_flyouts/Dialog.h"
     },
     {
       "include": "<FluentQt/components/dialogs_flyouts/Flyout.h>",
@@ -3636,7 +3636,7 @@
         "Flyout",
         "Placement"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/dialogs_flyouts/Flyout.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/dialogs_flyouts/Flyout.h"
     },
     {
       "include": "<FluentQt/components/dialogs_flyouts/Popup.h>",
@@ -3647,7 +3647,7 @@
         "CloseFlag",
         "CloseReason"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/dialogs_flyouts/Popup.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/dialogs_flyouts/Popup.h"
     },
     {
       "include": "<FluentQt/components/dialogs_flyouts/TeachingTip.h>",
@@ -3658,7 +3658,7 @@
         "PreferredPlacement",
         "CloseReason"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/dialogs_flyouts/TeachingTip.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/dialogs_flyouts/TeachingTip.h"
     },
     {
       "include": "<FluentQt/components/foundation/FluentElement.h>",
@@ -3673,7 +3673,7 @@
         "Animation",
         "Theme"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/foundation/FluentElement.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/foundation/FluentElement.h"
     },
     {
       "include": "<FluentQt/components/foundation/FontIcon.h>",
@@ -3682,7 +3682,7 @@
       "declarations": [
         "FontIcon"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/foundation/FontIcon.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/foundation/FontIcon.h"
     },
     {
       "include": "<FluentQt/components/foundation/MotionPolicy.h>",
@@ -3693,7 +3693,7 @@
         "Mode",
         "Kind"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/foundation/MotionPolicy.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/foundation/MotionPolicy.h"
     },
     {
       "include": "<FluentQt/components/foundation/QMLPlus.h>",
@@ -3712,7 +3712,7 @@
         "Edge",
         "Direction"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/foundation/QMLPlus.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/foundation/QMLPlus.h"
     },
     {
       "include": "<FluentQt/components/foundation/ThemeRegistry.h>",
@@ -3724,14 +3724,14 @@
         "ExtendedSnapshot",
         "UninitializedTag"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/foundation/ThemeRegistry.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/foundation/ThemeRegistry.h"
     },
     {
       "include": "<FluentQt/components/foundation/UserTheme.h>",
       "source": "src/components/foundation/UserTheme.h",
       "summary": "Loads Fluent token overrides and accent customization into",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/foundation/UserTheme.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/foundation/UserTheme.h"
     },
     {
       "include": "<FluentQt/components/foundation/WidgetOwnership.h>",
@@ -3740,21 +3740,21 @@
       "declarations": [
         "WidgetOwnership"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/foundation/WidgetOwnership.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/foundation/WidgetOwnership.h"
     },
     {
       "include": "<FluentQt/components/foundation/overlay/OverlayGeometry.h>",
       "source": "src/components/foundation/overlay/OverlayGeometry.h",
       "summary": "Returns whether an application event can change an anchor's mapped geometry.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/foundation/overlay/OverlayGeometry.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/foundation/overlay/OverlayGeometry.h"
     },
     {
       "include": "<FluentQt/components/foundation/overlay/OverlayLightDismiss.h>",
       "source": "src/components/foundation/overlay/OverlayLightDismiss.h",
       "summary": "Public declarations provided by OverlayLightDismiss.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/foundation/overlay/OverlayLightDismiss.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/foundation/overlay/OverlayLightDismiss.h"
     },
     {
       "include": "<FluentQt/components/foundation/overlay/OverlayScrim.h>",
@@ -3763,21 +3763,21 @@
       "declarations": [
         "OverlayScrim"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/foundation/overlay/OverlayScrim.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/foundation/overlay/OverlayScrim.h"
     },
     {
       "include": "<FluentQt/components/foundation/overlay/OverlayShadow.h>",
       "source": "src/components/foundation/overlay/OverlayShadow.h",
       "summary": "Default per-layer opacity multiplier for overlay card shadows.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/foundation/overlay/OverlayShadow.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/foundation/overlay/OverlayShadow.h"
     },
     {
       "include": "<FluentQt/components/foundation/overlay/OverlayWindow.h>",
       "source": "src/components/foundation/overlay/OverlayWindow.h",
       "summary": "Public declarations provided by OverlayWindow.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/foundation/overlay/OverlayWindow.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/foundation/overlay/OverlayWindow.h"
     },
     {
       "include": "<FluentQt/components/layout/Accordion.h>",
@@ -3788,7 +3788,7 @@
         "ItemRecord",
         "ExpansionMode"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/layout/Accordion.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/layout/Accordion.h"
     },
     {
       "include": "<FluentQt/components/layout/Card.h>",
@@ -3798,7 +3798,7 @@
         "Card",
         "Appearance"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/layout/Card.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/layout/Card.h"
     },
     {
       "include": "<FluentQt/components/layout/Divider.h>",
@@ -3807,7 +3807,7 @@
       "declarations": [
         "Divider"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/layout/Divider.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/layout/Divider.h"
     },
     {
       "include": "<FluentQt/components/layout/Expander.h>",
@@ -3816,7 +3816,7 @@
       "declarations": [
         "Expander"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/layout/Expander.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/layout/Expander.h"
     },
     {
       "include": "<FluentQt/components/layout/Field.h>",
@@ -3826,7 +3826,7 @@
         "Field",
         "ValidationState"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/layout/Field.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/layout/Field.h"
     },
     {
       "include": "<FluentQt/components/layout/ParticleBackdrop.h>",
@@ -3837,7 +3837,7 @@
         "Effect",
         "BackgroundMode"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/layout/ParticleBackdrop.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/layout/ParticleBackdrop.h"
     },
     {
       "include": "<FluentQt/components/menus_toolbars/CommandBar.h>",
@@ -3847,7 +3847,7 @@
         "CommandBar",
         "LabelPosition"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/menus_toolbars/CommandBar.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/menus_toolbars/CommandBar.h"
     },
     {
       "include": "<FluentQt/components/menus_toolbars/CommandBarFlyout.h>",
@@ -3857,7 +3857,7 @@
         "CommandBarFlyout",
         "ShowMode"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/menus_toolbars/CommandBarFlyout.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/menus_toolbars/CommandBarFlyout.h"
     },
     {
       "include": "<FluentQt/components/menus_toolbars/Menu.h>",
@@ -3867,7 +3867,7 @@
         "FluentMenuItem",
         "FluentMenu"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/menus_toolbars/Menu.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/menus_toolbars/Menu.h"
     },
     {
       "include": "<FluentQt/components/menus_toolbars/MenuBar.h>",
@@ -3877,7 +3877,7 @@
         "FluentMenuBar",
         "Metrics"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/menus_toolbars/MenuBar.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/menus_toolbars/MenuBar.h"
     },
     {
       "include": "<FluentQt/components/navigation/Breadcrumb.h>",
@@ -3892,7 +3892,7 @@
         "OverflowMode",
         "RecordType"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/navigation/Breadcrumb.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/navigation/Breadcrumb.h"
     },
     {
       "include": "<FluentQt/components/navigation/NavigationView.h>",
@@ -3906,7 +3906,7 @@
         "ChromeSlot",
         "LayoutTransitionKind"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/navigation/NavigationView.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/navigation/NavigationView.h"
     },
     {
       "include": "<FluentQt/components/navigation/Pivot.h>",
@@ -3921,7 +3921,7 @@
         "OverflowBehavior",
         "HitKind"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/navigation/Pivot.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/navigation/Pivot.h"
     },
     {
       "include": "<FluentQt/components/navigation/SelectorBar.h>",
@@ -3936,7 +3936,7 @@
         "OverflowBehavior",
         "HitKind"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/navigation/SelectorBar.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/navigation/SelectorBar.h"
     },
     {
       "include": "<FluentQt/components/navigation/StackContentHost.h>",
@@ -3947,7 +3947,7 @@
         "PageRecord",
         "TransitionEffect"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/navigation/StackContentHost.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/navigation/StackContentHost.h"
     },
     {
       "include": "<FluentQt/components/navigation/TabView.h>",
@@ -3966,7 +3966,7 @@
         "HitKind",
         "TabWidthMode"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/navigation/TabView.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/navigation/TabView.h"
     },
     {
       "include": "<FluentQt/components/scrolling/AnnotatedScrollBar.h>",
@@ -3977,7 +3977,7 @@
         "AnnotatedScrollBar",
         "VisibleLabel"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/scrolling/AnnotatedScrollBar.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/scrolling/AnnotatedScrollBar.h"
     },
     {
       "include": "<FluentQt/components/scrolling/PipsPager.h>",
@@ -3989,7 +3989,7 @@
         "PipsPagerButtonVisibility",
         "HitKind"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/scrolling/PipsPager.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/scrolling/PipsPager.h"
     },
     {
       "include": "<FluentQt/components/scrolling/ScrollBar.h>",
@@ -3998,7 +3998,7 @@
       "declarations": [
         "ScrollBar"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/scrolling/ScrollBar.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/scrolling/ScrollBar.h"
     },
     {
       "include": "<FluentQt/components/scrolling/ScrollView.h>",
@@ -4012,7 +4012,7 @@
         "ZoomMode",
         "Axis"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/scrolling/ScrollView.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/scrolling/ScrollView.h"
     },
     {
       "include": "<FluentQt/components/status_info/Avatar.h>",
@@ -4024,7 +4024,7 @@
         "AvatarSize",
         "PresenceStatus"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/status_info/Avatar.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/status_info/Avatar.h"
     },
     {
       "include": "<FluentQt/components/status_info/InfoBadge.h>",
@@ -4035,7 +4035,7 @@
         "InfoBadgeDisplayMode",
         "InfoBadgeStatus"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/status_info/InfoBadge.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/status_info/InfoBadge.h"
     },
     {
       "include": "<FluentQt/components/status_info/InfoBar.h>",
@@ -4045,7 +4045,7 @@
         "InfoBar",
         "InfoBarSeverity"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/status_info/InfoBar.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/status_info/InfoBar.h"
     },
     {
       "include": "<FluentQt/components/status_info/ProgressBar.h>",
@@ -4054,7 +4054,7 @@
       "declarations": [
         "ProgressBar"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/status_info/ProgressBar.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/status_info/ProgressBar.h"
     },
     {
       "include": "<FluentQt/components/status_info/ProgressRing.h>",
@@ -4065,7 +4065,7 @@
         "ProgressRingSize",
         "ProgressRingStatus"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/status_info/ProgressRing.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/status_info/ProgressRing.h"
     },
     {
       "include": "<FluentQt/components/status_info/Shimmer.h>",
@@ -4079,7 +4079,7 @@
         "Shape",
         "ShimmerTemplate"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/status_info/Shimmer.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/status_info/Shimmer.h"
     },
     {
       "include": "<FluentQt/components/status_info/SplashScreen.h>",
@@ -4089,7 +4089,7 @@
         "SplashScreen",
         "Presentation"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/status_info/SplashScreen.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/status_info/SplashScreen.h"
     },
     {
       "include": "<FluentQt/components/status_info/Toast.h>",
@@ -4101,7 +4101,7 @@
         "Placement",
         "DismissReason"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/status_info/Toast.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/status_info/Toast.h"
     },
     {
       "include": "<FluentQt/components/status_info/ToolTip.h>",
@@ -4111,7 +4111,7 @@
         "ToolTip",
         "Placement"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/status_info/ToolTip.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/status_info/ToolTip.h"
     },
     {
       "include": "<FluentQt/components/textfields/AutoSuggestBox.h>",
@@ -4122,7 +4122,7 @@
         "TextChangeReason",
         "QueryButtonPlacement"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/textfields/AutoSuggestBox.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/textfields/AutoSuggestBox.h"
     },
     {
       "include": "<FluentQt/components/textfields/EditingCommandRouter.h>",
@@ -4132,7 +4132,7 @@
         "EditingCommandRouter",
         "Command"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/textfields/EditingCommandRouter.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/textfields/EditingCommandRouter.h"
     },
     {
       "include": "<FluentQt/components/textfields/Label.h>",
@@ -4142,7 +4142,7 @@
         "Label",
         "TextColorRole"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/textfields/Label.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/textfields/Label.h"
     },
     {
       "include": "<FluentQt/components/textfields/LineEdit.h>",
@@ -4151,7 +4151,7 @@
       "declarations": [
         "LineEdit"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/textfields/LineEdit.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/textfields/LineEdit.h"
     },
     {
       "include": "<FluentQt/components/textfields/NumberBox.h>",
@@ -4161,7 +4161,7 @@
         "NumberBox",
         "SpinButtonPlacementMode"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/textfields/NumberBox.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/textfields/NumberBox.h"
     },
     {
       "include": "<FluentQt/components/textfields/PasswordBox.h>",
@@ -4171,7 +4171,7 @@
         "PasswordBox",
         "PasswordRevealMode"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/textfields/PasswordBox.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/textfields/PasswordBox.h"
     },
     {
       "include": "<FluentQt/components/textfields/TextEdit.h>",
@@ -4180,7 +4180,7 @@
       "declarations": [
         "TextEdit"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/textfields/TextEdit.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/textfields/TextEdit.h"
     },
     {
       "include": "<FluentQt/components/windowing/TitleBar.h>",
@@ -4189,7 +4189,7 @@
       "declarations": [
         "TitleBar"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/windowing/TitleBar.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/windowing/TitleBar.h"
     },
     {
       "include": "<FluentQt/components/windowing/Window.h>",
@@ -4198,14 +4198,14 @@
       "declarations": [
         "Window"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/windowing/Window.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/windowing/Window.h"
     },
     {
       "include": "<FluentQt/components/windowing/WindowBackdrop.h>",
       "source": "src/components/windowing/WindowBackdrop.h",
       "summary": "Returns the published backdrop state for a widget's top-level window.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/windowing/WindowBackdrop.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/windowing/WindowBackdrop.h"
     },
     {
       "include": "<FluentQt/components/windowing/WindowBackdropMaterial.h>",
@@ -4215,7 +4215,7 @@
         "WindowBackdropMaterialOptions",
         "WindowBackdropMaterial"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/components/windowing/WindowBackdropMaterial.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/components/windowing/WindowBackdropMaterial.h"
     },
     {
       "include": "<FluentQt/design/Animation.h>",
@@ -4224,7 +4224,7 @@
       "declarations": [
         "EasingType"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/design/Animation.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/design/Animation.h"
     },
     {
       "include": "<FluentQt/design/Breakpoints.h>",
@@ -4233,14 +4233,14 @@
       "declarations": [
         "Breakpoint"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/design/Breakpoints.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/design/Breakpoints.h"
     },
     {
       "include": "<FluentQt/design/CornerRadius.h>",
       "source": "src/design/CornerRadius.h",
       "summary": "Defines Fluent corner-radius tokens.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/design/CornerRadius.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/design/CornerRadius.h"
     },
     {
       "include": "<FluentQt/design/Elevation.h>",
@@ -4250,7 +4250,7 @@
         "ShadowParams",
         "Level"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/design/Elevation.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/design/Elevation.h"
     },
     {
       "include": "<FluentQt/design/IconCatalog.h>",
@@ -4259,7 +4259,7 @@
       "declarations": [
         "IconInfo"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/design/IconCatalog.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/design/IconCatalog.h"
     },
     {
       "include": "<FluentQt/design/Material.h>",
@@ -4271,21 +4271,21 @@
         "SmokeToken",
         "Type"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/design/Material.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/design/Material.h"
     },
     {
       "include": "<FluentQt/design/Spacing.h>",
       "source": "src/design/Spacing.h",
       "summary": "Defines Fluent spacing, padding, border, and control-size tokens.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/design/Spacing.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/design/Spacing.h"
     },
     {
       "include": "<FluentQt/design/ThemeColors.h>",
       "source": "src/design/ThemeColors.h",
       "summary": "Defines Fluent semantic color tokens for light, dark, and contrast themes.",
       "declarations": [],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/design/ThemeColors.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/design/ThemeColors.h"
     },
     {
       "include": "<FluentQt/design/Typography.h>",
@@ -4295,7 +4295,7 @@
         "FontStyle",
         "FontRole"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/design/Typography.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/design/Typography.h"
     },
     {
       "include": "<FluentQt/utils/Inspector.h>",
@@ -4305,7 +4305,7 @@
         "InspectorOptions",
         "Inspector"
       ],
-      "source_url": "https://github.com/calvinhxx/Fluent-Qt/blob/main/src/utils/Inspector.h"
+      "source_url": "https://github.com/4beru/qt6-fluent-kit/blob/main/src/utils/Inspector.h"
     }
   ]
 }
