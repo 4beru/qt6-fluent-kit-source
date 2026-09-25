@@ -13,8 +13,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/calvinhxx/Fluent-Qt/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/calvinhxx/Fluent-Qt/actions/workflows/ci.yml/badge.svg"></a>
-  <a href="https://github.com/calvinhxx/Fluent-Qt/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/calvinhxx/Fluent-Qt?style=flat&color=111827"></a>
+  <a href="https://github.com/4beru/qt6-fluent-kit/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/4beru/qt6-fluent-kit/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="https://github.com/4beru/qt6-fluent-kit/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/calvinhxx/Fluent-Qt?style=flat&color=111827"></a>
   <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-111827.svg"></a>
   <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20WebAssembly-111827.svg">
   <img alt="Qt Widgets" src="https://img.shields.io/badge/UI-Qt%20Widgets-41CD52.svg">
@@ -24,22 +24,22 @@
 </p>
 
 <p align="center">
-  <a href="https://calvinhxx.github.io/Fluent-Qt/#top"><img src="docs/assets/readme/hero.png" alt="Fluent-Qt Gallery on Windows with Mica"></a>
+  <a href="https://4beru.github.io/qt6-fluent-kit/#top"><img src="docs/assets/readme/hero.png" alt="Fluent-Qt Gallery on Windows with Mica"></a>
 </p>
 
 <p align="center">
-  <strong><a href="https://calvinhxx.github.io/Fluent-Qt/#gallery">Try the live C++ Web Gallery</a></strong>
+  <strong><a href="https://4beru.github.io/qt6-fluent-kit/#gallery">Try the live C++ Web Gallery</a></strong>
   ·
-  <a href="https://calvinhxx.github.io/Fluent-Qt/#top">Project website</a>
+  <a href="https://4beru.github.io/qt6-fluent-kit/#top">Project website</a>
   ·
-  <a href="https://github.com/calvinhxx/Fluent-Qt/discussions">Questions &amp; community</a>
+  <a href="https://github.com/4beru/qt6-fluent-kit/discussions">Questions &amp; community</a>
 </p>
 
 Fluent-Qt (FluentQt) is a cross-platform Fluent UI component library for Qt Widgets. It provides native controls for input, navigation, collections, data grids, [charts](docs/architecture/charts.md), overlays, and windows while preserving Qt's object model and CMake workflow. It supports Windows, macOS, Linux, WebAssembly, Light/Dark/High Contrast themes, an application-wide Full/Reduced/Disabled motion policy, C++, and optional PySide6 bindings, and can be added directly to existing projects.
 
 ## 🤖 Build with AI
 
-Use [`build-fluentqt-gui`](.agents/skills/build-fluentqt-gui/SKILL.md) in Codex, Claude Code, or Cursor to build a desktop app, add a GUI to a project, or fix an interface. [Example](https://calvinhxx.github.io/Fluent-Qt/#ai-build) · [Install and use](docs/ai/README.md)
+Use [`build-fluentqt-gui`](.agents/skills/build-fluentqt-gui/SKILL.md) in Codex, Claude Code, or Cursor to build a desktop app, add a GUI to a project, or fix an interface. [Example](https://4beru.github.io/qt6-fluent-kit/#ai-build) · [Install and use](docs/ai/README.md)
 
 When tuning a Gallery sample, use Live Scene to see each saved change, then check the result in the compiled C++ sample. [How it works](docs/development/gallery-preview-workflow.md)
 
@@ -77,7 +77,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 include(FetchContent)
 FetchContent_Declare(
     fluentqt
-    GIT_REPOSITORY https://github.com/calvinhxx/Fluent-Qt.git
+    GIT_REPOSITORY https://github.com/4beru/qt6-fluent-kit.git
     GIT_TAG v1.8.5
     GIT_SHALLOW TRUE
 )
@@ -185,7 +185,7 @@ python3 tools/dev/fluent_qt_build.py build/fluentqt --target fluent_qt_source_pa
 
 ### WebAssembly
 
-Use the [live WebAssembly Gallery](https://calvinhxx.github.io/Fluent-Qt/gallery/)
+Use the [live WebAssembly Gallery](https://4beru.github.io/qt6-fluent-kit/gallery/)
 for evaluation. Local toolchain setup, builds, browser smoke tests, and Pages
 deployment are documented in the
 [WebAssembly workflow](docs/development/webassembly-workflow.md).
@@ -196,12 +196,12 @@ Gallery is used to browse, demonstrate, and validate FluentQt components.
 
 ### C++ Web Gallery
 
-Online: [project website](https://calvinhxx.github.io/Fluent-Qt/#gallery) · [standalone page](https://calvinhxx.github.io/Fluent-Qt/gallery/).
+Online: [project website](https://4beru.github.io/qt6-fluent-kit/#gallery) · [standalone page](https://4beru.github.io/qt6-fluent-kit/gallery/).
 
 ### C++ Gallery packages
 
 Download the current Windows, macOS, or Linux Gallery package from
-[GitHub Releases](https://github.com/calvinhxx/Fluent-Qt/releases/latest).
+[GitHub Releases](https://github.com/4beru/qt6-fluent-kit/releases/latest).
 The maintained build and package matrix lives in the
 [packaging workflow](docs/development/packaging-workflow.md).
 
@@ -261,7 +261,7 @@ Start with the [documentation map](docs/README.md), or choose a path:
 
 | Goal | Entry point |
 |---|---|
-| Evaluate controls | [API Explorer](https://calvinhxx.github.io/Fluent-Qt/api/) · [WebAssembly Gallery](https://calvinhxx.github.io/Fluent-Qt/gallery/) |
+| Evaluate controls | [API Explorer](https://4beru.github.io/qt6-fluent-kit/api/) · [WebAssembly Gallery](https://4beru.github.io/qt6-fluent-kit/gallery/) |
 | Build an application | [AI-assisted development](docs/ai/README.md) · [Onboarding tools](tools/onboarding/README.md) |
 | Contribute to FluentQt | [Development tree](docs/development/README.md) · [Architecture](docs/architecture/README.md) · [Fluent design](docs/design-languages/README.md) |
 | Package or release | [Packaging](docs/development/packaging-workflow.md) · [Release governance](docs/development/release-governance.md) · [Release notes](docs/releases/README.md) |
