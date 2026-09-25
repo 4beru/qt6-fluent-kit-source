@@ -21,8 +21,8 @@ TEMPLATE_PATH = Path(__file__).with_name("index.template.html")
 SITE_SCRIPT_PATH = SITE_ROOT / "site.js"
 ERROR_PAGE_PATH = SITE_ROOT / "404.html"
 LEGACY_GALLERY_REDIRECT_PATH = SITE_ROOT / "app" / "index.html"
-BASE_URL = "https://calvinhxx.github.io/Fluent-Qt/"
-REPOSITORY_URL = "https://github.com/calvinhxx/Fluent-Qt"
+BASE_URL = "https://4beru.github.io/qt6-fluent-kit/"
+REPOSITORY_URL = "https://github.com/4beru/qt6-fluent-kit"
 
 
 def versioned_image_url(path: str) -> str:
@@ -387,7 +387,7 @@ def validate_legacy_gallery_redirect() -> None:
         fail(f"cannot read {LEGACY_GALLERY_REDIRECT_PATH}: {error}")
 
     requirements = (
-        '<link rel="canonical" href="https://calvinhxx.github.io/Fluent-Qt/gallery/">',
+        '<link rel="canonical" href="https://4beru.github.io/qt6-fluent-kit/gallery/">',
         '<meta http-equiv="refresh" content="0; url=../gallery/">',
         'new URL("../gallery/", window.location.href)',
         "target.search = window.location.search",
