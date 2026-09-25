@@ -9,7 +9,7 @@
 <h1 align="center">Fluent-Qt</h1>
 
 <p align="center">
-  A cross-platform Fluent-style C++ UI component library for Qt Widgets.
+  A cross-platform Fluent-style C++ UI component library for Qt6 Widgets.
 </p>
 
 <p align="center">
