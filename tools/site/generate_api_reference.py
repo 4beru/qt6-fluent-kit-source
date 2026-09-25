@@ -15,8 +15,8 @@ ROOT = Path(__file__).resolve().parents[2]
 INSTALL_HEADERS = ROOT / "cmake" / "FluentQtInstallHeaders.cmake"
 AI_CATALOG = ROOT / "docs" / "ai" / "generated" / "fluentqt-ai-catalog.json"
 OUTPUT = ROOT / "site" / "api" / "catalog.json"
-REPOSITORY_BLOB = "https://github.com/calvinhxx/Fluent-Qt/blob/main/"
-GALLERY_BASE = "https://calvinhxx.github.io/Fluent-Qt/gallery/"
+REPOSITORY_BLOB = "https://github.com/4beru/qt6-fluent-kit/blob/main/"
+GALLERY_BASE = "https://4beru.github.io/qt6-fluent-kit/gallery/"
 INSTALL_BLOCK = re.compile(
     r"set\(FLUENT_QT_INSTALL_HEADERS\s*(.*?)\n\)", re.DOTALL
 )
