@@ -13,8 +13,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/calvinhxx/Fluent-Qt/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/calvinhxx/Fluent-Qt/actions/workflows/ci.yml/badge.svg"></a>
-  <a href="https://github.com/calvinhxx/Fluent-Qt/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/calvinhxx/Fluent-Qt?style=flat&color=111827"></a>
+  <a href="https://github.com/4beru/qt6-fluent-kit/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/4beru/qt6-fluent-kit/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="https://github.com/4beru/qt6-fluent-kit/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/calvinhxx/Fluent-Qt?style=flat&color=111827"></a>
   <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-111827.svg"></a>
   <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20WebAssembly-111827.svg">
   <img alt="Qt Widgets" src="https://img.shields.io/badge/UI-Qt%20Widgets-41CD52.svg">
@@ -24,22 +24,22 @@
 </p>
 
 <p align="center">
-  <a href="https://calvinhxx.github.io/Fluent-Qt/zh-CN/#top"><img src="docs/assets/readme/hero.png" alt="Windows 下使用 Mica 效果的 Fluent-Qt Gallery"></a>
+  <a href="https://4beru.github.io/qt6-fluent-kit/zh-CN/#top"><img src="docs/assets/readme/hero.png" alt="Windows 下使用 Mica 效果的 Fluent-Qt Gallery"></a>
 </p>
 
 <p align="center">
-  <strong><a href="https://calvinhxx.github.io/Fluent-Qt/zh-CN/#gallery">实时体验 C++ Web Gallery</a></strong>
+  <strong><a href="https://4beru.github.io/qt6-fluent-kit/zh-CN/#gallery">实时体验 C++ Web Gallery</a></strong>
   ·
-  <a href="https://calvinhxx.github.io/Fluent-Qt/zh-CN/#top">项目官网</a>
+  <a href="https://4beru.github.io/qt6-fluent-kit/zh-CN/#top">项目官网</a>
   ·
-  <a href="https://github.com/calvinhxx/Fluent-Qt/discussions">提问与交流</a>
+  <a href="https://github.com/4beru/qt6-fluent-kit/discussions">提问与交流</a>
 </p>
 
 Fluent-Qt（FluentQt）是面向 Qt Widgets 的跨平台 Fluent UI 组件库，提供输入、导航、集合、数据表格、[图表](docs/architecture/charts.md)、弹窗和窗口等原生控件。它保留 Qt Widgets 熟悉的对象模型和 CMake 工作流，支持 Windows、macOS、Linux、WebAssembly、浅色/深色/高对比度主题、应用级完整/减弱/关闭动效策略，以及 C++ 和可选 PySide6 接口，可直接接入现有项目。
 
 ## 🤖 使用 Agent 构建
 
-在 Codex、Claude Code 或 Cursor 中使用 [`build-fluentqt-gui`](.agents/skills/build-fluentqt-gui/SKILL.md)，创建桌面应用、给现有工程添加 GUI 或修复界面。[查看效果](https://calvinhxx.github.io/Fluent-Qt/zh-CN/#ai-build) · [安装与用法](docs/ai/README.md)
+在 Codex、Claude Code 或 Cursor 中使用 [`build-fluentqt-gui`](.agents/skills/build-fluentqt-gui/SKILL.md)，创建桌面应用、给现有工程添加 GUI 或修复界面。[查看效果](https://4beru.github.io/qt6-fluent-kit/zh-CN/#ai-build) · [安装与用法](docs/ai/README.md)
 
 调整 Gallery 示例时，可以先在 Live Scene 里边改边看，再用编译后的 C++ 示例确认最终效果。[查看用法](docs/development/gallery-preview-workflow.md)
 
@@ -77,7 +77,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 include(FetchContent)
 FetchContent_Declare(
     fluentqt
-    GIT_REPOSITORY https://github.com/calvinhxx/Fluent-Qt.git
+    GIT_REPOSITORY https://github.com/4beru/qt6-fluent-kit.git
     GIT_TAG v1.8.5
     GIT_SHALLOW TRUE
 )
@@ -181,7 +181,7 @@ python3 tools/dev/fluent_qt_build.py build/fluentqt --target fluent_qt_source_pa
 
 ### WebAssembly
 
-评估项目时可直接使用[在线 WebAssembly Gallery](https://calvinhxx.github.io/Fluent-Qt/gallery/)。本地工具链、构建、浏览器冒烟测试和 Pages 部署统一见 [WebAssembly 工作流](docs/development/webassembly-workflow.md)。
+评估项目时可直接使用[在线 WebAssembly Gallery](https://4beru.github.io/qt6-fluent-kit/gallery/)。本地工具链、构建、浏览器冒烟测试和 Pages 部署统一见 [WebAssembly 工作流](docs/development/webassembly-workflow.md)。
 
 ## 🖼 Gallery
 
@@ -189,11 +189,11 @@ Gallery 用于浏览、演示和验证 FluentQt 组件。
 
 ### C++ Web Gallery
 
-在线体验：[项目官网](https://calvinhxx.github.io/Fluent-Qt/zh-CN/#gallery) · [独立页面](https://calvinhxx.github.io/Fluent-Qt/gallery/)。
+在线体验：[项目官网](https://4beru.github.io/qt6-fluent-kit/zh-CN/#gallery) · [独立页面](https://4beru.github.io/qt6-fluent-kit/gallery/)。
 
 ### C++ Gallery 安装包
 
-从 [GitHub Releases](https://github.com/calvinhxx/Fluent-Qt/releases/latest) 下载当前 Windows、macOS 或 Linux Gallery 安装包。持续维护的构建与打包矩阵见[打包工作流](docs/development/packaging-workflow.md)。
+从 [GitHub Releases](https://github.com/4beru/qt6-fluent-kit/releases/latest) 下载当前 Windows、macOS 或 Linux Gallery 安装包。持续维护的构建与打包矩阵见[打包工作流](docs/development/packaging-workflow.md)。
 
 ### 本地运行 C++ Gallery
 
@@ -248,7 +248,7 @@ python -m fluentqt_gallery
 
 | 目标 | 入口 |
 |---|---|
-| 体验和查找控件 | [API Explorer](https://calvinhxx.github.io/Fluent-Qt/api/) · [WebAssembly Gallery](https://calvinhxx.github.io/Fluent-Qt/gallery/) |
+| 体验和查找控件 | [API Explorer](https://4beru.github.io/qt6-fluent-kit/api/) · [WebAssembly Gallery](https://4beru.github.io/qt6-fluent-kit/gallery/) |
 | 构建应用 | [AI 辅助开发](docs/ai/README.md) · [环境检查与项目模板](tools/onboarding/README.md) |
 | 参与 FluentQt 开发 | [开发文档树](docs/development/README.md) · [架构约定](docs/architecture/README.md) · [Fluent 设计](docs/design-languages/README.md) |
 | 打包或发布 | [打包工作流](docs/development/packaging-workflow.md) · [发布治理](docs/development/release-governance.md) · [版本记录](docs/releases/README.md) |
