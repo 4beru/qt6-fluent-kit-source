@@ -238,6 +238,16 @@ jobs:
       id-token: write
     uses: ./.github/workflows/pages.yml
 
+  vercel:
+    name: Deploy prebuilt WebAssembly Gallery to Vercel
+    needs: [plan, wasm]
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && needs.wasm.result == 'success' }}
+    permissions:
+      actions: read
+      contents: read
+    uses: ./.github/workflows/vercel.yml
+    secrets: inherit
+
   ci-gate:
     name: CI Gate
     needs: [plan, cpp, python, wasm]
