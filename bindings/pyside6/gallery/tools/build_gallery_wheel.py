@@ -34,7 +34,6 @@ PROJECT_URLS = (
 CLASSIFIERS = (
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: MacOS",
     "Operating System :: Microsoft :: Windows",
     "Operating System :: POSIX :: Linux",
@@ -134,7 +133,6 @@ def metadata_contents(version, requires_python, description, license_files=()):
         "Version: {version}\n"
         "Summary: Installable Gallery for the FluentQt PySide6 bindings\n"
         "Author: 4beru\n"
-        "License-Expression: MIT\n"
         "Keywords: Qt,PySide6,Fluent Design,WinUI,Gallery\n"
         "Requires-Python: {requires_python}\n"
         "Requires-Dist: FluentQt (=={version})\n"

@@ -724,7 +724,6 @@ jobs:
           archive_entries="$(unzip -Z1 "$archive")"
           for source_file in \
               .agents/skills/build-fluentqt-gui/SKILL.md \
-              .agents/skills/build-fluentqt-gui/LICENSE.txt \
               .agents/skills/build-fluentqt-gui/agents/openai.yaml \
               .agents/skills/build-fluentqt-gui/assets/benchmarks/agent-run.schema.json \
               .agents/skills/build-fluentqt-gui/assets/benchmarks/agent-run-workspace.json \

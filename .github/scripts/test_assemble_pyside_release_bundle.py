@@ -63,8 +63,6 @@ def write_wheel(
         f"Name: {distribution}\n"
         f"Version: {version}\n"
         "Summary: FluentQt release fixture\n"
-        "License-Expression: MIT\n"
-        "License-File: LICENSE\n"
         "License-File: THIRD_PARTY_NOTICES.md\n"
         "License-File: TRADEMARKS.md\n"
         f"Requires-Python: {ASSEMBLER.RELEASE_REQUIRES_PYTHON}\n"

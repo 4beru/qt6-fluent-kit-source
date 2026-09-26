@@ -33,7 +33,6 @@ REQUIRED_PROJECT_URL_LABELS = {
     "Repository",
 }
 REQUIRED_LICENSE_FILES = {
-    "LICENSE",
     "THIRD_PARTY_NOTICES.md",
     "TRADEMARKS.md",
 }
@@ -152,10 +151,6 @@ def require_wheel_metadata(
     if metadata.get("Metadata-Version") != "2.4":
         raise BundleError(
             f"wheel {wheel.name} must use Core Metadata 2.4"
-        )
-    if metadata.get("License-Expression") != "MIT":
-        raise BundleError(
-            f"wheel {wheel.name} must declare License-Expression: MIT"
         )
     actual_license_files = set(metadata.get_all("License-File", []))
     if actual_license_files != REQUIRED_LICENSE_FILES:

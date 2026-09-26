@@ -19,7 +19,6 @@ VERSION_PATTERN = re.compile(
 PACKAGE_VERSION_PATTERN = re.compile(r"[A-Za-z0-9][A-Za-z0-9._+-]*")
 REQUIRED_SKILL_FILES = (
     "SKILL.md",
-    "LICENSE.txt",
     "agents/openai.yaml",
     "assets/benchmarks/agent-run.schema.json",
     "assets/benchmarks/agent-run-workspace.json",

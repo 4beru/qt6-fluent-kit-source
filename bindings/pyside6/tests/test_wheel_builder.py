@@ -108,7 +108,7 @@ class WheelBuilderTest(unittest.TestCase):
             "6.9.3",
             ">=3.11,<3.14",
             "# FluentQt\n\nNative PySide6 bindings for Fluent-Qt.",
-            ("LICENSE", "THIRD_PARTY_NOTICES.md", "TRADEMARKS.md"),
+            ("THIRD_PARTY_NOTICES.md", "TRADEMARKS.md"),
         )
 
         self.assertIn("Requires-Python: >=3.11,<3.14", metadata)
@@ -117,14 +117,14 @@ class WheelBuilderTest(unittest.TestCase):
 
         parsed = Parser().parsestr(metadata)
         self.assertEqual(parsed["Metadata-Version"], "2.4")
-        self.assertEqual(parsed["License-Expression"], "MIT")
+        self.assertIsNone(parsed.get("License-Expression"))
         self.assertEqual(
             parsed["Description-Content-Type"],
             "text/markdown; charset=UTF-8; variant=GFM",
         )
         self.assertEqual(
             set(parsed.get_all("License-File", [])),
-            {"LICENSE", "THIRD_PARTY_NOTICES.md", "TRADEMARKS.md"},
+            {"THIRD_PARTY_NOTICES.md", "TRADEMARKS.md"},
         )
         self.assertIn("# FluentQt", parsed.get_payload())
         self.assertIn(

@@ -34,7 +34,6 @@ PROJECT_URLS = (
 CLASSIFIERS = (
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: MacOS",
     "Operating System :: Microsoft :: Windows",
     "Operating System :: POSIX :: Linux",
@@ -155,7 +154,6 @@ def metadata_contents(
         "Version: {version}\n"
         "Summary: Native PySide6 bindings for the Fluent-Qt C++ Qt Widgets library\n"
         "Author: 4beru\n"
-        "License-Expression: MIT\n"
         "Keywords: Qt,PySide6,Fluent Design,WinUI,widgets\n"
         "Requires-Python: {requires_python}\n"
         "Requires-Dist: {pyside_requirement}\n"

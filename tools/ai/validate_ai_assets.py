@@ -276,7 +276,7 @@ def _validate_skill(project_root: Path) -> None:
         raise AssertionError("FluentQt GUI Skill has invalid frontmatter")
     reached = _reachable_skill_resources(skill_path.parent)
     for required in REQUIRED_SKILL_FILES:
-        if required not in {"LICENSE.txt", "agents/openai.yaml"} and required not in reached:
+        if required != "agents/openai.yaml" and required not in reached:
             raise AssertionError(f"FluentQt GUI Skill does not route to {required}")
     for forbidden in (".claude/skills", "fluentqt_root.py", "../../../docs"):
         if forbidden in contents:
@@ -1785,11 +1785,6 @@ def _validate_installable_skill(project_root: Path) -> None:
     bundled_catalog = skill_root / "assets/fluentqt-ai-catalog.json"
     if bundled_catalog.read_bytes() != catalog.read_bytes():
         raise AssertionError("Installable Skill catalog snapshot is stale")
-    if (skill_root / "LICENSE.txt").read_bytes() != (
-        project_root / "LICENSE"
-    ).read_bytes():
-        raise AssertionError("Installable Skill license has drifted from LICENSE")
-
     environment = dict(os.environ)
     environment.pop("FLUENTQT_ROOT", None)
     with tempfile.TemporaryDirectory(prefix="fluentqt-installable-skill-") as temp:
