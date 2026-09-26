@@ -301,7 +301,7 @@ const translations = {
 
 const fallbackVersion = "Latest";
 const latestReleaseUrl = "https://github.com/4beru/qt6-fluent-kit/releases/latest";
-const latestReleaseApi = "https://api.github.com/repos/calvinhxx/Fluent-Qt/releases/latest";
+const latestReleaseApi = "https://api.github.com/repos/4beru/qt6-fluent-kit/releases/latest";
 const releaseState = {
   architecture: "",
   language: document.documentElement.lang.toLowerCase().startsWith("zh") ? "zh" : "en",
