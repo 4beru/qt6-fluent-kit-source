@@ -1610,12 +1610,14 @@ def validate_component_inventory(
             if not isinstance(gallery, dict) or gallery.get("route_id") != component_id:
                 errors.append(f"{component_id} has no matching Gallery route")
             else:
-                sample_source = source_path_from_url(gallery.get("sample_source_url"))
-                if resolve_repo_file(project_root, sample_source) is None:
-                    errors.append(
-                        f"{component_id} Gallery sample source does not exist: "
-                        f"{sample_source}"
-                    )
+                sample_source_url = gallery.get("sample_source_url")
+                if sample_source_url is not None:
+                    sample_source = source_path_from_url(sample_source_url)
+                    if resolve_repo_file(project_root, sample_source) is None:
+                        errors.append(
+                            f"{component_id} Gallery sample source does not exist: "
+                            f"{sample_source}"
+                        )
             gallery_count += 1
         else:
             errors.append(f"{component_id} has an invalid manual evidence surface")

@@ -44,12 +44,17 @@ class VisualEvidenceInventoryValidatorTest(unittest.TestCase):
                     "capabilities": ["visual-risk"],
                     "tests": [
                         {
-                            "target": "test_widget",
-                            "ctest_label": "test_widget",
+                            "source_url": (
+                                "https://example.invalid/blob/main/"
+                                "tests/components/TestWidget.cpp"
+                            )
                         }
                     ],
                     "gallery": {
                         "route_id": "widget",
+                        "sample_source_url": (
+                            "https://example.invalid/blob/main/app/sample.cpp"
+                        ),
                     },
                 }
             ]
@@ -197,6 +202,32 @@ TEST_F(WidgetTest, VisualCheck) {
         self.assertEqual(errors, [])
         self.assertEqual(summary.high_risk_components, 1)
         self.assertEqual(summary.manual_visual_surfaces, 1)
+
+    def test_source_less_test_catalog_resolves_from_registered_target(self) -> None:
+        self.write_fixture()
+        component = copy.deepcopy(self.catalog["components"][0])
+        component["tests"] = [
+            {
+                "target": "test_widget",
+                "ctest_label": "test_widget",
+            }
+        ]
+        errors: list[str] = []
+        test_cases = VALIDATOR.component_test_cases(
+            self.root,
+            "widget",
+            component,
+            {"tests/components/TestWidget.cpp": "test_widget"},
+            errors,
+        )
+        self.assertEqual(errors, [])
+        self.assertIn("WidgetTest.Geometry", test_cases)
+        self.assertIn("WidgetTest.VisualCheck", test_cases)
+
+    def test_source_less_gallery_entry_is_allowed(self) -> None:
+        self.catalog["components"][0]["gallery"].pop("sample_source_url")
+        _, errors = self.validate()
+        self.assertEqual(errors, [])
 
     def test_unknown_top_level_field_is_rejected(self) -> None:
         self.inventory["covered"] = True
