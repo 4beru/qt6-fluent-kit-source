@@ -82,10 +82,10 @@ Register four Trusted Publisher records, one for each distribution and index:
 
 | Index | PyPI project | Owner | Repository | Workflow | Environment |
 |---|---|---|---|---|---|
-| TestPyPI | `FluentQt` | `calvinhxx` | `Fluent-Qt` | `python-release.yml` | `testpypi` |
-| TestPyPI | `FluentQt-Gallery` | `calvinhxx` | `Fluent-Qt` | `python-release.yml` | `testpypi-gallery` |
-| PyPI | `FluentQt` | `calvinhxx` | `Fluent-Qt` | `python-release.yml` | `pypi` |
-| PyPI | `FluentQt-Gallery` | `calvinhxx` | `Fluent-Qt` | `python-release.yml` | `pypi-gallery` |
+| TestPyPI | `FluentQt` | `calvinhxx` | `Fluent-Kit` | `python-release.yml` | `testpypi` |
+| TestPyPI | `FluentQt-Gallery` | `calvinhxx` | `Fluent-Kit` | `python-release.yml` | `testpypi-gallery` |
+| PyPI | `FluentQt` | `calvinhxx` | `Fluent-Kit` | `python-release.yml` | `pypi` |
+| PyPI | `FluentQt-Gallery` | `calvinhxx` | `Fluent-Kit` | `python-release.yml` | `pypi-gallery` |
 
 If the `FluentQt` pending records were already registered with `testpypi` and
 `pypi`, keep them. Add only the two Gallery environments and register the two

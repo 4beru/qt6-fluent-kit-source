@@ -94,7 +94,6 @@ version and architecture.
 - [Release notes](https://github.com/4beru/qt6-fluent-kit/releases)
 - [Project website](https://fluentkit.aberu.site/)
 
-
 <!-- docs-nav:bottom:start -->
 ---
 [Contents](../../docs/SUMMARY.md) · [Python bindings index](README.md) · [FluentQt PySide6 Hello World →](examples/hello_world/README.md)

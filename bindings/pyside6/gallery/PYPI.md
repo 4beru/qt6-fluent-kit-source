@@ -63,7 +63,6 @@ second version or platform matrix.
 - [Release notes](https://github.com/4beru/qt6-fluent-kit/releases)
 - [Project website](https://fluentkit.aberu.site/)
 
-
 <!-- docs-nav:bottom:start -->
 ---
 [← Python Gallery package](README.md) · [Contents](../../../docs/SUMMARY.md) · [Python bindings index](../README.md)
