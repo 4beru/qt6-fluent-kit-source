@@ -152,7 +152,7 @@ def metadata_contents(
         "Metadata-Version: 2.4\n"
         "Name: FluentQt\n"
         "Version: {version}\n"
-        "Summary: Native PySide6 bindings for the Fluent-Qt C++ Qt Widgets library\n"
+        "Summary: Native PySide6 bindings for the Fluent-Kit C++ Qt Widgets library\n"
         "Author: 4beru\n"
         "Keywords: Qt,PySide6,Fluent Design,WinUI,widgets\n"
         "Requires-Python: {requires_python}\n"

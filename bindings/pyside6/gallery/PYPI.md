@@ -10,7 +10,7 @@
 
 `FluentQt-Gallery` is the installable Python Gallery for the
 [`FluentQt`](https://pypi.org/project/FluentQt/) PySide6 compatibility package.
-It demonstrates the native Fluent-Qt C++ widgets through their public Python
+It demonstrates the native Fluent-Kit C++ widgets through their public Python
 API and is distributed separately from the reusable UI library.
 
 ## Install and run
@@ -63,7 +63,6 @@ second version or platform matrix.
 - [Release notes](https://github.com/4beru/qt6-fluent-kit/releases)
 - [Project website](https://fluentkit.aberu.site/)
 
-FluentQt Gallery is released under the MIT License.
 
 <!-- docs-nav:bottom:start -->
 ---
