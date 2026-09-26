@@ -12,7 +12,7 @@
 
 Security reports are assessed against the current `main` branch and the latest
 stable release. Backports to older releases depend on severity,
-reproducibility, and maintainer capacity; Fluent-Qt6 does not currently promise a
+reproducibility, and maintainer capacity; Fluent-Qt does not currently promise a
 fixed support window for older versions.
 
 ## Report a vulnerability privately
