@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://github.com/4beru/qt6-fluent-kit/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/4beru/qt6-fluent-kit/actions/workflows/ci.yml/badge.svg"></a>
-  <a href="https://github.com/4beru/qt6-fluent-kit/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/calvinhxx/Fluent-Kit?style=flat&color=111827"></a>
+  <a href="https://github.com/4beru/qt6-fluent-kit/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/4beru/qt6-fluent-kit?style=flat&color=111827"></a>
   <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20WebAssembly-111827.svg">
   <img alt="Qt Widgets" src="https://img.shields.io/badge/UI-Qt%20Widgets-41CD52.svg">
   <img alt="Qt" src="https://img.shields.io/badge/Qt-5.15%2B%20%7C%206.2%2B-41CD52.svg">
@@ -23,13 +23,13 @@
 </p>
 
 <p align="center">
-  <a href="https://4beru.github.io/qt6-fluent-kit/#top"><img src="docs/assets/readme/hero.png" alt="Fluent-Kit Gallery on Windows with Mica"></a>
+  <a href="https://fluentkit.aberu.site/#top"><img src="docs/assets/readme/hero.png" alt="Fluent-Kit Gallery on Windows with Mica"></a>
 </p>
 
 <p align="center">
-  <strong><a href="https://4beru.github.io/qt6-fluent-kit/#gallery">Try the live C++ Web Gallery</a></strong>
+  <strong><a href="https://fluentkit.aberu.site/#gallery">Try the live C++ Web Gallery</a></strong>
   ·
-  <a href="https://4beru.github.io/qt6-fluent-kit/#top">Project website</a>
+  <a href="https://fluentkit.aberu.site/#top">Project website</a>
   ·
   <a href="https://github.com/4beru/qt6-fluent-kit/discussions">Questions &amp; community</a>
 </p>
@@ -38,7 +38,7 @@ Fluent-Kit (FluentQt) is a cross-platform Fluent UI component library for Qt Wid
 
 ## 🤖 Build with AI
 
-Use [`build-fluentqt-gui`](.agents/skills/build-fluentqt-gui/SKILL.md) in Codex, Claude Code, or Cursor to build a desktop app, add a GUI to a project, or fix an interface. [Example](https://4beru.github.io/qt6-fluent-kit/#ai-build) · [Install and use](docs/ai/README.md)
+Use [`build-fluentqt-gui`](.agents/skills/build-fluentqt-gui/SKILL.md) in Codex, Claude Code, or Cursor to build a desktop app, add a GUI to a project, or fix an interface. [Example](https://fluentkit.aberu.site/#ai-build) · [Install and use](docs/ai/README.md)
 
 When tuning a Gallery sample, use Live Scene to see each saved change, then check the result in the compiled C++ sample. [How it works](docs/development/gallery-preview-workflow.md)
 
@@ -184,7 +184,7 @@ python3 tools/dev/fluent_qt_build.py build/fluentqt --target fluent_qt_source_pa
 
 ### WebAssembly
 
-Use the [live WebAssembly Gallery](https://4beru.github.io/qt6-fluent-kit/gallery/)
+Use the [live WebAssembly Gallery](https://fluentkit.aberu.site/gallery/)
 for evaluation. Local toolchain setup, builds, browser smoke tests, and Pages
 deployment are documented in the
 [WebAssembly workflow](docs/development/webassembly-workflow.md).
@@ -195,7 +195,7 @@ Gallery is used to browse, demonstrate, and validate FluentQt components.
 
 ### C++ Web Gallery
 
-Online: [project website](https://4beru.github.io/qt6-fluent-kit/#gallery) · [standalone page](https://4beru.github.io/qt6-fluent-kit/gallery/).
+Online: [project website](https://fluentkit.aberu.site/#gallery) · [standalone page](https://fluentkit.aberu.site/gallery/).
 
 ### C++ Gallery packages
 
@@ -260,7 +260,7 @@ Start with the [documentation map](docs/README.md), or choose a path:
 
 | Goal | Entry point |
 |---|---|
-| Evaluate controls | [API Explorer](https://4beru.github.io/qt6-fluent-kit/api/) · [WebAssembly Gallery](https://4beru.github.io/qt6-fluent-kit/gallery/) |
+| Evaluate controls | [API Explorer](https://fluentkit.aberu.site/api/) · [WebAssembly Gallery](https://fluentkit.aberu.site/gallery/) |
 | Build an application | [AI-assisted development](docs/ai/README.md) · [Onboarding tools](tools/onboarding/README.md) |
 | Contribute to FluentQt | [Development tree](docs/development/README.md) · [Architecture](docs/architecture/README.md) · [Fluent design](docs/design-languages/README.md) |
 | Package or release | [Packaging](docs/development/packaging-workflow.md) · [Release governance](docs/development/release-governance.md) · [Release notes](docs/releases/README.md) |

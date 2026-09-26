@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://github.com/4beru/qt6-fluent-kit/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/4beru/qt6-fluent-kit/actions/workflows/ci.yml/badge.svg"></a>
-  <a href="https://github.com/4beru/qt6-fluent-kit/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/calvinhxx/Fluent-Kit?style=flat&color=111827"></a>
+  <a href="https://github.com/4beru/qt6-fluent-kit/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/4beru/qt6-fluent-kit?style=flat&color=111827"></a>
   <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20WebAssembly-111827.svg">
   <img alt="Qt Widgets" src="https://img.shields.io/badge/UI-Qt%20Widgets-41CD52.svg">
   <img alt="Qt" src="https://img.shields.io/badge/Qt-5.15%2B%20%7C%206.2%2B-41CD52.svg">
@@ -23,13 +23,13 @@
 </p>
 
 <p align="center">
-  <a href="https://4beru.github.io/qt6-fluent-kit/zh-CN/#top"><img src="docs/assets/readme/hero.png" alt="Windows 下使用 Mica 效果的 Fluent-Kit Gallery"></a>
+  <a href="https://fluentkit.aberu.site/zh-CN/#top"><img src="docs/assets/readme/hero.png" alt="Windows 下使用 Mica 效果的 Fluent-Kit Gallery"></a>
 </p>
 
 <p align="center">
-  <strong><a href="https://4beru.github.io/qt6-fluent-kit/zh-CN/#gallery">实时体验 C++ Web Gallery</a></strong>
+  <strong><a href="https://fluentkit.aberu.site/zh-CN/#gallery">实时体验 C++ Web Gallery</a></strong>
   ·
-  <a href="https://4beru.github.io/qt6-fluent-kit/zh-CN/#top">项目官网</a>
+  <a href="https://fluentkit.aberu.site/zh-CN/#top">项目官网</a>
   ·
   <a href="https://github.com/4beru/qt6-fluent-kit/discussions">提问与交流</a>
 </p>
@@ -38,7 +38,7 @@ Fluent-Kit（FluentQt）是面向 Qt Widgets 的跨平台 Fluent UI 组件库，
 
 ## 🤖 使用 Agent 构建
 
-在 Codex、Claude Code 或 Cursor 中使用 [`build-fluentqt-gui`](.agents/skills/build-fluentqt-gui/SKILL.md)，创建桌面应用、给现有工程添加 GUI 或修复界面。[查看效果](https://4beru.github.io/qt6-fluent-kit/zh-CN/#ai-build) · [安装与用法](docs/ai/README.md)
+在 Codex、Claude Code 或 Cursor 中使用 [`build-fluentqt-gui`](.agents/skills/build-fluentqt-gui/SKILL.md)，创建桌面应用、给现有工程添加 GUI 或修复界面。[查看效果](https://fluentkit.aberu.site/zh-CN/#ai-build) · [安装与用法](docs/ai/README.md)
 
 调整 Gallery 示例时，可以先在 Live Scene 里边改边看，再用编译后的 C++ 示例确认最终效果。[查看用法](docs/development/gallery-preview-workflow.md)
 
@@ -180,7 +180,7 @@ python3 tools/dev/fluent_qt_build.py build/fluentqt --target fluent_qt_source_pa
 
 ### WebAssembly
 
-评估项目时可直接使用[在线 WebAssembly Gallery](https://4beru.github.io/qt6-fluent-kit/gallery/)。本地工具链、构建、浏览器冒烟测试和 Pages 部署统一见 [WebAssembly 工作流](docs/development/webassembly-workflow.md)。
+评估项目时可直接使用[在线 WebAssembly Gallery](https://fluentkit.aberu.site/gallery/)。本地工具链、构建、浏览器冒烟测试和 Pages 部署统一见 [WebAssembly 工作流](docs/development/webassembly-workflow.md)。
 
 ## 🖼 Gallery
 
@@ -188,7 +188,7 @@ Gallery 用于浏览、演示和验证 FluentQt 组件。
 
 ### C++ Web Gallery
 
-在线体验：[项目官网](https://4beru.github.io/qt6-fluent-kit/zh-CN/#gallery) · [独立页面](https://4beru.github.io/qt6-fluent-kit/gallery/)。
+在线体验：[项目官网](https://fluentkit.aberu.site/zh-CN/#gallery) · [独立页面](https://fluentkit.aberu.site/gallery/)。
 
 ### C++ Gallery 安装包
 
@@ -247,7 +247,7 @@ python -m fluentqt_gallery
 
 | 目标 | 入口 |
 |---|---|
-| 体验和查找控件 | [API Explorer](https://4beru.github.io/qt6-fluent-kit/api/) · [WebAssembly Gallery](https://4beru.github.io/qt6-fluent-kit/gallery/) |
+| 体验和查找控件 | [API Explorer](https://fluentkit.aberu.site/api/) · [WebAssembly Gallery](https://fluentkit.aberu.site/gallery/) |
 | 构建应用 | [AI 辅助开发](docs/ai/README.md) · [环境检查与项目模板](tools/onboarding/README.md) |
 | 参与 FluentQt 开发 | [开发文档树](docs/development/README.md) · [架构约定](docs/architecture/README.md) · [Fluent 设计](docs/design-languages/README.md) |
 | 打包或发布 | [打包工作流](docs/development/packaging-workflow.md) · [发布治理](docs/development/release-governance.md) · [版本记录](docs/releases/README.md) |
