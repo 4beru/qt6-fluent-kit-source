@@ -147,6 +147,23 @@ def resolve_gallery_executable(build_dir: Path) -> Path:
         if candidate.is_file():
             return candidate.resolve()
 
+    bundle_executables = sorted(
+        {
+            candidate.resolve()
+            for bundle in app_dir.glob("*.app")
+            for candidate in (bundle / "Contents" / "MacOS").iterdir()
+            if candidate.is_file()
+            and candidate.name in {"Fluent-Kit Gallery", "fluent_qt_gallery"}
+        }
+    )
+    if len(bundle_executables) == 1:
+        return bundle_executables[0]
+    if bundle_executables:
+        choices = "\n  ".join(str(path) for path in bundle_executables)
+        raise RuntimeError(
+            "Multiple Gallery executables found; pass --executable:\n  " + choices
+        )
+
     discovered = sorted(
         {
             candidate.resolve()
