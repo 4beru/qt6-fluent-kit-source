@@ -18,7 +18,7 @@ from PySide6.QtNetwork import (
 
 
 _LATEST_RELEASE_API = (
-    "https://api.github.com/repos/calvinhxx/Fluent-Qt/releases/latest"
+    "https://api.github.com/repos/4beru/qt6-fluent-kit/releases/latest"
 )
 
 
