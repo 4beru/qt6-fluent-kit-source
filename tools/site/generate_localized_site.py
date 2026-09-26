@@ -72,7 +72,7 @@ LOCALES = (
         english_current="page",
         chinese_current="false",
         readme_url=f"{REPOSITORY_URL}/blob/main/README.md",
-        image_alt="Fluent-Qt Gallery project preview with native Qt Widgets controls.",
+        image_alt="Fluent-Kit Gallery project preview with native Qt Widgets controls.",
     ),
     Locale(
         key="zh",
@@ -87,7 +87,7 @@ LOCALES = (
         english_current="false",
         chinese_current="page",
         readme_url=f"{REPOSITORY_URL}/blob/main/README.zh-CN.md",
-        image_alt="Fluent-Qt Gallery 项目预览，展示原生 Qt Widgets 控件。",
+        image_alt="Fluent-Kit Gallery 项目预览，展示原生 Qt Widgets 控件。",
     ),
 )
 
@@ -236,8 +236,7 @@ def structured_data(locale: Locale, values: dict[str, str], version: str) -> str
                 "programmingLanguage": "C++",
                 "runtimePlatform": ["Qt 5.15+", "Qt 6.2+"],
                 "version": version,
-                "license": f"{REPOSITORY_URL}/blob/main/LICENSE",
-                "image": OG_IMAGE_URL,
+                        "image": OG_IMAGE_URL,
                 "inLanguage": locale.html_lang,
                 "sameAs": [
                     REPOSITORY_URL,
@@ -362,7 +361,7 @@ def validate_error_page() -> None:
 
     requirements = (
         '<html lang="en" data-site-language="en">',
-        '<base href="/Fluent-Qt/">',
+        '<base href="/">',
         'location.pathname) ? "zh" : "en"',
         'href="zh-CN/" data-lang-zh',
         'href="./" data-lang-en',
