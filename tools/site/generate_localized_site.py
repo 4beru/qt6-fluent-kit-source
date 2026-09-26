@@ -218,9 +218,9 @@ def prefix_resources(page: str, prefix: str) -> str:
 
 def structured_data(locale: Locale, values: dict[str, str], version: str) -> str:
     gallery_description = (
-        "Interactive C++ WebAssembly Gallery for evaluating Fluent-Qt controls in a browser."
+        "Interactive C++ WebAssembly Gallery for evaluating Fluent-Kit controls in a browser."
         if locale.key == "en"
-        else "可在浏览器中体验 Fluent-Qt 控件的交互式 C++ WebAssembly Gallery。"
+        else "可在浏览器中体验 Fluent-Kit 控件的交互式 C++ WebAssembly Gallery。"
     )
     graph: dict[str, Any] = {
         "@context": "https://schema.org",
@@ -228,7 +228,7 @@ def structured_data(locale: Locale, values: dict[str, str], version: str) -> str
             {
                 "@type": "SoftwareSourceCode",
                 "@id": f"{BASE_URL}#project",
-                "name": "Fluent-Qt",
+                "name": "Fluent-Kit",
                 "alternateName": "FluentQt",
                 "url": locale.canonical_url,
                 "description": values["meta.description"],
@@ -246,7 +246,7 @@ def structured_data(locale: Locale, values: dict[str, str], version: str) -> str
             {
                 "@type": "WebApplication",
                 "@id": f"{BASE_URL}gallery/#application",
-                "name": "Fluent-Qt C++ Web Gallery",
+                "name": "Fluent-Kit C++ Web Gallery",
                 "url": f"{BASE_URL}gallery/",
                 "description": gallery_description,
                 "applicationCategory": "DeveloperApplication",
