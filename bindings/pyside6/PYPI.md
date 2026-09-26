@@ -9,7 +9,7 @@
 <!-- docs-nav:top:end -->
 
 FluentQt is the official PySide6 compatibility distribution for
-[Fluent-Qt](https://github.com/calvinhxx/Fluent-Qt), a cross-platform
+[Fluent-Qt](https://github.com/4beru/qt6-fluent-kit), a cross-platform
 Fluent / WinUI-style C++ component library built on Qt Widgets. The widgets
 remain native C++ objects; Shiboken6 exposes the same implementation to Python
 instead of reimplementing the UI library.
@@ -88,11 +88,11 @@ version and architecture.
 
 ## Project links
 
-- [Documentation](https://github.com/calvinhxx/Fluent-Qt#readme)
-- [Source](https://github.com/calvinhxx/Fluent-Qt)
-- [Issue tracker](https://github.com/calvinhxx/Fluent-Qt/issues)
-- [Release notes](https://github.com/calvinhxx/Fluent-Qt/releases)
-- [Project website](https://calvinhxx.github.io/Fluent-Qt/)
+- [Documentation](https://github.com/4beru/qt6-fluent-kit#readme)
+- [Source](https://github.com/4beru/qt6-fluent-kit)
+- [Issue tracker](https://github.com/4beru/qt6-fluent-kit/issues)
+- [Release notes](https://github.com/4beru/qt6-fluent-kit/releases)
+- [Project website](https://fluentkit.aberu.site/)
 
 FluentQt is released under the MIT License. Microsoft product names and Fluent
 design references are used only to describe compatibility and visual style.
