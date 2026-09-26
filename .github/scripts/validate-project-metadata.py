@@ -32,7 +32,7 @@ if manifest_version != project_version:
     )
 
 expected_tag = f"v{project_version}"
-for relative_path in ("README.md", "README.zh-CN.md", "site/index.html"):
+for relative_path in ("README.md", "README.zh-CN.md"):
     text = (ROOT / relative_path).read_text(encoding="utf-8")
     tags = re.findall(r"GIT_TAG(?:\s|<[^>]+>)+([^<\s]+)", text)
     if tags != [expected_tag]:
@@ -40,5 +40,11 @@ for relative_path in ("README.md", "README.zh-CN.md", "site/index.html"):
             f"{relative_path} must contain exactly one FetchContent GIT_TAG "
             f"{expected_tag!r}; found {tags!r}"
         )
+
+# The generated public website intentionally does not expose a FetchContent
+# snippet: the public repository is a reference/release entry point, while
+# the implementation repository may be private. Its install instructions are
+# therefore validated by the site generator instead of this legacy metadata
+# contract.
 
 print(f"Project metadata is aligned at {project_version}.")
