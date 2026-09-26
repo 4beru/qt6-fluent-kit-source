@@ -36,7 +36,7 @@ Reuse a working environment for ordinary changes.
 
 ## Find a component
 
-The [API Explorer](https://calvinhxx.github.io/Fluent-Qt/api/) is the browsable
+The [API Explorer](https://fluentkit.aberu.site/api/) is the browsable
 reference. Catalog queries return a small structured result:
 
 ```bash
