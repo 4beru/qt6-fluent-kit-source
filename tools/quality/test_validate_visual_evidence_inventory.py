@@ -44,17 +44,12 @@ class VisualEvidenceInventoryValidatorTest(unittest.TestCase):
                     "capabilities": ["visual-risk"],
                     "tests": [
                         {
-                            "source_url": (
-                                "https://example.invalid/blob/main/"
-                                "tests/components/TestWidget.cpp"
-                            )
+                            "target": "test_widget",
+                            "ctest_label": "test_widget",
                         }
                     ],
                     "gallery": {
                         "route_id": "widget",
-                        "sample_source_url": (
-                            "https://example.invalid/blob/main/app/sample.cpp"
-                        ),
                     },
                 }
             ]
@@ -835,9 +830,8 @@ TEST_F(WidgetTest, VisualCheck) {
         self.assert_error_contains("not a decodable PNG header", errors)
 
     def test_traversal_test_source_is_rejected(self) -> None:
-        source_url = self.catalog["components"][0]["tests"][0]["source_url"]
-        self.catalog["components"][0]["tests"][0]["source_url"] = source_url.replace(
-            "tests/components/TestWidget.cpp", "../TestWidget.cpp"
+        self.catalog["components"][0]["tests"][0]["source_url"] = (
+            "https://example.invalid/blob/main/tests/components/../TestWidget.cpp"
         )
         _, errors = self.validate()
         self.assert_error_contains("focused test source does not exist", errors)

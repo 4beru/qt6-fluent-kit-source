@@ -1244,6 +1244,7 @@ def component_test_cases(
     project_root: Path,
     component_id: str,
     component: dict[str, object],
+    target_by_source: dict[str, str],
     errors: list[str],
 ) -> dict[str, str]:
     tests = component.get("tests")
@@ -1251,25 +1252,48 @@ def component_test_cases(
         errors.append(f"{component_id} has no focused tests in the source catalog")
         return {}
     result: dict[str, str] = {}
+    target_sources: dict[str, list[str]] = {}
+    for relative_path, target in target_by_source.items():
+        target_sources.setdefault(target, []).append(relative_path)
+
     for index, test in enumerate(tests):
         if not isinstance(test, dict):
             errors.append(f"{component_id}.tests[{index}] must be an object")
             continue
-        relative_path = source_path_from_url(test.get("source_url"))
-        path = resolve_repo_file(project_root, relative_path)
-        if path is None:
-            errors.append(
-                f"{component_id} focused test source does not exist: {relative_path}"
-            )
-            continue
-        for test_case in parse_test_cases(path):
-            previous = result.get(test_case)
-            if previous is not None and previous != relative_path:
+
+        source_url = test.get("source_url")
+        if source_url is not None:
+            relative_paths = [source_path_from_url(source_url)]
+        else:
+            target = test.get("target")
+            if not isinstance(target, str) or not target:
                 errors.append(
-                    f"{component_id} test case {test_case} is ambiguous: "
-                    f"{previous}, {relative_path}"
+                    f"{component_id}.tests[{index}] must provide target when "
+                    "source_url is omitted"
                 )
-            result[test_case] = relative_path
+                continue
+            relative_paths = target_sources.get(target, [])
+            if not relative_paths:
+                errors.append(
+                    f"{component_id} focused test target has no registered source: {target}"
+                )
+                continue
+
+        for relative_path in relative_paths:
+            path = resolve_repo_file(project_root, relative_path)
+            if path is None:
+                errors.append(
+                    f"{component_id} focused test source does not exist: {relative_path}"
+                )
+                continue
+            for test_case in parse_test_cases(path):
+                previous = result.get(test_case)
+                if previous is not None and previous != relative_path:
+                    errors.append(
+                        f"{component_id} test case {test_case} is ambiguous: "
+                        f"{previous}, {relative_path}"
+                    )
+                result[test_case] = relative_path
     return result
 
 
@@ -1460,7 +1484,11 @@ def validate_component_inventory(
         required_states = rules[str(family_id)].states
         required_state_set = set(required_states)
         test_cases = component_test_cases(
-            project_root, component_id, catalog[component_id], errors
+            project_root,
+            component_id,
+            catalog[component_id],
+            target_by_source,
+            errors,
         )
 
         automated = entry["automated_evidence"]
