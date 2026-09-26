@@ -50,7 +50,7 @@ local unless a user deliberately publishes them.
 | Environment | Read-only C++ and Python doctor with human and JSON output | [Onboarding tools](../../tools/onboarding/README.md) |
 | Project creation | Maintained `existing-qt` and `workbench` starters for C++ and PySide6 | `fluentqt create` |
 | First window | `fluentqt trial` checks, creates, builds, tests, and reaches the real `show()` path | `fluentqt trial` |
-| API discovery | Searchable public API and a queryable machine catalog | [API Explorer](https://calvinhxx.github.io/Fluent-Qt/api/) · [AI catalog](../ai/generated/fluentqt-ai-catalog.json) |
+| API discovery | Searchable public API and a queryable machine catalog | [API Explorer](https://fluentkit.aberu.site/api/) · [AI catalog](../ai/generated/fluentqt-ai-catalog.json) |
 | Built-app diagnostics | One read-only native Inspector used by C++ and PySide6 | [Inspector contract](../architecture/inspector-report.md) |
 | Visual review | Versioned application scenes plus a manual IME compatibility check | [Scene manifest](../ai/evals/application-scenes.json) |
 | Agent workflow | One portable `build-fluentqt-gui` Skill shared by compatible agents | [Skill](../../.agents/skills/build-fluentqt-gui/SKILL.md) |
@@ -59,7 +59,7 @@ local unless a user deliberately publishes them.
 
 ### First-window trials
 
-[Full CI run #32654501221](https://github.com/calvinhxx/Fluent-Qt/actions/runs/32654501221)
+[Full CI run #32654501221](https://github.com/4beru/qt6-fluent-kit/actions/runs/32654501221)
 passed all five clean C++ consumer environments across Linux x64/ARM64, Qt 5/6,
 macOS, and Windows. The median time from a ready doctor result to the first
 window path was 9.692 seconds. Linux, Windows, and macOS Python wheel lanes also
