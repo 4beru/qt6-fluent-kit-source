@@ -84,7 +84,7 @@ const Capabilities& capabilities()
         result.showsBilingualDocumentation = true;
         result.showsIntroTour = false;
         result.maxResidentRoutes = 16;
-        result.applicationName = QStringLiteral("Fluent-Qt C++ Web Gallery");
+        result.applicationName = QStringLiteral("Fluent-Kit C++ Web Gallery");
         result.windowTitle = result.applicationName;
         result.distributionSectionTitle = QStringLiteral("Web version");
         result.distributionTitle = QStringLiteral("C++ Web Gallery");
@@ -93,7 +93,7 @@ const Capabilities& capabilities()
         result.runtimeLabel = QStringLiteral("WebAssembly");
         result.distributionActionText = QStringLiteral("View source");
         result.distributionActionUrl =
-            QUrl(QStringLiteral("https://github.com/calvinhxx/Fluent-Qt"));
+            QUrl(QStringLiteral("https://github.com/4beru/qt6-fluent-kit"));
         return result;
     }();
     return value;

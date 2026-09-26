@@ -10,7 +10,7 @@
 #include <QWidget>
 
 #ifndef FLUENT_QT_GALLERY_DISPLAY_NAME
-#define FLUENT_QT_GALLERY_DISPLAY_NAME "Fluent-Qt Gallery"
+#define FLUENT_QT_GALLERY_DISPLAY_NAME "Fluent-Kit Gallery"
 #endif
 
 namespace fluent::gallery::platform {
@@ -42,7 +42,7 @@ const Capabilities& capabilities()
     static const Capabilities value = [] {
         Capabilities result;
         result.applicationName = QStringLiteral(FLUENT_QT_GALLERY_DISPLAY_NAME);
-        result.windowTitle = QStringLiteral("Fluent-Qt Gallery");
+        result.windowTitle = QStringLiteral("Fluent-Kit Gallery");
         result.distributionSectionTitle = QStringLiteral("Updates");
         result.distributionTitle = QStringLiteral("Gallery updates");
         result.distributionDescription =

@@ -61,14 +61,14 @@ void GalleryApplicationController::setupStatusItem()
     m_statusAreaAvailable = QSystemTrayIcon::isSystemTrayAvailable();
     m_statusIcon = new QSystemTrayIcon(appicon::icon(), this);
     m_statusIcon->setObjectName(QStringLiteral("galleryStatusAreaIcon"));
-    m_statusIcon->setToolTip(QStringLiteral("Fluent-Qt Gallery"));
+    m_statusIcon->setToolTip(QStringLiteral("Fluent-Kit Gallery"));
 
     m_statusMenu = new QMenu;
     m_statusMenu->setObjectName(QStringLiteral("galleryStatusAreaMenu"));
-    auto* openAction = m_statusMenu->addAction(QStringLiteral("Open Fluent-Qt Gallery"));
+    auto* openAction = m_statusMenu->addAction(QStringLiteral("Open Fluent-Kit Gallery"));
     auto* settingsAction = m_statusMenu->addAction(QStringLiteral("Settings"));
     m_statusMenu->addSeparator();
-    auto* quitAction = m_statusMenu->addAction(QStringLiteral("Quit Fluent-Qt Gallery"));
+    auto* quitAction = m_statusMenu->addAction(QStringLiteral("Quit Fluent-Kit Gallery"));
     openAction->setObjectName(QStringLiteral("galleryStatusOpenAction"));
     settingsAction->setObjectName(QStringLiteral("galleryStatusSettingsAction"));
     quitAction->setObjectName(QStringLiteral("galleryStatusQuitAction"));

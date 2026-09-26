@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="color-scheme" content="light dark">
-  <title>Fluent-Qt C++ Web Gallery</title>
+  <title>Fluent-Kit C++ Web Gallery</title>
   <link rel="icon" type="image/png" href="app-icon.png?v=@FLUENT_QT_GALLERY_ICON_HASH@">
   <script>
     document.documentElement.dataset.fluentQtLoadStartedAt = String(Date.now());
@@ -156,7 +156,7 @@
         type="application/wasm" crossorigin>
 </head>
 <body>
-  <main id="qt-container" aria-label="Fluent-Qt C++ Web Gallery">
+  <main id="qt-container" aria-label="Fluent-Kit C++ Web Gallery">
     <section id="loading" role="status" aria-live="polite">
       <div class="spinner" aria-hidden="true"></div>
       <strong>Loading the C++ Web Gallery…</strong>
@@ -164,12 +164,12 @@
     </section>
   </main>
   <footer>
-    <span>Fluent-Qt @PROJECT_VERSION@ · C++ Web Gallery · <span id="window-mode-status">starting</span> · <span id="render-scale-status"></span></span>
+    <span>Fluent-Kit @PROJECT_VERSION@ · C++ Web Gallery · <span id="window-mode-status">starting</span> · <span id="render-scale-status"></span></span>
     <nav aria-label="Web build information">
       <a id="window-mode-toggle" href="#"></a>
       <a id="render-scale-toggle" href="#"></a>
       <a href="hello-world/">Minimal UILib app</a>
-      <a href="https://github.com/calvinhxx/Fluent-Qt">Source</a>
+      <a href="https://github.com/4beru/qt6-fluent-kit">Source</a>
       <a href="licenses.html">Licenses &amp; build info</a>
     </nav>
   </footer>

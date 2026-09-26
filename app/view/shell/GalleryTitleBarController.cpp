@@ -163,7 +163,7 @@ void GalleryTitleBarController::build(const QStringList& searchTitles)
     appIcon->setFixedSize(TitleBarMetrics::AppIconSize, TitleBarMetrics::AppIconSize);
     refreshAppIcon();
 
-    auto* title = new fluent::textfields::Label(QStringLiteral("Fluent-Qt Gallery"), bar);
+    auto* title = new fluent::textfields::Label(QStringLiteral("Fluent-Kit Gallery"), bar);
     m_title = title;
     title->setObjectName(QStringLiteral("GalleryTitleBar.Title"));
     title->setFluentTypography(Typography::FontRole::Caption);

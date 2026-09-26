@@ -469,7 +469,7 @@ public:
                QStringLiteral(":/app/assets/home_header_tiles/Header-Toolkit.png"));
         append(QStringLiteral("FluentQt"),
                QStringLiteral("FluentQt UI component library source on GitHub."),
-               QStringLiteral("https://github.com/calvinhxx/Fluent-Qt"),
+               QStringLiteral("https://github.com/4beru/qt6-fluent-kit"),
                QStringLiteral(":/app/assets/app-icon.png"));
         append(QStringLiteral("Qt Quick Controls"),
                QStringLiteral("Qt Quick Controls reference on doc.qt.io."),
@@ -936,7 +936,7 @@ GalleryHomePage::GalleryHomePage(const GalleryContentEntry& entry,
     setContentSpacing(0);
 
     m_heroBanner =
-        new GalleryHomeHeroBanner(QStringLiteral("Fluent-Qt Gallery"), entry.description, this);
+        new GalleryHomeHeroBanner(QStringLiteral("Fluent-Kit Gallery"), entry.description, this);
     addContentWidget(m_heroBanner);
 
     auto* body = new QWidget(this);

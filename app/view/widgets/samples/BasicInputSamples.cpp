@@ -922,11 +922,11 @@ QVector<GallerySample> hyperlinkButtonSamples()
         makeSample(
             QStringLiteral("hyperlink-button-url"), QStringLiteral("HyperlinkButton with URL"),
             QStringLiteral("A URL-backed hyperlink opens its target when invoked."),
-            QStringLiteral("auto* link = new HyperlinkButton(\"calvinhxx/Fluent-Qt\", this);\n"
-                           "link->setUrl(QUrl(\"https://github.com/calvinhxx/Fluent-Qt\"));"),
+            QStringLiteral("auto* link = new HyperlinkButton(\"calvinhxx/Fluent-Kit\", this);\n"
+                           "link->setUrl(QUrl(\"https://github.com/4beru/qt6-fluent-kit\"));"),
             [](QWidget* parent) {
-                auto* link = new HyperlinkButton(QStringLiteral("calvinhxx/Fluent-Qt"), parent);
-                link->setUrl(QUrl(QStringLiteral("https://github.com/calvinhxx/Fluent-Qt")));
+                auto* link = new HyperlinkButton(QStringLiteral("calvinhxx/Fluent-Kit"), parent);
+                link->setUrl(QUrl(QStringLiteral("https://github.com/4beru/qt6-fluent-kit")));
                 return link;
             }),
         makeSample(
