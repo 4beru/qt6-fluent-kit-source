@@ -65,7 +65,6 @@ file(COPY
     "${FLUENT_QT_SOURCE_DIR}/CMakeLists.txt"
     "${FLUENT_QT_SOURCE_DIR}/resources.qrc"
     "${FLUENT_QT_SOURCE_DIR}/llms.txt"
-    "${FLUENT_QT_SOURCE_DIR}/LICENSE"
     "${FLUENT_QT_SOURCE_DIR}/THIRD_PARTY_NOTICES.md"
     "${FLUENT_QT_SOURCE_DIR}/TRADEMARKS.md"
     DESTINATION "${_package_root}")

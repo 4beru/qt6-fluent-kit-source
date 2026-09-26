@@ -84,7 +84,7 @@ def stage(args: argparse.Namespace) -> None:
         shutil.copy2(hello_world_source / name, hello_world_destination / name)
 
     metadata = {
-        "project": "Fluent-Qt C++ Web Gallery",
+        "project": "Fluent-Kit C++ Web Gallery",
         "project_version": project_version(),
         "qt_version": args.qt_version,
         "qt_target": "wasm_singlethread",

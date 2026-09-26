@@ -302,10 +302,10 @@ top-level CI selects it for browser-affecting pull requests and for full `main`
 validation. On `main`, that same run passes the staged payload to the reusable
 Pages deployment, so the Gallery is built once. A manual Pages run rebuilds the
 full tier before deploying and remains the recovery path. The site is published
-below `/Fluent-Qt/gallery/` together with `build-info.json` and license material.
+below `/gallery/` together with `build-info.json` and license material.
 
 The open-source WebAssembly binary statically links Qt and is distributed under
-GPLv3. FluentQt's own source remains MIT licensed. The deployed payload must
+GPLv3.  The deployed payload must
 retain the FluentQt, Qt, Emscripten, and bundled-asset notices plus the exact Qt
 corresponding-source link; see `THIRD_PARTY_NOTICES.md`.
 
