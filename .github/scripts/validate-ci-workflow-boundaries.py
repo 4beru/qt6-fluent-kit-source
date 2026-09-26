@@ -114,6 +114,7 @@ EXPECTED_JOBS = {
         "pages",
         "ci-gate",
         "release-ready",
+        "vercel",
     },
     "ci-cpp.yml": {"plan", "build", "integration"},
     "ci-wasm.yml": {"build"},
