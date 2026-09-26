@@ -2633,7 +2633,7 @@
           "id": "hyperlink-button-url",
           "title": "HyperlinkButton with URL",
           "description": "A URL-backed hyperlink opens its target when invoked.",
-          "cpp_snippet": "auto* link = new HyperlinkButton(\"calvinhxx/Fluent-Qt\", this);\nlink->setUrl(QUrl(\"https://github.com/calvinhxx/Fluent-Qt\"));"
+          "cpp_snippet": "auto* link = new HyperlinkButton(\"calvinhxx/Fluent-Kit\", this);\nlink->setUrl(QUrl(\"https://github.com/4beru/qt6-fluent-kit\"));"
         },
         {
           "id": "hyperlink-button-underline",
