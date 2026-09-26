@@ -8,11 +8,11 @@ Choose the channel that matches the outcome you need:
 
 | Need | Channel |
 |---|---|
-| Installation, API, PySide6, packaging, or WebAssembly help | [Q&A](https://github.com/calvinhxx/Fluent-Qt/discussions/categories/q-a) |
-| Explore a real application scenario before proposing a feature | [Ideas](https://github.com/calvinhxx/Fluent-Qt/discussions/categories/ideas) |
-| Share an application, experiment, screenshot, or migration lesson | [Show and tell](https://github.com/calvinhxx/Fluent-Qt/discussions/categories/show-and-tell) |
+| Installation, API, PySide6, packaging, or WebAssembly help | [Q&A](https://github.com/4beru/qt6-fluent-kit/discussions/categories/q-a) |
+| Explore a real application scenario before proposing a feature | [Ideas](https://github.com/4beru/qt6-fluent-kit/discussions/categories/ideas) |
+| Share an application, experiment, screenshot, or migration lesson | [Show and tell](https://github.com/4beru/qt6-fluent-kit/discussions/categories/show-and-tell) |
 | Join real-time Chinese usage discussion, showcases, or contribution coordination | QQ group `1109997685` |
-| Report reproducible incorrect behavior | [Bug report](https://github.com/calvinhxx/Fluent-Qt/issues/new?template=bug_report.yml) |
+| Report reproducible incorrect behavior | [Bug report](https://github.com/4beru/qt6-fluent-kit/issues/new?template=bug_report.yml) |
 | Submit a code or documentation change | [Contributing guide](../../CONTRIBUTING.md) |
 | Report a vulnerability privately | [Security policy](../../SECURITY.md) |
 
