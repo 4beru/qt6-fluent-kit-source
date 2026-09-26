@@ -32,6 +32,7 @@ function node(tag, className, content) {
   return value;
 }
 function link(label, href) {
+  if (!href) return null;
   const value = node("a", "", label);
   value.href = href;
   return value;
@@ -63,11 +64,13 @@ function componentCard(component) {
   card.append(node("code", "signature", `#include ${component.cpp.public_header}`));
   card.append(node("div", "subline", component.cpp.qualified_type));
   const links = node("div", "card-links");
-  links.append(
+  for (const value of [
     link(text("declaration"), component.cpp.declaration_url),
     link(text("example"), component.gallery.url),
     link(text("test"), component.tests[0].source_url)
-  );
+  ]) {
+    if (value) links.append(value);
+  }
   card.append(links);
   return card;
 }
@@ -82,7 +85,8 @@ function headerCard(header) {
     card.append(node("div", "declarations", header.declarations.join(" · ")));
   }
   const links = node("div", "card-links");
-  links.append(link(text("headerSource"), header.source_url));
+  const source = link(text("headerSource"), header.source_url);
+  if (source) links.append(source);
   card.append(links);
   return card;
 }
