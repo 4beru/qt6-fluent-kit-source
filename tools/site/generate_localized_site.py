@@ -21,7 +21,7 @@ TEMPLATE_PATH = Path(__file__).with_name("index.template.html")
 SITE_SCRIPT_PATH = SITE_ROOT / "site.js"
 ERROR_PAGE_PATH = SITE_ROOT / "404.html"
 LEGACY_GALLERY_REDIRECT_PATH = SITE_ROOT / "app" / "index.html"
-BASE_URL = "https://4beru.github.io/qt6-fluent-kit/"
+BASE_URL = "https://fluentkit.aberu.site/"
 REPOSITORY_URL = "https://github.com/4beru/qt6-fluent-kit"
 
 
