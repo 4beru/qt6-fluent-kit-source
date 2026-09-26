@@ -128,7 +128,7 @@ class WheelBuilderTest(unittest.TestCase):
         )
         self.assertIn("# FluentQt", parsed.get_payload())
         self.assertIn(
-            "https://github.com/calvinhxx/Fluent-Qt",
+            "https://github.com/4beru/qt6-fluent-kit",
             "\n".join(parsed.get_all("Project-URL", [])),
         )
 
