@@ -24,11 +24,11 @@ SUPPORTED_REQUIRES_PYTHON = {
     ">=3.11,<3.14",
 }
 PROJECT_URLS = (
-    ("Homepage", "https://calvinhxx.github.io/Fluent-Qt/"),
-    ("Documentation", "https://github.com/calvinhxx/Fluent-Qt#readme"),
-    ("Repository", "https://github.com/calvinhxx/Fluent-Qt"),
-    ("Issues", "https://github.com/calvinhxx/Fluent-Qt/issues"),
-    ("Changelog", "https://github.com/calvinhxx/Fluent-Qt/releases"),
+    ("Homepage", "https://fluentkit.aberu.site/"),
+    ("Documentation", "https://github.com/4beru/qt6-fluent-kit#readme"),
+    ("Repository", "https://github.com/4beru/qt6-fluent-kit"),
+    ("Issues", "https://github.com/4beru/qt6-fluent-kit/issues"),
+    ("Changelog", "https://github.com/4beru/qt6-fluent-kit/releases"),
     ("Library", "https://pypi.org/project/FluentQt/"),
 )
 CLASSIFIERS = (
@@ -133,7 +133,7 @@ def metadata_contents(version, requires_python, description, license_files=()):
         "Name: {distribution}\n"
         "Version: {version}\n"
         "Summary: Installable Gallery for the FluentQt PySide6 bindings\n"
-        "Author: calvinhxx\n"
+        "Author: 4beru\n"
         "License-Expression: MIT\n"
         "Keywords: Qt,PySide6,Fluent Design,WinUI,Gallery\n"
         "Requires-Python: {requires_python}\n"
