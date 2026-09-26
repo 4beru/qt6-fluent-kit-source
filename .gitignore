@@ -28,3 +28,5 @@ CMakeUserPresets.json
 
 # codex
 tmp/
+.vercel
+.env*
