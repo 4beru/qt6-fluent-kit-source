@@ -1,13 +1,11 @@
-FLUENT-QT GALLERY RUNTIME DEPENDENCY NOTICE
+FLUENT-KIT GALLERY RUNTIME DEPENDENCY NOTICE
 ==========================================
 
-Fluent-Qt Gallery version: @PROJECT_VERSION@
+Fluent-Kit Gallery version: @PROJECT_VERSION@
 Qt version: @FLUENT_QT_RUNTIME_QT_VERSION@
 spdlog version: @FLUENT_QT_RUNTIME_SPDLOG_VERSION@
 fmt version: @FLUENT_QT_RUNTIME_FMT_VERSION@
 
-Fluent-Qt's own source code is licensed under the MIT License. Third-party
-components are not relicensed by that license.
 
 Qt
 --

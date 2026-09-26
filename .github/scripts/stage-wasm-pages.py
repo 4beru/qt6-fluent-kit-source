@@ -24,7 +24,6 @@ PAYLOAD_FILES = (
     "qtloader.js",
     "qtlogo.svg",
     "licenses.html",
-    "FluentQt-LICENSE.txt",
     "Qt-LICENSE.txt",
     "Emscripten-LICENSE.txt",
     "NotoSansSC-LICENSE.txt",

@@ -70,10 +70,9 @@ regeneration depends on Gallery sources from a full checkout. Catalog source
 and focused-test paths point back to that checkout; sample code remains
 embedded in the catalog and is available with `--json`.
 
-The project's own source is MIT licensed. Bundled assets retain the licenses
-and notices included in `THIRD_PARTY_NOTICES.md` and `third_party/`. Qt is a
-consumer-supplied dynamic dependency of this source package and is not covered
-by the FluentQt MIT license. See `TRADEMARKS.md` for name and design-reference
+Bundled assets and runtime dependencies retain the licenses and notices included in
+`THIRD_PARTY_NOTICES.md` and `third_party/`. Qt is a
+consumer-supplied dynamic dependency of this source package. See `TRADEMARKS.md` for name and design-reference
 disclaimers.
 
 Minimal source integration:

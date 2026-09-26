@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <img src="app/assets/app-icon.png" width="88" alt="Fluent-Qt logo">
+  <img src="app/assets/app-icon.png" width="88" alt="Fluent-Kit logo">
 </p>
 
-<h1 align="center">Fluent-Qt</h1>
+<h1 align="center">Fluent-Kit</h1>
 
 <p align="center">
   A cross-platform Fluent-style C++ UI component library for Qt6 Widgets.
@@ -14,8 +14,7 @@
 
 <p align="center">
   <a href="https://github.com/4beru/qt6-fluent-kit/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/4beru/qt6-fluent-kit/actions/workflows/ci.yml/badge.svg"></a>
-  <a href="https://github.com/4beru/qt6-fluent-kit/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/calvinhxx/Fluent-Qt?style=flat&color=111827"></a>
-  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-111827.svg"></a>
+  <a href="https://github.com/4beru/qt6-fluent-kit/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/calvinhxx/Fluent-Kit?style=flat&color=111827"></a>
   <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20WebAssembly-111827.svg">
   <img alt="Qt Widgets" src="https://img.shields.io/badge/UI-Qt%20Widgets-41CD52.svg">
   <img alt="Qt" src="https://img.shields.io/badge/Qt-5.15%2B%20%7C%206.2%2B-41CD52.svg">
@@ -24,7 +23,7 @@
 </p>
 
 <p align="center">
-  <a href="https://4beru.github.io/qt6-fluent-kit/#top"><img src="docs/assets/readme/hero.png" alt="Fluent-Qt Gallery on Windows with Mica"></a>
+  <a href="https://4beru.github.io/qt6-fluent-kit/#top"><img src="docs/assets/readme/hero.png" alt="Fluent-Kit Gallery on Windows with Mica"></a>
 </p>
 
 <p align="center">
@@ -35,7 +34,7 @@
   <a href="https://github.com/4beru/qt6-fluent-kit/discussions">Questions &amp; community</a>
 </p>
 
-Fluent-Qt (FluentQt) is a cross-platform Fluent UI component library for Qt Widgets. It provides native controls for input, navigation, collections, data grids, [charts](docs/architecture/charts.md), overlays, and windows while preserving Qt's object model and CMake workflow. It supports Windows, macOS, Linux, WebAssembly, Light/Dark/High Contrast themes, an application-wide Full/Reduced/Disabled motion policy, C++, and optional PySide6 bindings, and can be added directly to existing projects.
+Fluent-Kit (FluentQt) is a cross-platform Fluent UI component library for Qt Widgets. It provides native controls for input, navigation, collections, data grids, [charts](docs/architecture/charts.md), overlays, and windows while preserving Qt's object model and CMake workflow. It supports Windows, macOS, Linux, WebAssembly, Light/Dark/High Contrast themes, an application-wide Full/Reduced/Disabled motion policy, C++, and optional PySide6 bindings, and can be added directly to existing projects.
 
 ## 🤖 Build with AI
 
@@ -62,7 +61,7 @@ Link FluentQt to a CMake project using one of the following methods. `FetchConte
 | Integration | CMake |
 |---|---|
 | `FetchContent` integration | `FetchContent_MakeAvailable(fluentqt)` |
-| Source integration | `add_subdirectory(Fluent-Qt)` |
+| Source integration | `add_subdirectory(Fluent-Kit)` |
 | Installed package integration | `find_package(FluentQt CONFIG REQUIRED)` |
 
 #### `FetchContent` integration
@@ -89,11 +88,11 @@ target_link_libraries(my_app PRIVATE FluentQt::FluentQt)
 
 #### Source integration
 
-After defining your application target, add the Fluent-Qt source directory and
+After defining your application target, add the Fluent-Kit source directory and
 link the exported target:
 
 ```cmake
-add_subdirectory(Fluent-Qt)
+add_subdirectory(Fluent-Kit)
 target_link_libraries(my_app PRIVATE FluentQt::FluentQt)
 ```
 
@@ -149,7 +148,7 @@ See [`examples/hello_world`](examples/hello_world/) for the complete project, or
 
 ### Optional Python compatibility
 
-The PySide6 compatibility layer exposes Fluent-Qt's native C++ widgets to
+The PySide6 compatibility layer exposes Fluent-Kit's native C++ widgets to
 Python through Shiboken6.
 
 ```bash
@@ -277,6 +276,3 @@ See [Contributing](CONTRIBUTING.md) and the
 | [Windows UI Kit (Community)](https://www.figma.com/design/qpecbg7hOfos9DcHWeKlfw/Windows-UI-kit--Community-?node-id=2434-129659) | Fluent / Windows visual reference |
 | [WinUI Gallery](https://github.com/microsoft/WinUI-Gallery) | Component behavior and sample page reference |
 
-## License
-
-Fluent-Qt's own source code is released under the [MIT License](LICENSE). Bundled assets and packaged runtime dependencies retain their upstream terms; versions, provenance, source-availability rules, and license locations are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Product names, logos, and external design references are addressed in [TRADEMARKS.md](TRADEMARKS.md).

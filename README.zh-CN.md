@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <img src="app/assets/app-icon.png" width="88" alt="Fluent-Qt logo">
+  <img src="app/assets/app-icon.png" width="88" alt="Fluent-Kit logo">
 </p>
 
-<h1 align="center">Fluent-Qt</h1>
+<h1 align="center">Fluent-Kit</h1>
 
 <p align="center">
   面向 Qt Widgets 的跨平台 Fluent 风格 C++ UI 组件库。
@@ -14,8 +14,7 @@
 
 <p align="center">
   <a href="https://github.com/4beru/qt6-fluent-kit/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/4beru/qt6-fluent-kit/actions/workflows/ci.yml/badge.svg"></a>
-  <a href="https://github.com/4beru/qt6-fluent-kit/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/calvinhxx/Fluent-Qt?style=flat&color=111827"></a>
-  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-111827.svg"></a>
+  <a href="https://github.com/4beru/qt6-fluent-kit/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/calvinhxx/Fluent-Kit?style=flat&color=111827"></a>
   <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20WebAssembly-111827.svg">
   <img alt="Qt Widgets" src="https://img.shields.io/badge/UI-Qt%20Widgets-41CD52.svg">
   <img alt="Qt" src="https://img.shields.io/badge/Qt-5.15%2B%20%7C%206.2%2B-41CD52.svg">
@@ -24,7 +23,7 @@
 </p>
 
 <p align="center">
-  <a href="https://4beru.github.io/qt6-fluent-kit/zh-CN/#top"><img src="docs/assets/readme/hero.png" alt="Windows 下使用 Mica 效果的 Fluent-Qt Gallery"></a>
+  <a href="https://4beru.github.io/qt6-fluent-kit/zh-CN/#top"><img src="docs/assets/readme/hero.png" alt="Windows 下使用 Mica 效果的 Fluent-Kit Gallery"></a>
 </p>
 
 <p align="center">
@@ -35,7 +34,7 @@
   <a href="https://github.com/4beru/qt6-fluent-kit/discussions">提问与交流</a>
 </p>
 
-Fluent-Qt（FluentQt）是面向 Qt Widgets 的跨平台 Fluent UI 组件库，提供输入、导航、集合、数据表格、[图表](docs/architecture/charts.md)、弹窗和窗口等原生控件。它保留 Qt Widgets 熟悉的对象模型和 CMake 工作流，支持 Windows、macOS、Linux、WebAssembly、浅色/深色/高对比度主题、应用级完整/减弱/关闭动效策略，以及 C++ 和可选 PySide6 接口，可直接接入现有项目。
+Fluent-Kit（FluentQt）是面向 Qt Widgets 的跨平台 Fluent UI 组件库，提供输入、导航、集合、数据表格、[图表](docs/architecture/charts.md)、弹窗和窗口等原生控件。它保留 Qt Widgets 熟悉的对象模型和 CMake 工作流，支持 Windows、macOS、Linux、WebAssembly、浅色/深色/高对比度主题、应用级完整/减弱/关闭动效策略，以及 C++ 和可选 PySide6 接口，可直接接入现有项目。
 
 ## 🤖 使用 Agent 构建
 
@@ -62,7 +61,7 @@ Fluent-Qt（FluentQt）是面向 Qt Widgets 的跨平台 Fluent UI 组件库，�
 | 集成方式 | CMake |
 |---|---|
 | `FetchContent` 集成 | `FetchContent_MakeAvailable(fluentqt)` |
-| 源码集成 | `add_subdirectory(Fluent-Qt)` |
+| 源码集成 | `add_subdirectory(Fluent-Kit)` |
 | 安装包集成 | `find_package(FluentQt CONFIG REQUIRED)` |
 
 #### `FetchContent` 集成
@@ -89,10 +88,10 @@ target_link_libraries(my_app PRIVATE FluentQt::FluentQt)
 
 #### 源码集成
 
-定义好应用目标后，加入 Fluent-Qt 源码目录并链接导出目标：
+定义好应用目标后，加入 Fluent-Kit 源码目录并链接导出目标：
 
 ```cmake
-add_subdirectory(Fluent-Qt)
+add_subdirectory(Fluent-Kit)
 target_link_libraries(my_app PRIVATE FluentQt::FluentQt)
 ```
 
@@ -148,7 +147,7 @@ int main(int argc, char* argv[])
 
 ### 可选 Python 兼容
 
-PySide6 兼容层通过 Shiboken6 将 Fluent-Qt 的原生 C++ 控件提供给 Python 使用。
+PySide6 兼容层通过 Shiboken6 将 Fluent-Kit 的原生 C++ 控件提供给 Python 使用。
 
 ```bash
 python -m pip install FluentQt
@@ -258,7 +257,7 @@ python -m fluentqt_gallery
 QQ群用于中文即时交流、作品展示与贡献协作；需要持续追踪的问题请继续使用 GitHub Discussions 或 Issues。
 
 <p align="center">
-  <img src="docs/assets/community/qq-group-1109997685.png" width="280" alt="Fluent-Qt QQ 群入群二维码">
+  <img src="docs/assets/community/qq-group-1109997685.png" width="280" alt="Fluent-Kit QQ 群入群二维码">
 </p>
 
 提交改动前请阅读[参与贡献](CONTRIBUTING.md)和[社区行为准则](CODE_OF_CONDUCT.md)。
@@ -270,6 +269,3 @@ QQ群用于中文即时交流、作品展示与贡献协作；需要持续追踪
 | [Windows UI Kit (Community)](https://www.figma.com/design/qpecbg7hOfos9DcHWeKlfw/Windows-UI-kit--Community-?node-id=2434-129659) | Fluent / Windows 视觉参考 |
 | [WinUI Gallery](https://github.com/microsoft/WinUI-Gallery) | 组件行为和示例页面参考 |
 
-## 许可证
-
-Fluent-Qt 项目自身的源代码使用 [MIT License](LICENSE) 发布。项目中捆绑的资源以及发布包中的运行时依赖继续适用各自的上游许可；具体版本、来源、对应源码提供规则和许可证位置见[第三方声明](THIRD_PARTY_NOTICES.md)。产品名称、徽标及外部设计参考的相关说明见[商标与外部引用声明](TRADEMARKS.md)。

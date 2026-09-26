@@ -24,8 +24,6 @@ function(fluent_qt_configure_gallery_webassembly target source_dir)
         "${CMAKE_CURRENT_BINARY_DIR}/index.html" @ONLY)
     configure_file("${_adapter_dir}/licenses.html.in"
         "${CMAKE_CURRENT_BINARY_DIR}/licenses.html" @ONLY)
-    configure_file("${PROJECT_SOURCE_DIR}/LICENSE"
-        "${CMAKE_CURRENT_BINARY_DIR}/FluentQt-LICENSE.txt" COPYONLY)
     configure_file("${PROJECT_SOURCE_DIR}/THIRD_PARTY_NOTICES.md"
         "${CMAKE_CURRENT_BINARY_DIR}/THIRD_PARTY_NOTICES.md" COPYONLY)
     configure_file("${PROJECT_SOURCE_DIR}/third_party/fonts/noto-sans-sc/LICENSE.txt"

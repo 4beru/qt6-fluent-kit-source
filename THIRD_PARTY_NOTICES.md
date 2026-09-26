@@ -1,9 +1,7 @@
 # Third-party notices
 
-FluentQt's MIT license covers only the project's own source code. Bundled
-assets and runtime dependencies remain under their upstream licenses. Nothing
-in FluentQt's MIT license relicenses those materials or grants trademark
-rights.
+Bundled assets and runtime dependencies remain under their upstream licenses.
+Nothing in this notice changes those upstream terms or grants trademark rights.
 
 ## Inter
 
@@ -64,8 +62,7 @@ before publishing the package.
 
 The C++ Web Gallery is a separate static WebAssembly distribution built with
 Qt 6.9.3 `wasm_singlethread`. Its open-source binary is conveyed under GPLv3;
-FluentQt's own source remains MIT licensed. The Pages payload includes the full
-Qt license notice, a link to the exact Qt 6.9.3 corresponding source archive,
+The Pages payload includes the full Qt license notice, a link to the exact Qt 6.9.3 corresponding source archive,
 the Emscripten license, this notice, and the complete FluentQt source link.
 
 ## Emscripten compiler runtime
