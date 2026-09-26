@@ -97,6 +97,7 @@ ALLOWED_JOB_LEVEL_KEYS = {
     "outputs",
     "permissions",
     "runs-on",
+    "secrets",
     "steps",
     "strategy",
     "timeout-minutes",
@@ -1328,6 +1329,8 @@ def validate_ci_gate_execution_contract(orchestrator: str) -> list[str]:
     for job_id in EXPECTED_JOBS["ci.yml"]:
         job = job_section(active, job_id)
         errors.extend(canonical_job_level_errors(job, f"ci.yml {job_id}"))
+        if job_id == "vercel" and "    secrets: inherit" not in uncommented_workflow_lines(job):
+            errors.append("ci.yml vercel job must explicitly inherit repository secrets")
         controls = job_level_controls(job)
         if any(value.startswith("continue-on-error:") for value in controls):
             errors.append(
