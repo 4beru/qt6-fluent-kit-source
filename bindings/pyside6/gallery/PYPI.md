@@ -57,11 +57,11 @@ second version or platform matrix.
 ## Project links
 
 - [FluentQt package](https://pypi.org/project/FluentQt/)
-- [Documentation](https://github.com/calvinhxx/Fluent-Qt#readme)
-- [Source](https://github.com/calvinhxx/Fluent-Qt)
-- [Issue tracker](https://github.com/calvinhxx/Fluent-Qt/issues)
-- [Release notes](https://github.com/calvinhxx/Fluent-Qt/releases)
-- [Project website](https://calvinhxx.github.io/Fluent-Qt/)
+- [Documentation](https://github.com/4beru/qt6-fluent-kit#readme)
+- [Source](https://github.com/4beru/qt6-fluent-kit)
+- [Issue tracker](https://github.com/4beru/qt6-fluent-kit/issues)
+- [Release notes](https://github.com/4beru/qt6-fluent-kit/releases)
+- [Project website](https://fluentkit.aberu.site/)
 
 FluentQt Gallery is released under the MIT License.
 
