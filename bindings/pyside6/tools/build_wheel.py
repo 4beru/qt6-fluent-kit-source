@@ -24,11 +24,11 @@ SUPPORTED_REQUIRES_PYTHON = {
     ">=3.11,<3.14",
 }
 PROJECT_URLS = (
-    ("Homepage", "https://calvinhxx.github.io/Fluent-Qt/"),
-    ("Documentation", "https://github.com/calvinhxx/Fluent-Qt#readme"),
-    ("Repository", "https://github.com/calvinhxx/Fluent-Qt"),
-    ("Issues", "https://github.com/calvinhxx/Fluent-Qt/issues"),
-    ("Changelog", "https://github.com/calvinhxx/Fluent-Qt/releases"),
+    ("Homepage", "https://fluentkit.aberu.site/"),
+    ("Documentation", "https://github.com/4beru/qt6-fluent-kit#readme"),
+    ("Repository", "https://github.com/4beru/qt6-fluent-kit"),
+    ("Issues", "https://github.com/4beru/qt6-fluent-kit/issues"),
+    ("Changelog", "https://github.com/4beru/qt6-fluent-kit/releases"),
     ("Gallery", "https://pypi.org/project/FluentQt-Gallery/"),
 )
 CLASSIFIERS = (
@@ -154,7 +154,7 @@ def metadata_contents(
         "Name: FluentQt\n"
         "Version: {version}\n"
         "Summary: Native PySide6 bindings for the Fluent-Qt C++ Qt Widgets library\n"
-        "Author: calvinhxx\n"
+        "Author: 4beru\n"
         "License-Expression: MIT\n"
         "Keywords: Qt,PySide6,Fluent Design,WinUI,widgets\n"
         "Requires-Python: {requires_python}\n"
@@ -187,9 +187,6 @@ def normalized_platform_tag(extension):
         if match:
             declared = (int(match.group(1)), int(match.group(2) or 0))
             actual = macos_deployment_target(extension)
-            # The extension uses Python's dynamic symbol lookup on macOS, so
-            # its Mach-O deployment target is the wheel's real OS floor. The
-            # build interpreter may itself have been compiled on a newer host.
             minimum = actual or declared
             architecture = macos_architecture(extension) or match.group(3)
             platform_tag = "macosx-{0}.{1}-{2}".format(
