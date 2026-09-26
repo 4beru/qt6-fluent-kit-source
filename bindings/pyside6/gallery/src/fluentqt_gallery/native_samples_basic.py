@@ -698,9 +698,9 @@ register_source_samples(
             _script(
                 """
                 link = fluentqt.HyperlinkButton(
-                    "calvinhxx/Fluent-Qt", globals().get("gallery_parent")
+                    "calvinhxx/Fluent-Kit", globals().get("gallery_parent")
                 )
-                link.setUrl(QUrl("https://github.com/calvinhxx/Fluent-Qt"))
+                link.setUrl(QUrl("https://github.com/4beru/qt6-fluent-kit"))
                 """,
                 "from PySide6.QtCore import QUrl",
             ),

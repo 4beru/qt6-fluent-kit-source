@@ -1414,7 +1414,7 @@ class GalleryHomeHero(QWidget):
         (
             "FluentQt",
             "FluentQt UI component library source on GitHub.",
-            "https://github.com/calvinhxx/Fluent-Qt",
+            "https://github.com/4beru/qt6-fluent-kit",
             "app-icon.png",
         ),
         (
@@ -1452,7 +1452,7 @@ class GalleryHomeHero(QWidget):
         icon.setFixedSize(56, 56)
         layout.addWidget(icon)
         layout.addSpacing(12)
-        title = fluentqt.Label("Fluent-Qt Gallery", self)
+        title = fluentqt.Label("Fluent-Kit Gallery", self)
         title.setObjectName("galleryHomeHeroTitle")
         title.setFluentTypography(fluentqt.FontRole.TitleLarge)
         layout.addWidget(title)

@@ -7,7 +7,7 @@ grouping from colliding while both implementations are open.
 """
 
 APPLICATION_ID = "com.fluentqt.gallery.pyside6"
-APPLICATION_NAME = "Fluent-Qt Gallery (Python)"
+APPLICATION_NAME = "Fluent-Kit Gallery (Python)"
 ORGANIZATION_NAME = "Fluent-Qt"
 
 

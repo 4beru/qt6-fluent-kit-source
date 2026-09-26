@@ -100,7 +100,7 @@ void UpdateChecker::checkForUpdates()
 
     QNetworkRequest request{QUrl(QString::fromLatin1(kLatestReleaseApi))};
     request.setHeader(QNetworkRequest::UserAgentHeader,
-                      QStringLiteral("Fluent-Qt-Gallery/%1").arg(currentVersion()));
+                      QStringLiteral("Fluent-Kit-Gallery/%1").arg(currentVersion()));
     request.setRawHeader("Accept", "application/vnd.github+json");
     request.setAttribute(QNetworkRequest::RedirectPolicyAttribute,
                          QNetworkRequest::NoLessSafeRedirectPolicy);

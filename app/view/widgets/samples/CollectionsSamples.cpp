@@ -490,7 +490,7 @@ void loadFlowNetworkImage(QStandardItemModel* model, int row, const QUrl& url,
     request.setAttribute(QNetworkRequest::RedirectPolicyAttribute,
                          QNetworkRequest::NoLessSafeRedirectPolicy);
     request.setTransferTimeout(10000);
-    request.setHeader(QNetworkRequest::UserAgentHeader, QStringLiteral("Fluent-Qt Gallery/1.0"));
+    request.setHeader(QNetworkRequest::UserAgentHeader, QStringLiteral("Fluent-Kit Gallery/1.0"));
     QNetworkReply* reply = manager->get(request);
     QObject::connect(reply, &QNetworkReply::finished, manager, [modelGuard, index, reply, url]() {
         reply->deleteLater();

@@ -142,7 +142,7 @@ class GalleryUpdateChecker(QObject):
         request = QNetworkRequest(QUrl(_LATEST_RELEASE_API))
         request.setHeader(
             QNetworkRequest.UserAgentHeader,
-            "Fluent-Qt-Gallery/{0}".format(self.current_version()),
+            "Fluent-Kit-Gallery/{0}".format(self.current_version()),
         )
         request.setRawHeader(b"Accept", b"application/vnd.github+json")
         request.setAttribute(

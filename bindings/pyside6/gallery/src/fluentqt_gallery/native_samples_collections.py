@@ -517,7 +517,7 @@ _PHOTO_MODEL_HELPER = _SourceHelper(dedent(
             request.setTransferTimeout(10000)
             request.setHeader(
                 QNetworkRequest.KnownHeaders.UserAgentHeader,
-                "Fluent-Qt Gallery/1.0",
+                "Fluent-Kit Gallery/1.0",
             )
             reply = manager.get(request)
             owner._gallery_photo_network_replies.append(reply)
