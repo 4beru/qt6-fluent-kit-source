@@ -107,8 +107,8 @@ an explicit file path.
 `app/main.cpp` enables Gallery file logging. The default path is
 `QStandardPaths::AppLocalDataLocation/logs/<app>.log`:
 
-- macOS: `~/Library/Application Support/Fluent-Qt/Fluent-Qt Gallery/logs/`
-- Windows: `%LOCALAPPDATA%\Fluent-Qt\Fluent-Qt Gallery\logs\`
+- macOS: `~/Library/Application Support/Fluent-Kit/Fluent-Kit Gallery/logs/`
+- Windows: `%LOCALAPPDATA%\Fluent-Kit\Fluent-Kit Gallery\logs\`
 
 Rotation is size-based. Defaults are a 5 MiB active file and two numbered
 backups, for at most three files. Info and higher levels flush immediately;
