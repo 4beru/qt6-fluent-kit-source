@@ -98,11 +98,11 @@ def _simple_preview(name: str, parent: QWidget | None) -> PreviewResult | None:
             control.setChecked(True)
             lines.append("control.setChecked(True)")
         elif name == "HyperlinkButton":
-            control.setUrl(QUrl("https://github.com/calvinhxx/Fluent-Qt"))
+            control.setUrl(QUrl("https://github.com/4beru/qt6-fluent-kit"))
             control.setShowUnderline(True)
             lines.extend(
                 (
-                    'control.setUrl(QUrl("https://github.com/calvinhxx/Fluent-Qt"))',
+                    'control.setUrl(QUrl("https://github.com/4beru/qt6-fluent-kit"))',
                     "control.setShowUnderline(True)",
                 )
             )

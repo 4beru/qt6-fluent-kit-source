@@ -2,7 +2,7 @@
 
 > **Status:** Current guide (generated index)
 
-[Documentation home](README.md) · [Search docs](https://github.com/calvinhxx/Fluent-Qt/search?q=language%3AMarkdown&type=code)
+[Documentation home](README.md) · [Search docs](https://github.com/4beru/qt6-fluent-kit/search?q=language%3AMarkdown&type=code)
 
 This is the complete reader-facing tree. Generated catalogs and JSON
 schemas remain linked from their owning guides instead of appearing as
