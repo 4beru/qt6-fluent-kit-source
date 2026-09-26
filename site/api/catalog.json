@@ -117,7 +117,7 @@
       },
       "gallery": {
         "route_id": "chart-view",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=chart-view"
+        "url": "https://fluentkit.aberu.site/gallery/?route=chart-view"
       },
       "tests": [
         {
@@ -149,7 +149,7 @@
       },
       "gallery": {
         "route_id": "line-chart",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=line-chart"
+        "url": "https://fluentkit.aberu.site/gallery/?route=line-chart"
       },
       "tests": [
         {
@@ -181,7 +181,7 @@
       },
       "gallery": {
         "route_id": "area-chart",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=area-chart"
+        "url": "https://fluentkit.aberu.site/gallery/?route=area-chart"
       },
       "tests": [
         {
@@ -213,7 +213,7 @@
       },
       "gallery": {
         "route_id": "bar-chart",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=bar-chart"
+        "url": "https://fluentkit.aberu.site/gallery/?route=bar-chart"
       },
       "tests": [
         {
@@ -245,7 +245,7 @@
       },
       "gallery": {
         "route_id": "horizontal-bar-chart",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=horizontal-bar-chart"
+        "url": "https://fluentkit.aberu.site/gallery/?route=horizontal-bar-chart"
       },
       "tests": [
         {
@@ -277,7 +277,7 @@
       },
       "gallery": {
         "route_id": "pie-chart",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=pie-chart"
+        "url": "https://fluentkit.aberu.site/gallery/?route=pie-chart"
       },
       "tests": [
         {
@@ -309,7 +309,7 @@
       },
       "gallery": {
         "route_id": "donut-chart",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=donut-chart"
+        "url": "https://fluentkit.aberu.site/gallery/?route=donut-chart"
       },
       "tests": [
         {
@@ -341,7 +341,7 @@
       },
       "gallery": {
         "route_id": "scatter-chart",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=scatter-chart"
+        "url": "https://fluentkit.aberu.site/gallery/?route=scatter-chart"
       },
       "tests": [
         {
@@ -373,7 +373,7 @@
       },
       "gallery": {
         "route_id": "sparkline",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=sparkline"
+        "url": "https://fluentkit.aberu.site/gallery/?route=sparkline"
       },
       "tests": [
         {
@@ -405,7 +405,7 @@
       },
       "gallery": {
         "route_id": "file-drop-zone",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=file-drop-zone"
+        "url": "https://fluentkit.aberu.site/gallery/?route=file-drop-zone"
       },
       "tests": [
         {
@@ -437,7 +437,7 @@
       },
       "gallery": {
         "route_id": "button",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=button"
+        "url": "https://fluentkit.aberu.site/gallery/?route=button"
       },
       "tests": [
         {
@@ -469,7 +469,7 @@
       },
       "gallery": {
         "route_id": "compound-button",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=compound-button"
+        "url": "https://fluentkit.aberu.site/gallery/?route=compound-button"
       },
       "tests": [
         {
@@ -501,7 +501,7 @@
       },
       "gallery": {
         "route_id": "checkbox",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=checkbox"
+        "url": "https://fluentkit.aberu.site/gallery/?route=checkbox"
       },
       "tests": [
         {
@@ -533,7 +533,7 @@
       },
       "gallery": {
         "route_id": "color-picker",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=color-picker"
+        "url": "https://fluentkit.aberu.site/gallery/?route=color-picker"
       },
       "tests": [
         {
@@ -565,7 +565,7 @@
       },
       "gallery": {
         "route_id": "combobox",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=combobox"
+        "url": "https://fluentkit.aberu.site/gallery/?route=combobox"
       },
       "tests": [
         {
@@ -597,7 +597,7 @@
       },
       "gallery": {
         "route_id": "dropdown-button",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=dropdown-button"
+        "url": "https://fluentkit.aberu.site/gallery/?route=dropdown-button"
       },
       "tests": [
         {
@@ -629,7 +629,7 @@
       },
       "gallery": {
         "route_id": "hyperlink-button",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=hyperlink-button"
+        "url": "https://fluentkit.aberu.site/gallery/?route=hyperlink-button"
       },
       "tests": [
         {
@@ -661,7 +661,7 @@
       },
       "gallery": {
         "route_id": "multi-select-combobox",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=multi-select-combobox"
+        "url": "https://fluentkit.aberu.site/gallery/?route=multi-select-combobox"
       },
       "tests": [
         {
@@ -693,7 +693,7 @@
       },
       "gallery": {
         "route_id": "radio-button",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=radio-button"
+        "url": "https://fluentkit.aberu.site/gallery/?route=radio-button"
       },
       "tests": [
         {
@@ -725,7 +725,7 @@
       },
       "gallery": {
         "route_id": "rating-control",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=rating-control"
+        "url": "https://fluentkit.aberu.site/gallery/?route=rating-control"
       },
       "tests": [
         {
@@ -757,7 +757,7 @@
       },
       "gallery": {
         "route_id": "repeat-button",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=repeat-button"
+        "url": "https://fluentkit.aberu.site/gallery/?route=repeat-button"
       },
       "tests": [
         {
@@ -789,7 +789,7 @@
       },
       "gallery": {
         "route_id": "slider",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=slider"
+        "url": "https://fluentkit.aberu.site/gallery/?route=slider"
       },
       "tests": [
         {
@@ -821,7 +821,7 @@
       },
       "gallery": {
         "route_id": "split-button",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=split-button"
+        "url": "https://fluentkit.aberu.site/gallery/?route=split-button"
       },
       "tests": [
         {
@@ -853,7 +853,7 @@
       },
       "gallery": {
         "route_id": "toggle-button",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=toggle-button"
+        "url": "https://fluentkit.aberu.site/gallery/?route=toggle-button"
       },
       "tests": [
         {
@@ -885,7 +885,7 @@
       },
       "gallery": {
         "route_id": "toggle-split-button",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=toggle-split-button"
+        "url": "https://fluentkit.aberu.site/gallery/?route=toggle-split-button"
       },
       "tests": [
         {
@@ -917,7 +917,7 @@
       },
       "gallery": {
         "route_id": "toggle-switch",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=toggle-switch"
+        "url": "https://fluentkit.aberu.site/gallery/?route=toggle-switch"
       },
       "tests": [
         {
@@ -949,7 +949,7 @@
       },
       "gallery": {
         "route_id": "file-list-view",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=file-list-view"
+        "url": "https://fluentkit.aberu.site/gallery/?route=file-list-view"
       },
       "tests": [
         {
@@ -981,7 +981,7 @@
       },
       "gallery": {
         "route_id": "drawer-view",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=drawer-view"
+        "url": "https://fluentkit.aberu.site/gallery/?route=drawer-view"
       },
       "tests": [
         {
@@ -1013,7 +1013,7 @@
       },
       "gallery": {
         "route_id": "data-grid",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=data-grid"
+        "url": "https://fluentkit.aberu.site/gallery/?route=data-grid"
       },
       "tests": [
         {
@@ -1045,7 +1045,7 @@
       },
       "gallery": {
         "route_id": "flip-view",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=flip-view"
+        "url": "https://fluentkit.aberu.site/gallery/?route=flip-view"
       },
       "tests": [
         {
@@ -1077,7 +1077,7 @@
       },
       "gallery": {
         "route_id": "flow-view",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=flow-view"
+        "url": "https://fluentkit.aberu.site/gallery/?route=flow-view"
       },
       "tests": [
         {
@@ -1109,7 +1109,7 @@
       },
       "gallery": {
         "route_id": "grid-view",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=grid-view"
+        "url": "https://fluentkit.aberu.site/gallery/?route=grid-view"
       },
       "tests": [
         {
@@ -1141,7 +1141,7 @@
       },
       "gallery": {
         "route_id": "list-view",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=list-view"
+        "url": "https://fluentkit.aberu.site/gallery/?route=list-view"
       },
       "tests": [
         {
@@ -1173,7 +1173,7 @@
       },
       "gallery": {
         "route_id": "split-view",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=split-view"
+        "url": "https://fluentkit.aberu.site/gallery/?route=split-view"
       },
       "tests": [
         {
@@ -1205,7 +1205,7 @@
       },
       "gallery": {
         "route_id": "stack-view",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=stack-view"
+        "url": "https://fluentkit.aberu.site/gallery/?route=stack-view"
       },
       "tests": [
         {
@@ -1237,7 +1237,7 @@
       },
       "gallery": {
         "route_id": "tree-view",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=tree-view"
+        "url": "https://fluentkit.aberu.site/gallery/?route=tree-view"
       },
       "tests": [
         {
@@ -1269,7 +1269,7 @@
       },
       "gallery": {
         "route_id": "calendar-date-picker",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=calendar-date-picker"
+        "url": "https://fluentkit.aberu.site/gallery/?route=calendar-date-picker"
       },
       "tests": [
         {
@@ -1301,7 +1301,7 @@
       },
       "gallery": {
         "route_id": "calendar-view",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=calendar-view"
+        "url": "https://fluentkit.aberu.site/gallery/?route=calendar-view"
       },
       "tests": [
         {
@@ -1333,7 +1333,7 @@
       },
       "gallery": {
         "route_id": "date-picker",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=date-picker"
+        "url": "https://fluentkit.aberu.site/gallery/?route=date-picker"
       },
       "tests": [
         {
@@ -1365,7 +1365,7 @@
       },
       "gallery": {
         "route_id": "time-picker",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=time-picker"
+        "url": "https://fluentkit.aberu.site/gallery/?route=time-picker"
       },
       "tests": [
         {
@@ -1397,7 +1397,7 @@
       },
       "gallery": {
         "route_id": "content-dialog",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=content-dialog"
+        "url": "https://fluentkit.aberu.site/gallery/?route=content-dialog"
       },
       "tests": [
         {
@@ -1429,7 +1429,7 @@
       },
       "gallery": {
         "route_id": "dialog",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=dialog"
+        "url": "https://fluentkit.aberu.site/gallery/?route=dialog"
       },
       "tests": [
         {
@@ -1461,7 +1461,7 @@
       },
       "gallery": {
         "route_id": "flyout",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=flyout"
+        "url": "https://fluentkit.aberu.site/gallery/?route=flyout"
       },
       "tests": [
         {
@@ -1493,7 +1493,7 @@
       },
       "gallery": {
         "route_id": "popup",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=popup"
+        "url": "https://fluentkit.aberu.site/gallery/?route=popup"
       },
       "tests": [
         {
@@ -1525,7 +1525,7 @@
       },
       "gallery": {
         "route_id": "teaching-tip",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=teaching-tip"
+        "url": "https://fluentkit.aberu.site/gallery/?route=teaching-tip"
       },
       "tests": [
         {
@@ -1557,7 +1557,7 @@
       },
       "gallery": {
         "route_id": "coach-mark",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=coach-mark"
+        "url": "https://fluentkit.aberu.site/gallery/?route=coach-mark"
       },
       "tests": [
         {
@@ -1589,7 +1589,7 @@
       },
       "gallery": {
         "route_id": "accordion",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=accordion"
+        "url": "https://fluentkit.aberu.site/gallery/?route=accordion"
       },
       "tests": [
         {
@@ -1621,7 +1621,7 @@
       },
       "gallery": {
         "route_id": "card",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=card"
+        "url": "https://fluentkit.aberu.site/gallery/?route=card"
       },
       "tests": [
         {
@@ -1653,7 +1653,7 @@
       },
       "gallery": {
         "route_id": "divider",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=divider"
+        "url": "https://fluentkit.aberu.site/gallery/?route=divider"
       },
       "tests": [
         {
@@ -1685,7 +1685,7 @@
       },
       "gallery": {
         "route_id": "expander",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=expander"
+        "url": "https://fluentkit.aberu.site/gallery/?route=expander"
       },
       "tests": [
         {
@@ -1717,7 +1717,7 @@
       },
       "gallery": {
         "route_id": "particle-backdrop",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=particle-backdrop"
+        "url": "https://fluentkit.aberu.site/gallery/?route=particle-backdrop"
       },
       "tests": [
         {
@@ -1749,7 +1749,7 @@
       },
       "gallery": {
         "route_id": "field",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=field"
+        "url": "https://fluentkit.aberu.site/gallery/?route=field"
       },
       "tests": [
         {
@@ -1781,7 +1781,7 @@
       },
       "gallery": {
         "route_id": "menu",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=menu"
+        "url": "https://fluentkit.aberu.site/gallery/?route=menu"
       },
       "tests": [
         {
@@ -1813,7 +1813,7 @@
       },
       "gallery": {
         "route_id": "menu-bar",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=menu-bar"
+        "url": "https://fluentkit.aberu.site/gallery/?route=menu-bar"
       },
       "tests": [
         {
@@ -1845,7 +1845,7 @@
       },
       "gallery": {
         "route_id": "command-bar",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=command-bar"
+        "url": "https://fluentkit.aberu.site/gallery/?route=command-bar"
       },
       "tests": [
         {
@@ -1877,7 +1877,7 @@
       },
       "gallery": {
         "route_id": "command-bar-flyout",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=command-bar-flyout"
+        "url": "https://fluentkit.aberu.site/gallery/?route=command-bar-flyout"
       },
       "tests": [
         {
@@ -1909,7 +1909,7 @@
       },
       "gallery": {
         "route_id": "breadcrumb",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=breadcrumb"
+        "url": "https://fluentkit.aberu.site/gallery/?route=breadcrumb"
       },
       "tests": [
         {
@@ -1941,7 +1941,7 @@
       },
       "gallery": {
         "route_id": "navigation-view",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=navigation-view"
+        "url": "https://fluentkit.aberu.site/gallery/?route=navigation-view"
       },
       "tests": [
         {
@@ -1973,7 +1973,7 @@
       },
       "gallery": {
         "route_id": "pivot",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=pivot"
+        "url": "https://fluentkit.aberu.site/gallery/?route=pivot"
       },
       "tests": [
         {
@@ -2005,7 +2005,7 @@
       },
       "gallery": {
         "route_id": "selector-bar",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=selector-bar"
+        "url": "https://fluentkit.aberu.site/gallery/?route=selector-bar"
       },
       "tests": [
         {
@@ -2037,7 +2037,7 @@
       },
       "gallery": {
         "route_id": "tab-view",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=tab-view"
+        "url": "https://fluentkit.aberu.site/gallery/?route=tab-view"
       },
       "tests": [
         {
@@ -2069,7 +2069,7 @@
       },
       "gallery": {
         "route_id": "annotated-scrollbar",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=annotated-scrollbar"
+        "url": "https://fluentkit.aberu.site/gallery/?route=annotated-scrollbar"
       },
       "tests": [
         {
@@ -2101,7 +2101,7 @@
       },
       "gallery": {
         "route_id": "pips-pager",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=pips-pager"
+        "url": "https://fluentkit.aberu.site/gallery/?route=pips-pager"
       },
       "tests": [
         {
@@ -2133,7 +2133,7 @@
       },
       "gallery": {
         "route_id": "scrollbar",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=scrollbar"
+        "url": "https://fluentkit.aberu.site/gallery/?route=scrollbar"
       },
       "tests": [
         {
@@ -2165,7 +2165,7 @@
       },
       "gallery": {
         "route_id": "scroll-view",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=scroll-view"
+        "url": "https://fluentkit.aberu.site/gallery/?route=scroll-view"
       },
       "tests": [
         {
@@ -2197,7 +2197,7 @@
       },
       "gallery": {
         "route_id": "avatar",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=avatar"
+        "url": "https://fluentkit.aberu.site/gallery/?route=avatar"
       },
       "tests": [
         {
@@ -2229,7 +2229,7 @@
       },
       "gallery": {
         "route_id": "info-badge",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=info-badge"
+        "url": "https://fluentkit.aberu.site/gallery/?route=info-badge"
       },
       "tests": [
         {
@@ -2261,7 +2261,7 @@
       },
       "gallery": {
         "route_id": "info-bar",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=info-bar"
+        "url": "https://fluentkit.aberu.site/gallery/?route=info-bar"
       },
       "tests": [
         {
@@ -2293,7 +2293,7 @@
       },
       "gallery": {
         "route_id": "progress-bar",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=progress-bar"
+        "url": "https://fluentkit.aberu.site/gallery/?route=progress-bar"
       },
       "tests": [
         {
@@ -2325,7 +2325,7 @@
       },
       "gallery": {
         "route_id": "progress-ring",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=progress-ring"
+        "url": "https://fluentkit.aberu.site/gallery/?route=progress-ring"
       },
       "tests": [
         {
@@ -2357,7 +2357,7 @@
       },
       "gallery": {
         "route_id": "splash-screen",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=splash-screen"
+        "url": "https://fluentkit.aberu.site/gallery/?route=splash-screen"
       },
       "tests": [
         {
@@ -2389,7 +2389,7 @@
       },
       "gallery": {
         "route_id": "shimmer",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=shimmer"
+        "url": "https://fluentkit.aberu.site/gallery/?route=shimmer"
       },
       "tests": [
         {
@@ -2421,7 +2421,7 @@
       },
       "gallery": {
         "route_id": "toast",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=toast"
+        "url": "https://fluentkit.aberu.site/gallery/?route=toast"
       },
       "tests": [
         {
@@ -2453,7 +2453,7 @@
       },
       "gallery": {
         "route_id": "tooltip",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=tooltip"
+        "url": "https://fluentkit.aberu.site/gallery/?route=tooltip"
       },
       "tests": [
         {
@@ -2485,7 +2485,7 @@
       },
       "gallery": {
         "route_id": "auto-suggest-box",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=auto-suggest-box"
+        "url": "https://fluentkit.aberu.site/gallery/?route=auto-suggest-box"
       },
       "tests": [
         {
@@ -2517,7 +2517,7 @@
       },
       "gallery": {
         "route_id": "label",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=label"
+        "url": "https://fluentkit.aberu.site/gallery/?route=label"
       },
       "tests": [
         {
@@ -2549,7 +2549,7 @@
       },
       "gallery": {
         "route_id": "line-edit",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=line-edit"
+        "url": "https://fluentkit.aberu.site/gallery/?route=line-edit"
       },
       "tests": [
         {
@@ -2581,7 +2581,7 @@
       },
       "gallery": {
         "route_id": "number-box",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=number-box"
+        "url": "https://fluentkit.aberu.site/gallery/?route=number-box"
       },
       "tests": [
         {
@@ -2613,7 +2613,7 @@
       },
       "gallery": {
         "route_id": "password-box",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=password-box"
+        "url": "https://fluentkit.aberu.site/gallery/?route=password-box"
       },
       "tests": [
         {
@@ -2645,7 +2645,7 @@
       },
       "gallery": {
         "route_id": "text-edit",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=text-edit"
+        "url": "https://fluentkit.aberu.site/gallery/?route=text-edit"
       },
       "tests": [
         {
@@ -2677,7 +2677,7 @@
       },
       "gallery": {
         "route_id": "title-bar",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=title-bar"
+        "url": "https://fluentkit.aberu.site/gallery/?route=title-bar"
       },
       "tests": [
         {
@@ -2709,7 +2709,7 @@
       },
       "gallery": {
         "route_id": "window",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=window"
+        "url": "https://fluentkit.aberu.site/gallery/?route=window"
       },
       "tests": [
         {
@@ -2741,7 +2741,7 @@
       },
       "gallery": {
         "route_id": "font-icon",
-        "url": "https://4beru.github.io/qt6-fluent-kit/gallery/?route=font-icon"
+        "url": "https://fluentkit.aberu.site/gallery/?route=font-icon"
       },
       "tests": [
         {
