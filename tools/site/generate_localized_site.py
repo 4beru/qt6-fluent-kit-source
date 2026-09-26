@@ -392,7 +392,7 @@ def validate_legacy_gallery_redirect() -> None:
         "target.search = window.location.search",
         "target.hash = window.location.hash",
         "window.location.replace(target)",
-        '<a href="../gallery/">Open the Fluent-Qt Gallery</a>',
+        '<a href="../gallery/">Open the Fluent-Kit Gallery</a>',
     )
     for requirement in requirements:
         if requirement not in page:
