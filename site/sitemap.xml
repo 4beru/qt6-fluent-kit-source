@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://4beru.github.io/qt6-fluent-kit/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://4beru.github.io/qt6-fluent-kit/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://4beru.github.io/qt6-fluent-kit/zh-CN/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://4beru.github.io/qt6-fluent-kit/" />
+    <loc>https://fluentkit.aberu.site/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fluentkit.aberu.site/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://fluentkit.aberu.site/zh-CN/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fluentkit.aberu.site/" />
   </url>
   <url>
-    <loc>https://4beru.github.io/qt6-fluent-kit/zh-CN/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://4beru.github.io/qt6-fluent-kit/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://4beru.github.io/qt6-fluent-kit/zh-CN/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://4beru.github.io/qt6-fluent-kit/" />
+    <loc>https://fluentkit.aberu.site/zh-CN/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fluentkit.aberu.site/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://fluentkit.aberu.site/zh-CN/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fluentkit.aberu.site/" />
   </url>
   <url>
-    <loc>https://4beru.github.io/qt6-fluent-kit/api/</loc>
+    <loc>https://fluentkit.aberu.site/api/</loc>
   </url>
 </urlset>
