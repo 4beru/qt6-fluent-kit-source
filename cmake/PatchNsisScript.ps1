@@ -7,7 +7,7 @@ param(
 $ErrorActionPreference = 'Stop'
 $resolvedNsiPath = (Resolve-Path -LiteralPath $NsiPath).Path
 $content = [IO.File]::ReadAllText($resolvedNsiPath)
-$marker = "; Fluent-Qt modern per-user installer"
+$marker = "; Fluent-Kit modern per-user installer"
 
 if ($content.Contains($marker)) {
     return
@@ -117,23 +117,18 @@ $content = Replace-Required $content `
 # defines are consumed by the next MUI macro and do not leak to later pages.
 $pageHeaders = @(
     @(
-        '  !insertmacro MUI_PAGE_LICENSE',
-        '  !define MUI_PAGE_HEADER_TEXT "Review the license"',
-        '  !define MUI_PAGE_HEADER_SUBTEXT "Project MIT terms and third-party runtime notices."'
-    ),
-    @(
         '  !insertmacro MUI_PAGE_DIRECTORY',
         '  !define MUI_PAGE_HEADER_TEXT "Choose an install location"',
         '  !define MUI_PAGE_HEADER_SUBTEXT "Installed only for the current Windows user."'
     ),
     @(
         '  !insertmacro MUI_PAGE_INSTFILES',
-        '  !define MUI_PAGE_HEADER_TEXT "Installing Fluent-Qt Gallery"',
+        '  !define MUI_PAGE_HEADER_TEXT "Installing Fluent-Kit Gallery"',
         '  !define MUI_PAGE_HEADER_SUBTEXT "Copying the application and creating shortcuts."'
     ),
     @(
         '  !insertmacro MUI_UNPAGE_CONFIRM',
-        '  !define MUI_PAGE_HEADER_TEXT "Uninstall Fluent-Qt Gallery"',
+        '  !define MUI_PAGE_HEADER_TEXT "Uninstall Fluent-Kit Gallery"',
         '  !define MUI_PAGE_HEADER_SUBTEXT "Remove the application and its shortcuts."'
     )
 )

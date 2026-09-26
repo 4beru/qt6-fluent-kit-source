@@ -42,26 +42,11 @@ else()
         "Because this package does not convey Qt object code, obtain the corresponding source and notices for the installed Qt runtime from its operating-system package or Qt distributor. A downstream package that bundles Qt must provide its own controlled corresponding-source copy or valid written offer.")
 endif()
 
-file(READ "${PROJECT_SOURCE_DIR}/LICENSE" FLUENT_QT_PROJECT_LICENSE_TEXT)
 set(FLUENT_QT_GALLERY_RUNTIME_NOTICE
     "${CMAKE_CURRENT_BINARY_DIR}/RUNTIME_DEPENDENCIES.txt")
-set(FLUENT_QT_GALLERY_INSTALLER_LICENSE
-    "${CMAKE_CURRENT_BINARY_DIR}/GalleryInstallerLicense.txt")
-configure_file(
-    "${PROJECT_SOURCE_DIR}/cmake/GalleryRuntimeNotice.txt.in"
-    "${FLUENT_QT_GALLERY_RUNTIME_NOTICE}"
-    @ONLY)
-configure_file(
-    "${PROJECT_SOURCE_DIR}/cmake/GalleryInstallerLicense.txt.in"
-    "${FLUENT_QT_GALLERY_INSTALLER_LICENSE}"
-    @ONLY)
-
-# Ship the license in the platform-appropriate install location. The macOS DMG
-# deliberately keeps it out of the drag-to-install window and presents it as a
-# mount-time SLA instead.
+# Ship third-party notices and runtime dependency information with the Gallery package.
 if(WIN32)
     install(FILES
-        "${PROJECT_SOURCE_DIR}/LICENSE"
         "${PROJECT_SOURCE_DIR}/THIRD_PARTY_NOTICES.md"
         "${PROJECT_SOURCE_DIR}/TRADEMARKS.md"
         "${FLUENT_QT_GALLERY_RUNTIME_NOTICE}"
@@ -70,7 +55,6 @@ if(WIN32)
     set(_fluent_qt_gallery_license_dir "licenses")
 elseif(UNIX AND NOT APPLE)
     install(FILES
-        "${PROJECT_SOURCE_DIR}/LICENSE"
         "${PROJECT_SOURCE_DIR}/THIRD_PARTY_NOTICES.md"
         "${PROJECT_SOURCE_DIR}/TRADEMARKS.md"
         "${FLUENT_QT_GALLERY_RUNTIME_NOTICE}"
@@ -193,7 +177,6 @@ if(APPLE)
     set(_fluent_qt_bundle_license_dir
         "${FLUENT_QT_GALLERY_BUNDLE_DIR}/Contents/Resources/licenses")
     install(FILES
-        "${PROJECT_SOURCE_DIR}/LICENSE"
         "${PROJECT_SOURCE_DIR}/THIRD_PARTY_NOTICES.md"
         "${PROJECT_SOURCE_DIR}/TRADEMARKS.md"
         "${FLUENT_QT_GALLERY_RUNTIME_NOTICE}"
@@ -228,13 +211,10 @@ install(SCRIPT "${CMAKE_CURRENT_BINARY_DIR}/InstallDeployQtRuntime.cmake"
 
 set(CPACK_PACKAGE_NAME "${FLUENT_QT_GALLERY_PACKAGE_BASENAME}")
 set(CPACK_PACKAGE_VENDOR "${FLUENT_QT_GALLERY_ORGANIZATION_NAME}")
-set(CPACK_PACKAGE_CONTACT "Fluent-Qt maintainers")
+set(CPACK_PACKAGE_CONTACT "Fluent-Kit maintainers")
 set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "WinUI-style Qt Widgets gallery")
 set(CPACK_PACKAGE_VERSION "${PROJECT_VERSION}")
 set(CPACK_PACKAGE_INSTALL_DIRECTORY "${FLUENT_QT_GALLERY_DISPLAY_NAME}")
-# Note: CPACK_RESOURCE_FILE_LICENSE is set per-platform in the APPLE/WIN32 branches below, not
-# globally, because each generator presents it differently: a mount-time click-through SLA on the
-# macOS DragNDrop image, and the installer license page on Windows NSIS.
 # Name the artifact after the architecture it actually contains, not the build host's processor:
 #   - macOS ships one single-arch DMG per CPU (arm64 / x86_64 packaged separately), so the suffix
 #     follows the requested CMAKE_OSX_ARCHITECTURES; otherwise an x86_64 image cross-built on Apple
@@ -277,13 +257,6 @@ if(APPLE)
     set(CPACK_GENERATOR "DragNDrop")
     set(CPACK_DMG_VOLUME_NAME "${FLUENT_QT_GALLERY_DISPLAY_NAME} ${PROJECT_VERSION}")
     set(CPACK_DMG_FORMAT "UDZO")
-    # Present the license as a click-through SLA shown before the disk image mounts, so the user
-    # accepts the terms before reaching the install window. DragNDrop turns an explicit
-    # CPACK_RESOURCE_FILE_LICENSE into the SLA; the platform-specific license
-    # install rules above keep the drag-to-install window clean.
-    set(CPACK_RESOURCE_FILE_LICENSE "${FLUENT_QT_GALLERY_INSTALLER_LICENSE}")
-    set(CPACK_DMG_SLA_USE_RESOURCE_FILE_LICENSE ON)
-    set(CPACK_DMG_SLA_LANGUAGES "English")
     # Style the mounted DMG as a drag-to-install window. DragNDrop adds the /Applications
     # symlink; the setup AppleScript positions the .app beside it over a HiDPI background.
     set(CPACK_DMG_BACKGROUND_IMAGE "${PROJECT_SOURCE_DIR}/app/assets/dmg-background.tiff")
@@ -318,7 +291,6 @@ elseif(WIN32)
     set(CPACK_NSIS_EXECUTABLE
         "${CMAKE_CURRENT_LIST_DIR}/nsis-per-user-wrapper.cmd")
     set(CPACK_NSIS_INSTALL_ROOT "$LOCALAPPDATA\\\\Programs")
-    set(CPACK_RESOURCE_FILE_LICENSE "${FLUENT_QT_GALLERY_INSTALLER_LICENSE}")
     set(CPACK_NSIS_DISPLAY_NAME "${FLUENT_QT_GALLERY_DISPLAY_NAME}")
     set(CPACK_NSIS_PACKAGE_NAME "${FLUENT_QT_GALLERY_DISPLAY_NAME}")
     set(CPACK_NSIS_ENABLE_UNINSTALL_BEFORE_INSTALL ON)
@@ -369,7 +341,7 @@ elseif(UNIX)
     set(CPACK_GENERATOR "DEB")
     set(CPACK_PACKAGING_INSTALL_PREFIX "/usr")
     set(CPACK_DEBIAN_PACKAGE_NAME "${FLUENT_QT_GALLERY_LINUX_PACKAGE_NAME}")
-    set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Fluent-Qt maintainers")
+    set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Fluent-Kit maintainers")
     set(CPACK_DEBIAN_PACKAGE_SECTION "utils")
     set(CPACK_DEBIAN_PACKAGE_PRIORITY "optional")
     set(CPACK_DEBIAN_PACKAGE_SHLIBDEPS ON)
@@ -383,7 +355,7 @@ elseif(UNIX)
     else()
         set(CPACK_DEBIAN_PACKAGE_RECOMMENDS "fonts-noto-color-emoji")
     endif()
-    set(CPACK_DEBIAN_PACKAGE_HOMEPAGE "https://github.com/calvinhxx/Fluent-Qt")
+    set(CPACK_DEBIAN_PACKAGE_HOMEPAGE "https://github.com/4beru/qt6-fluent-kit")
 endif()
 
 include(CPack)
