@@ -1,7 +1,7 @@
 const translations = {
   zh: {
-    "meta.title": "Fluent-Kit（FluentQt）— Qt Widgets 的 Fluent UI 控件库",
-    "meta.description": "FluentQt（Fluent-Kit）是面向 Qt Widgets 的 C++17 Fluent UI 控件库，支持 Qt 5/6、可选 PySide6 绑定和 WebAssembly。在线体验 Gallery，查看 API 与接入示例。",
+    "meta.title": "Fluent-Kit — Qt Widgets 的 Fluent UI 控件库",
+    "meta.description": "Fluent-Kit 是面向 Qt Widgets 的 C++17 Fluent UI 控件库，支持 Qt 5/6、可选 PySide6 绑定和 WebAssembly。在线体验 Gallery，查看 API 与接入示例。",
     "a11y.skip": "跳到主要内容",
     "a11y.primaryNav": "主导航",
     "a11y.home": "Fluent-Kit 首页",
@@ -73,7 +73,7 @@ const translations = {
     "quickStart.sameApi": "Qt 5 / Qt 6 使用同一应用层接口",
     "quickStart.example": "查看完整 hello_world",
     "quickStart.python": "Python / PySide6 · pip install FluentQt",
-    "quickStart.help": "报告问题",
+    "quickStart.help": "提问与获取帮助",
     "copy.copy": "复制",
     "copy.copied": "已复制",
     "copy.announcement": "代码已复制到剪贴板",
@@ -148,8 +148,8 @@ const translations = {
     "motion.label": "粒子动效"
   },
   en: {
-    "meta.title": "Fluent-Kit (FluentQt) — Fluent UI library for Qt Widgets",
-    "meta.description": "FluentQt (Fluent-Kit) is a C++17 Fluent UI library for Qt Widgets, with Qt 5/6, optional PySide6 bindings, and WebAssembly. Try the Gallery and setup examples.",
+    "meta.title": "Fluent-Kit — Fluent UI library for Qt Widgets",
+    "meta.description": "Fluent-Kit is a C++17 Fluent UI library for Qt Widgets, with Qt 5/6, optional PySide6 bindings, and WebAssembly. Try the Gallery and setup examples.",
     "a11y.skip": "Skip to main content",
     "a11y.primaryNav": "Primary navigation",
     "a11y.home": "Fluent-Kit home",
@@ -221,7 +221,7 @@ const translations = {
     "quickStart.sameApi": "Use the same application-facing API with Qt 5 and Qt 6",
     "quickStart.example": "Open the complete hello_world",
     "quickStart.python": "Python / PySide6 · pip install FluentQt",
-    "quickStart.help": "Report an issue",
+    "quickStart.help": "Ask a question",
     "copy.copy": "Copy",
     "copy.copied": "Copied",
     "copy.announcement": "Code copied to the clipboard",

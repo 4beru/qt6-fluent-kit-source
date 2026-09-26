@@ -14,7 +14,7 @@ if [[ ! "$duration" =~ ^[1-9][0-9]*$ ]]; then
   exit 2
 fi
 
-gallery="$build_dir/app/Fluent-Qt Gallery.app/Contents/MacOS/Fluent-Qt Gallery"
+gallery="$build_dir/app/Fluent-Kit Gallery.app/Contents/MacOS/Fluent-Kit Gallery"
 if [[ ! -x "$gallery" ]]; then
   echo "Gallery executable was not found: $gallery" >&2
   exit 1

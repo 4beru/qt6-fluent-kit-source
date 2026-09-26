@@ -45,7 +45,7 @@ and macOS Gallery packages use Qt's shared libraries and deploy only the Qt
 libraries and plug-ins selected by `windeployqt` or `macdeployqt`. Linux DEB
 packages do not bundle Qt; they depend on the distribution's Qt packages.
 
-Open-source Gallery packages that contain Qt use the applicable Qt components
+Gallery packages that contain Qt use the applicable Qt components
 under the GNU Lesser General Public License version 3. A generated
 `RUNTIME_DEPENDENCIES.txt` in each package records the exact Qt version and
 whether the package contains Qt binaries. The full GPLv3/LGPLv3 terms,
@@ -61,7 +61,7 @@ contract grows beyond Qt Base, the corresponding module source must be added
 before publishing the package.
 
 The C++ Web Gallery is a separate static WebAssembly distribution built with
-Qt 6.9.3 `wasm_singlethread`. Its open-source binary is conveyed under GPLv3;
+Qt 6.9.3 `wasm_singlethread`. Its binary is conveyed under GPLv3;
 The Pages payload includes the full Qt license notice, a link to the exact Qt 6.9.3 corresponding source archive,
 the Emscripten license, this notice, and the complete FluentQt source link.
 
@@ -92,4 +92,4 @@ binary-embedding exception reproduced in its license file.
 GoogleTest is used only by the test suite and is not included in Gallery or
 library release packages. Platform runtime libraries, when present, retain
 their vendor terms. See `TRADEMARKS.md` for names, logos, and external design
-references that are not covered by the project license.
+references.

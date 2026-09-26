@@ -95,7 +95,7 @@ Linux packages are built natively per architecture. x64:
 cmake --preset vcpkg-linux-release
 cmake --build --preset vcpkg-linux-release
 cpack --preset vcpkg-linux-deb
-# -> Fluent-Qt-Gallery-<version>-Linux-x86_64.deb
+# -> Fluent-Kit-Gallery-<version>-Linux-x86_64.deb
 ```
 
 ARM64:
@@ -104,7 +104,7 @@ ARM64:
 cmake --preset vcpkg-linux-arm64-release
 cmake --build --preset vcpkg-linux-arm64-release
 cpack --preset vcpkg-linux-arm64-deb
-# -> Fluent-Qt-Gallery-<version>-Linux-arm64.deb
+# -> Fluent-Kit-Gallery-<version>-Linux-arm64.deb
 ```
 
 The package installs the Gallery executable under `/usr/bin`, a freedesktop
@@ -132,7 +132,7 @@ Apple Silicon (arm64):
 cmake --preset vcpkg-osx-release
 cmake --build --preset vcpkg-osx-release
 cpack --preset vcpkg-osx-dmg
-# -> Fluent-Qt-Gallery-<version>-Darwin-arm64.dmg
+# -> Fluent-Kit-Gallery-<version>-Darwin-arm64.dmg
 ```
 
 Intel (x86_64, cross-builds on Apple Silicon and runs under Rosetta):
@@ -141,11 +141,11 @@ Intel (x86_64, cross-builds on Apple Silicon and runs under Rosetta):
 cmake --preset vcpkg-osx-x64-release
 cmake --build --preset vcpkg-osx-x64-release
 cpack --preset vcpkg-osx-x64-dmg
-# -> Fluent-Qt-Gallery-<version>-Darwin-x86_64.dmg
+# -> Fluent-Kit-Gallery-<version>-Darwin-x86_64.dmg
 ```
 
 Each DMG uses the CPack `DragNDrop` generator and contains
-`Fluent-Qt Gallery.app` (drag-to-install layout beside the `/Applications`
+`Fluent-Kit Gallery.app` (drag-to-install layout beside the `/Applications`
 alias). The artifact's architecture suffix follows the requested
 `CMAKE_OSX_ARCHITECTURES`, not the build host's processor.
 
@@ -164,7 +164,7 @@ desktop shortcuts, and offers a "run now" checkbox on the finish page.
 ### Elevation model
 
 The Windows installer is a per-user installer. It installs by default under
-`%LOCALAPPDATA%\Programs\Fluent-Qt Gallery`, writes uninstall metadata under the
+`%LOCALAPPDATA%\Programs\Fluent-Kit Gallery`, writes uninstall metadata under the
 current user registry hive, and creates Start Menu/Desktop shortcuts for the
 current user. It must not require an administrator token for a normal install.
 
@@ -177,9 +177,9 @@ packaging layer without maintaining a full copied NSIS template.
 The executable embeds the app icon and version metadata via
 `app/platform/windows/app.rc.in`
 (compiled into a `.rc` at configure time), so Explorer, the taskbar, Alt-Tab and
-the installer-created shortcuts all show the Fluent-Qt Gallery icon. The icon
-source of truth is `app/assets/Fluent-Qt-Gallery.ico`, the Windows counterpart to
-the macOS `app/assets/Fluent-Qt-Gallery.icns`. Both are derived from the shared
+the installer-created shortcuts all show the Fluent-Kit Gallery icon. The icon
+source of truth is `app/assets/Fluent-Kit-Gallery.ico`, the Windows counterpart to
+the macOS `app/assets/Fluent-Kit-Gallery.icns`. Both are derived from the shared
 `app/assets/app-icon.png` master.
 
 ### Installer branding
@@ -187,13 +187,13 @@ the macOS `app/assets/Fluent-Qt-Gallery.icns`. Both are derived from the shared
 The NSIS wizard keeps CPack's reliable installation behavior but applies a
 project-owned Modern UI presentation layer:
 
-- Installer/uninstaller window icon: `app/assets/Fluent-Qt-Gallery.ico`.
+- Installer/uninstaller window icon: `app/assets/Fluent-Kit-Gallery.ico`.
 - Welcome/Finish sidebar (164x314) and inner-page header banner (150x57): light
   Fluent artwork in `app/assets/installer-welcome.bmp` and
   `app/assets/installer-header.bmp`, generated from `app-icon.png` by
   `cmake/GenerateNsisBranding.ps1`. Version text must not be baked into images.
 - Windows system UI typography, concise page copy, centered version branding, a GitHub
-  link, and a finish-page "launch Fluent-Qt Gallery" option.
+  link, and a finish-page "launch Fluent-Kit Gallery" option.
 - The unused Install Options page and interactive Start Menu folder page are
   skipped. Current-user Start Menu and desktop shortcuts are still created.
 

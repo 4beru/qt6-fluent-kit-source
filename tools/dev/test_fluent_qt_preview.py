@@ -34,10 +34,10 @@ class FluentQtPreviewToolTest(unittest.TestCase):
             mac_binary = (
                 build
                 / "app"
-                / "Fluent-Qt Gallery.app"
+                / "Fluent-Kit Gallery.app"
                 / "Contents"
                 / "MacOS"
-                / "Fluent-Qt Gallery"
+                / "Fluent-Kit Gallery"
             )
             mac_binary.parent.mkdir(parents=True)
             mac_binary.write_bytes(b"binary")

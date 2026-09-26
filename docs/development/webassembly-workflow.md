@@ -304,7 +304,7 @@ Pages deployment, so the Gallery is built once. A manual Pages run rebuilds the
 full tier before deploying and remains the recovery path. The site is published
 below `/gallery/` together with `build-info.json` and license material.
 
-The open-source WebAssembly binary statically links Qt and is distributed under
+The WebAssembly binary statically links Qt and is distributed under
 GPLv3.  The deployed payload must
 retain the FluentQt, Qt, Emscripten, and bundled-asset notices plus the exact Qt
 corresponding-source link; see `THIRD_PARTY_NOTICES.md`.

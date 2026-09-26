@@ -1830,7 +1830,7 @@ class _GalleryTitleContent(QWidget):
         icon.setFixedSize(18, 18)
         icon.setAlignment(Qt.AlignCenter)
 
-        title = fluentqt.Label("Fluent-Qt Gallery", self)
+        title = fluentqt.Label("Fluent-Kit Gallery", self)
         title.setObjectName("GalleryTitleBar.Title")
         title.setFluentTypography(fluentqt.FontRole.Caption)
         title.setAlignment(Qt.AlignLeft | Qt.AlignVCenter)
@@ -2101,7 +2101,7 @@ class GalleryWindow(fluentqt.Window):
             else bool(startup_visuals)
         )
         self.setObjectName("galleryWindow")
-        self.setWindowTitle("Fluent-Qt Gallery")
+        self.setWindowTitle("Fluent-Kit Gallery")
         self.setWindowIcon(app_icon())
         self.resize(1180, 760)
         self.setMinimumSize(460, 500)

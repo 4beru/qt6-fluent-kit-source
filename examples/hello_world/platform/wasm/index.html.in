@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="color-scheme" content="light dark">
-  <title>FluentQt UILib Hello World</title>
+  <title>Fluent-Kit Hello World</title>
   <style>
     :root { color-scheme: light dark; font-family: Inter, system-ui, sans-serif; }
     * { box-sizing: border-box; }
@@ -72,15 +72,15 @@
   </style>
 </head>
 <body>
-  <main id="qt-container" aria-label="Minimal FluentQt UILib WebAssembly app">
+  <main id="qt-container" aria-label="Minimal Fluent-Kit WebAssembly app">
     <section id="loading" role="status" aria-live="polite">
       <div class="spinner" aria-hidden="true"></div>
-      <strong>Loading FluentQt UILib…</strong>
+      <strong>Loading Fluent-Kit…</strong>
       <span id="loading-detail">Minimal installed-consumer example</span>
     </section>
   </main>
   <footer>
-    <span>Independent <code>FluentQt::FluentQt</code> consumer</span>
+    <span>Independent <code>Fluent-Kit</code> consumer</span>
     <a href="../">Back to Gallery</a>
   </footer>
   <script src="qtloader.js"></script>

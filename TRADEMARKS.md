@@ -1,6 +1,6 @@
 # Trademarks and external design references
 
-Fluent-Kit is an independent open-source project. It is not affiliated with,
+Fluent-Kit is an independent software project. It is not affiliated with,
 sponsored by, or endorsed by Microsoft, Apple, Google, The Qt Company, GitHub,
 or Figma.
 

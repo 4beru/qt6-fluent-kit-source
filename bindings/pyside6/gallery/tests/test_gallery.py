@@ -711,7 +711,7 @@ class PythonGalleryTest(unittest.TestCase):
         class LockFile:
             @staticmethod
             def getLockInfo():
-                return 4242, "host", "Fluent-Qt Gallery"
+                return 4242, "host", "Fluent-Kit Gallery"
 
         with (
             patch.object(single_instance_module.sys, "platform", "win32"),
@@ -823,8 +823,8 @@ instance.close()
 
     def test_python_and_native_galleries_have_independent_runtime_identity(self):
         self.assertEqual(APPLICATION_ID, "com.fluentqt.gallery.pyside6")
-        self.assertEqual(APPLICATION_NAME, "Fluent-Qt Gallery (Python)")
-        self.assertEqual(ORGANIZATION_NAME, "Fluent-Qt")
+        self.assertEqual(APPLICATION_NAME, "Fluent-Kit Gallery (Python)")
+        self.assertEqual(ORGANIZATION_NAME, "Fluent-Kit")
         self.assertNotEqual(
             _scoped_instance_name(APPLICATION_ID),
             _scoped_instance_name("com.fluentqt.gallery"),
@@ -837,7 +837,7 @@ instance.close()
             QCoreApplication.setOrganizationName(ORGANIZATION_NAME)
             self.assertTrue(persistence_available())
 
-            QCoreApplication.setApplicationName("Fluent-Qt Gallery")
+            QCoreApplication.setApplicationName("Fluent-Kit Gallery")
             self.assertFalse(persistence_available())
         finally:
             QCoreApplication.setApplicationName(previous_name)
@@ -3492,7 +3492,7 @@ print(json.dumps([name for name in heavy_modules if name in sys.modules]))
                 fluentqt.ParticleBackdrop.Effect.FloatingDots,
                 fluentqt.ParticleBackdrop.Effect.Starfield,
             ))
-            self.assertEqual(window.windowTitle(), "Fluent-Qt Gallery")
+            self.assertEqual(window.windowTitle(), "Fluent-Kit Gallery")
             self.assertEqual(window.titleBar().titleBarHeight(), 42)
             self.assertEqual(window._search.objectName(), "GalleryTitleBar.SearchBox")
             self.assertEqual(window._search.height(), 28)

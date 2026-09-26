@@ -106,7 +106,7 @@ def expected_package_filename(scenario: dict[str, Any], version: str) -> str:
     suffix = str(scenario.get("asset_suffix", ""))
     suffix_text = f"-{suffix}" if suffix else ""
     return (
-        f"Fluent-Qt-Gallery-{version}-{system}-{architecture}"
+        f"Fluent-Kit-Gallery-{version}-{system}-{architecture}"
         f"{suffix_text}{extension}"
     )
 

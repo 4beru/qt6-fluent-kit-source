@@ -1,7 +1,7 @@
-# FluentQt Hello World
+# Fluent-Kit Hello World
 
 This Qt Widgets application works both as an in-tree executable example and as
-a standalone consumer of an installed FluentQt package. It shows the complete
+a standalone consumer of an installed Fluent-Kit package (FluentQt). It shows the complete
 runtime setup: construct `QApplication`, initialize the bundled resources,
 create a FluentQt window, and add one component.
 

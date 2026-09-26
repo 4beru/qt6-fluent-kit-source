@@ -8,7 +8,7 @@
 [← Contributing to FluentQt](CONTRIBUTING.md) · [Contents](docs/SUMMARY.md) · [Community index](docs/community/README.md) · [Security Policy →](SECURITY.md)
 <!-- docs-nav:top:end -->
 
-Fluent-Kit is maintained as an open-source project. Community support is best
+Fluent-Kit is maintained as a software project. Community support is best
 effort and does not have a guaranteed response time.
 
 ## Choose the right channel

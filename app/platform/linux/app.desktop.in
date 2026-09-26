@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Name=@FLUENT_QT_GALLERY_DISPLAY_NAME@
-Comment=Explore Fluent Qt Widgets components
+Comment=Explore Fluent-Kit Qt Widgets components
 TryExec=@FLUENT_QT_GALLERY_EXECUTABLE_NAME@
 Exec=@FLUENT_QT_GALLERY_EXECUTABLE_NAME@
 Icon=@FLUENT_QT_GALLERY_APP_ID@

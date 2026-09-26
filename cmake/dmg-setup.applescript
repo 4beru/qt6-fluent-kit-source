@@ -1,9 +1,9 @@
--- DMG Finder-window layout for the Fluent-Qt Gallery disk image.
+-- DMG Finder-window layout for the Fluent-Kit Gallery disk image.
 -- CPack's DragNDrop generator runs this script while the image is mounted and passes the
 -- volume name as the first argument. It sets the window geometry, switches to icon view,
 -- applies the .background image, and positions the app bundle next to the /Applications
 -- symlink so the mounted DMG reads as a drag-to-install layout.
--- zh_CN: Fluent-Qt Gallery 磁盘镜像的 Finder 窗口布局。CPack DragNDrop 在镜像挂载时运行本脚本，
+-- zh_CN: Fluent-Kit Gallery 磁盘镜像的 Finder 窗口布局。CPack DragNDrop 在镜像挂载时运行本脚本，
 -- 并把卷名作为第一个参数传入：设置窗口几何、切换图标视图、套用 .background 背景图，
 -- 并把 .app 摆在 /Applications 软链旁边，形成"拖入安装"的引导界面。
 on run argv
@@ -27,7 +27,7 @@ on run argv
             -- Finder positions the icon graphic by its center in content coordinates. Align both
             -- centers with the background arrow at y=198; the labels sit below the icons.
             -- zh_CN: Finder 的 position 对应图标图形中心；两侧中心与背景箭头的 y=198 对齐。
-            set position of item "Fluent-Qt Gallery.app" of theWindow to {160, 198}
+            set position of item "Fluent-Kit Gallery.app" of theWindow to {160, 198}
             set position of item "Applications" of theWindow to {480, 198}
             -- Park the .background folder far off-canvas so it is not visible even for users who
             -- have enabled "show all files" in Finder (the invisible flag below only hides it for
