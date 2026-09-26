@@ -21,7 +21,7 @@ Do not open a public Issue or Discussion for a suspected vulnerability.
 
 If the repository Security tab offers **Report a vulnerability**, use that
 private channel. Otherwise, email the maintainer using the public contact
-address on the [GitHub profile](https://github.com/calvinhxx) with the subject
+address on the [GitHub profile](https://github.com/4beru) with the subject
 `[Fluent-Qt Security]`.
 
 Include, when possible:
