@@ -387,7 +387,7 @@ def validate_legacy_gallery_redirect() -> None:
         fail(f"cannot read {LEGACY_GALLERY_REDIRECT_PATH}: {error}")
 
     requirements = (
-        '<link rel="canonical" href="https://4beru.github.io/qt6-fluent-kit/gallery/">',
+        '<link rel="canonical" href="https://fluentkit.aberu.site/gallery/">',
         '<meta http-equiv="refresh" content="0; url=../gallery/">',
         'new URL("../gallery/", window.location.href)',
         "target.search = window.location.search",
