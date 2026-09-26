@@ -14,7 +14,7 @@
 namespace fluent::gallery {
 namespace {
 constexpr const char* kLatestReleaseApi =
-    "https://api.github.com/repos/calvinhxx/Fluent-Qt/releases/latest";
+    "https://api.github.com/repos/4beru/qt6-fluent-kit/releases/latest";
 
 bool assetNameMatchesPlatform(const QString& assetName, const QString& platformKey)
 {
@@ -70,7 +70,6 @@ UpdateChecker::~UpdateChecker()
     if (m_reply) {
         QNetworkReply* reply = m_reply;
         m_reply = nullptr;
-        // abort() may emit finished synchronously; destruction must not deliver a result.
         disconnect(reply, nullptr, this, nullptr);
         reply->abort();
         reply->deleteLater();
