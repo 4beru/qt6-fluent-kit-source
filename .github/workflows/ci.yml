@@ -34,7 +34,6 @@ permissions:
   pull-requests: read
 jobs:
   plan:
-    name: Plan validation
     runs-on: ubuntu-latest
     outputs:
       mode: ${{ steps.mode.outputs.mode }}
@@ -197,7 +196,6 @@ jobs:
           echo "Selected $mode validation (Python release bundle: $python_release_bundle; macOS release validation: $run_macos_release_validation)."
 
   cpp:
-    name: C++ validation
     needs: plan
     if: ${{ needs.plan.outputs.should_build == 'true' }}
     uses: ./.github/workflows/ci-cpp.yml
@@ -208,7 +206,6 @@ jobs:
       cpp_test_targets: ${{ needs.plan.outputs.cpp_test_targets }}
 
   python:
-    name: PySide6 validation
     needs: plan
     if: ${{ needs.plan.outputs.should_build_pyside == 'true' }}
     uses: ./.github/workflows/ci-python.yml
@@ -220,7 +217,6 @@ jobs:
       release_max_parallel: 4
 
   wasm:
-    name: WebAssembly validation
     needs: plan
     if: ${{ needs.plan.outputs.should_build_wasm == 'true' }}
     uses: ./.github/workflows/ci-wasm.yml
@@ -242,9 +238,6 @@ jobs:
     name: Deploy prebuilt WebAssembly Gallery to Vercel
     needs: [plan, wasm]
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && needs.wasm.result == 'success' }}
-    permissions:
-      actions: read
-      contents: read
     uses: ./.github/workflows/vercel.yml
     secrets: inherit
 
@@ -310,7 +303,6 @@ jobs:
     needs: [plan, ci-gate]
     if: ${{ always() && needs.plan.outputs.mode == 'full' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 5
     steps:
       - name: Verify full validation
         env:
