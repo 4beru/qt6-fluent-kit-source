@@ -517,7 +517,13 @@ def validate(project_root: Path) -> tuple[ValidationSummary, list[str]]:
                         f"{component_id}.tests[{test_index}] ctest_label must match "
                         "its target"
                     )
-                source_path = test_source_path(test.get("source_url"))
+                source_url = test.get("source_url")
+                if source_url is None:
+                    # Public API catalogs may omit source_url when the
+                    # implementation repository is private. When a source
+                    # URL is present, it must still resolve to a real test file.
+                    continue
+                source_path = test_source_path(source_url)
                 if not source_path:
                     errors.append(
                         f"{component_id}.tests[{test_index}] has an invalid source URL"
