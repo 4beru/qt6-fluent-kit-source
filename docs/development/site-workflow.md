@@ -11,8 +11,8 @@
 The GitHub Pages site uses static language-specific HTML so crawlers and users
 receive one stable language at each URL:
 
-- `https://calvinhxx.github.io/Fluent-Qt/` — English and `x-default`
-- `https://calvinhxx.github.io/Fluent-Qt/zh-CN/` — Simplified Chinese
+- `https://fluentkit.aberu.site/` — English and `x-default`
+- `https://fluentkit.aberu.site/zh-CN/` — Simplified Chinese
 
 Do not restore browser-language redirects or change the page language in
 JavaScript. Language switching uses ordinary links, and each page owns its
@@ -22,10 +22,10 @@ and localized JSON-LD.
 The shared `404.html` follows the requested URL: missing paths below `zh-CN/`
 render Chinese, while all other missing paths render English. It must not read
 browser-language state, and its assets and home links resolve from the
-`/Fluent-Qt/` project root even for deeply nested missing URLs.
+`/` project root even for deeply nested missing URLs.
 
-The legacy `/Fluent-Qt/app/` path is retained as a no-index redirect to the
-canonical `/Fluent-Qt/gallery/` page. Keep `site/app/index.html` when changing
+The legacy `/app/` path is retained as a no-index redirect to the
+canonical `/gallery/` page. Keep `site/app/index.html` when changing
 the Pages layout so links from older posts and bookmarks continue to work.
 
 ## Editing
@@ -144,8 +144,8 @@ After deployment, verify both language URLs and submit `sitemap.xml` to the
 configured search-engine webmaster tools. Search Console ownership and sitemap
 submission are external operations and are not performed by repository CI.
 
-GitHub project Pages are served below `/Fluent-Qt/`, but the robots exclusion
-protocol reads only the origin-root `https://calvinhxx.github.io/robots.txt`.
+GitHub project Pages are served below `/`, but the robots exclusion
+protocol reads only the origin-root `https://fluentkit.aberu.site/robots.txt`.
 This repository therefore does not publish a misleading project-path
 `robots.txt`; manage the origin-root file in the owning user-site repository.
 
@@ -172,7 +172,7 @@ See [GitHub repository search](https://docs.github.com/en/search-github/searchin
 After a Pages deployment, use the site's verified Google Search Console
 property to inspect the English home, Chinese home, and API Explorer URLs.
 Check the fetched page, indexing status, and Google's selected canonical;
-submit `https://calvinhxx.github.io/Fluent-Qt/sitemap.xml` in the Sitemaps report.
+submit `https://fluentkit.aberu.site/sitemap.xml` in the Sitemaps report.
 Record the actual result rather than treating a checked-in sitemap as proof of
 submission or indexing. Ownership verification requires the site's account;
 do not invent verification tokens or assume that missing HTML verification
