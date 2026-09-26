@@ -15,8 +15,7 @@ ROOT = Path(__file__).resolve().parents[2]
 INSTALL_HEADERS = ROOT / "cmake" / "FluentQtInstallHeaders.cmake"
 AI_CATALOG = ROOT / "docs" / "ai" / "generated" / "fluentqt-ai-catalog.json"
 OUTPUT = ROOT / "site" / "api" / "catalog.json"
-REPOSITORY_BLOB = "https://github.com/4beru/qt6-fluent-kit/blob/main/"
-GALLERY_BASE = "https://4beru.github.io/qt6-fluent-kit/gallery/"
+GALLERY_BASE = "https://fluentkit.aberu.site/gallery/"
 INSTALL_BLOCK = re.compile(
     r"set\(FLUENT_QT_INSTALL_HEADERS\s*(.*?)\n\)", re.DOTALL
 )
@@ -82,7 +81,6 @@ def _public_headers(paths: list[str]) -> list[dict[str, object]]:
                 "source": source_path,
                 "summary": _header_summary(contents, path.stem),
                 "declarations": _declarations(contents),
-                "source_url": REPOSITORY_BLOB + source_path,
             }
         )
     return headers
@@ -123,19 +121,16 @@ def _component_records(
                     "installed_declaration_header": _installed_include(declaration),
                     "qualified_type": cpp["qualified_type"],
                     "target": cpp["cmake_target"],
-                    "declaration_url": REPOSITORY_BLOB + declaration,
                 },
                 "python": component["python"],
                 "gallery": {
                     "route_id": gallery["route_id"],
                     "url": GALLERY_BASE + "?route=" + gallery["route_id"],
-                    "sample_source_url": REPOSITORY_BLOB + gallery["sample_source"],
                 },
                 "tests": [
                     {
                         "target": test["target"],
                         "ctest_label": test["ctest_label"],
-                        "source_url": REPOSITORY_BLOB + test["source"],
                     }
                     for test in tests
                 ],
