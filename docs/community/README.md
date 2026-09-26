@@ -1,4 +1,4 @@
-# Fluent-Qt community
+# Fluent-Kit community
 
 > **Status:** Current guide
 

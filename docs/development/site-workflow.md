@@ -151,13 +151,13 @@ This repository therefore does not publish a misleading project-path
 
 ## Search discovery
 
-Use `Fluent-Qt` as the display name and `FluentQt` as its searchable alias.
+Use `Fluent-Kit` as the display name and `FluentQt` as its searchable alias.
 Keep both spellings in the English and Chinese page metadata and README
 introductions; the generated project JSON-LD declares `FluentQt` as
 `alternateName`. Keep repository URLs and package identifiers unchanged.
 
 GitHub repository search normally searches the name, description, and topics,
-not the README. Keep `FluentQt (Fluent-Qt)` in the repository About description
+not the README. Keep `Fluent-Kit (FluentQt)` in the repository About description
 and `fluentqt` in Topics. When the topic limit is reached, replace a redundant
 generic topic instead of removing language or framework identifiers.
 After updating About or Topics, compare these repository searches:

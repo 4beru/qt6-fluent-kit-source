@@ -20,8 +20,8 @@ namespace fluent {
 void prepareHighDpiApplication();
 
 /**
- * @brief Registers Fluent-Qt bundled resources and application fonts.
- * zh_CN: 注册 Fluent-Qt 内置资源与应用字体。
+ * @brief Registers Fluent-Kit bundled resources and application fonts.
+ * zh_CN: 注册 Fluent-Kit 内置资源与应用字体。
  *
  * Call this once after constructing QApplication in standalone applications so
  * the bundled open-source text and icon faces are available without depending

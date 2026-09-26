@@ -143,7 +143,7 @@ def resolve_gallery_executable(build_dir: Path) -> Path:
     app_dir = build_dir / "app"
     candidates = [
         app_dir / "fluent_qt_gallery",
-        app_dir / "Fluent-Qt Gallery.app" / "Contents" / "MacOS" / "Fluent-Qt Gallery",
+        app_dir / "Fluent-Kit Gallery.app" / "Contents" / "MacOS" / "Fluent-Kit Gallery",
         app_dir / "fluent_qt_gallery.exe",
         app_dir / "Debug" / "fluent_qt_gallery.exe",
         app_dir / "Release" / "fluent_qt_gallery.exe",

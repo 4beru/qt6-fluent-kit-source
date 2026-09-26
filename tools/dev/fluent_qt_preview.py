@@ -134,10 +134,10 @@ def resolve_gallery_executable(build_dir: Path) -> Path:
     direct_candidates = (
         app_dir / "fluent_qt_gallery",
         app_dir
-        / "Fluent-Qt Gallery.app"
+        / "Fluent-Kit Gallery.app"
         / "Contents"
         / "MacOS"
-        / "Fluent-Qt Gallery",
+        / "Fluent-Kit Gallery",
         app_dir / "fluent_qt_gallery.exe",
         app_dir / "Debug" / "fluent_qt_gallery.exe",
         app_dir / "Release" / "fluent_qt_gallery.exe",
