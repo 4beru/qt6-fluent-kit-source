@@ -42,8 +42,8 @@ keeps DMG/NSIS artifacts focused on the showcase application while normal
 `cmake --install` or `cmake --install --component Development` remains available
 for SDK-style library installs.
 
-Every Gallery package includes the project license, `THIRD_PARTY_NOTICES.md`,
-`TRADEMARKS.md`, dependency license files, and a generated
+Every Gallery package includes `THIRD_PARTY_NOTICES.md`, `TRADEMARKS.md`,
+dependency license files, and a generated
 `RUNTIME_DEPENDENCIES.txt` containing the resolved Qt, spdlog, and fmt versions.
 Windows and macOS packages dynamically deploy Qt; before publishing one, retain
 the exact Qt Base corresponding source named in that notice under maintainer
