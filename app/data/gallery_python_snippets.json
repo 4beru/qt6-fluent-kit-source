@@ -179,7 +179,7 @@
     {
       "route_id": "hyperlink-button",
       "sample_id": "hyperlink-button-url",
-      "source": "from PySide6.QtCore import QUrl\n\nlink = fluentqt.HyperlinkButton(\"calvinhxx/Fluent-Qt\")\nlink.setUrl(QUrl(\"https://github.com/calvinhxx/Fluent-Qt\"))\n"
+      "source": "from PySide6.QtCore import QUrl\n\nlink = fluentqt.HyperlinkButton(\"calvinhxx/Fluent-Kit\")\nlink.setUrl(QUrl(\"https://github.com/4beru/qt6-fluent-kit\"))\n"
     },
     {
       "route_id": "hyperlink-button",

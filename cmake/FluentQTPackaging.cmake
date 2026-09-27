@@ -44,6 +44,10 @@ endif()
 
 set(FLUENT_QT_GALLERY_RUNTIME_NOTICE
     "${CMAKE_CURRENT_BINARY_DIR}/RUNTIME_DEPENDENCIES.txt")
+configure_file(
+    "${PROJECT_SOURCE_DIR}/cmake/GalleryRuntimeNotice.txt.in"
+    "${FLUENT_QT_GALLERY_RUNTIME_NOTICE}"
+    @ONLY)
 # Ship third-party notices and runtime dependency information with the Gallery package.
 if(WIN32)
     install(FILES
