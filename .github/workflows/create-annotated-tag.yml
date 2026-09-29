@@ -1,0 +1,80 @@
+name: Create annotated tag
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Annotated release tag to create (for example v1.8.6)"
+        required: true
+        type: string
+      target_sha:
+        description: "Exact commit SHA that the tag must reference"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  create-tag:
+    name: Create annotated tag
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          fetch-depth: 0
+
+      - name: Create and push annotated tag
+        shell: bash
+        env:
+          RELEASE_TAG: ${{ inputs.tag }}
+          TARGET_SHA: ${{ inputs.target_sha }}
+        run: |
+          set -euo pipefail
+
+          if [[ ! "$RELEASE_TAG" =~ ^v[0-9]+.[0-9]+.[0-9]+$ ]]; then
+            echo "::error::Tag must match vX.Y.Z: $RELEASE_TAG"
+            exit 1
+          fi
+
+          if [[ ! "$TARGET_SHA" =~ ^[0-9a-f]{40}$ ]]; then
+            echo "::error::target_sha must be a 40-character commit SHA."
+            exit 1
+          fi
+
+          git fetch --force --tags origin
+          if git show-ref --tags --verify --quiet "refs/tags/$RELEASE_TAG"; then
+            echo "::error::Tag already exists: $RELEASE_TAG"
+            exit 1
+          fi
+
+          git cat-file -e "$TARGET_SHA^{commit}"
+
+          cmake_version="$(
+            sed -nE               's/^[[:space:]]*project[[:space:]]*\([[:space:]]*FluentQt[[:space:]]+VERSION[[:space:]]+([0-9]+\.[0-9]+\.[0-9]+).*/\1/p'               CMakeLists.txt | head -n 1
+          )"
+          expected_tag="v$cmake_version"
+          if [[ "$RELEASE_TAG" != "$expected_tag" ]]; then
+            echo "::error::Tag $RELEASE_TAG does not match CMake version $cmake_version."
+            exit 1
+          fi
+
+          if [[ "$TARGET_SHA" != "$(git rev-parse "$TARGET_SHA^{commit}")" ]]; then
+            echo "::error::Target commit could not be resolved."
+            exit 1
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag -a "$RELEASE_TAG" "$TARGET_SHA" -m "Release $RELEASE_TAG"
+          git push origin "$RELEASE_TAG"
+
+          tag_type="$(git cat-file -t "$RELEASE_TAG")"
+          if [[ "$tag_type" != "tag" ]]; then
+            echo "::error::Created tag is not annotated."
+            exit 1
+          fi
+
+          echo "Created annotated tag $RELEASE_TAG -> $TARGET_SHA"

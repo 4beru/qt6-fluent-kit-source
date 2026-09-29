@@ -498,7 +498,7 @@ jobs:
           if gh release view "$tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
             gh release edit "$tag" \
               --repo "$GITHUB_REPOSITORY" \
-              --title "Fluent-Qt $tag" \
+              --title "Fluent-Kit $tag" \
               --notes-file release-notes.md \
               --draft="$draft" \
               --prerelease="$prerelease"
@@ -511,7 +511,7 @@ jobs:
             "${release_assets[@]}"
             --repo "$GITHUB_REPOSITORY"
             --verify-tag
-            --title "Fluent-Qt $tag"
+            --title "Fluent-Kit $tag"
             --notes-file release-notes.md
           )
 
