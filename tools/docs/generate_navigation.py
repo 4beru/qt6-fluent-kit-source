@@ -39,7 +39,7 @@ def page_title(relative: str, text: str) -> str:
         return re.sub(r"\s+\([^)]*\)$", "", match.group(1)).strip()
     release = RELEASE_RE.match(relative)
     if release:
-        return f"Fluent-Kit {release.group('version')}"
+        return f"Fluent-Qt {release.group('version')}"
     return Path(relative).stem.replace("-", " ").title()
 
 
@@ -64,7 +64,7 @@ def ensure_release_heading(relative: str, text: str) -> str:
         return text
     version = match.group("version")
     return (
-        f"# Fluent-Kit {version}\n\n"
+        f"# Fluent-Qt {version}\n\n"
         "> **Status:** Historical release note\n\n"
         f"{text.lstrip()}"
     )
