@@ -557,9 +557,14 @@ jobs:
           $qtRoot = $env:QT_ROOT_DIR -replace '\\', '/'
           $python = (Get-Command python).Source -replace '\\', '/'
           $configureArgs = @(
+          $generator = if ("${{ matrix.arch }}" -eq "arm64") {
+            "Visual Studio 18 2026"
+          } else {
+            "Visual Studio 17 2022"
+          }
             "-S", ".",
             "-B", "build/pyside6-qt62-windows",
-            "-G", "Visual Studio 17 2022",
+            "-G", $generator,
             "-A", "x64",
             "-T", "v142",
             "-DCMAKE_PREFIX_PATH=$qtRoot",
